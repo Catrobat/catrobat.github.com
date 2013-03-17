@@ -1,0 +1,329 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Ideas Page</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Catrobat</h1>
+        <p>A visual programming language<br/> and set of creativity tools<br/> for smartphones, tablets,<br/> and mobile browsers</p>
+        <p class="view"><a href="http://developer.catrobat.org/">Home</a></p>
+      </header>
+
+      <section>
+        <h2>Ideas Page for Google Summer of Code 2013</h2><br />
+        <strong>Welcome, <br />we officialy present our project ideas for this years GSoC.</strong>
+          <br />17 March 2013</p>
+
+          <p> 
+            <strong><u>General knowledge prerequisites for all projects</u><br />
+             <i>JUnit and Robotium for test-driven development on Android devices (Catroid and Paintroid), Phpunit and Selenium for test-driven development of Web-related projects, Git (revision control) for all projects
+             </i></strong>
+          </p>
+
+
+          <p>
+            <h3> Projects </h3>
+
+            <strong>Title:</strong> Catrobat textual language representation <br />
+            <strong>Brief explanation:</strong>
+            <p>
+              The serialized version of a Catrobat program currently is a somewhat unwieldy but easily serializable and efficiently parsable XML text. Reasons are mostly historic due to the Android roots of our project and the employed serialization engine, but we now also have Catrobat interpreters for the iOS, Windows Phone 8, and HTML5 platforms and there are no real reasons to stick with the current XML format.
+            </p>
+            <strong>Expected results:</strong> 
+            <p>A clean programming language syntax design for Catrobat.
+               Inspiration sources: something like Python or YAML syntax adapted to Catrobat. Necessary: Specification by example using Cucumber/Gherkin. A serializer and deserializer reference implementation for Android, iOS, Windows Phone 8, or our HTML5 implementation (can be partial). A syntax validator (also partial). Every piece of code written in an agile, in particular test-driven development style. 
+            </p>
+            <strong>Mentor:</strong> <i>Wolfgang Slany, Annemarie Harzl</i><br />
+            <hr>
+
+
+            <strong>Title:</strong> Layers in Paintroid<br />
+            <strong>Brief explanation:</strong>
+            <p>
+              Introduce Layers to Paintroid. Paintroid should be able to handle images with several layers and provide a easy to use interface.
+
+            </p>
+            <strong>Expected results:</strong> 
+            <p>
+              Add/Remove/Import/Export Layers in Paintroid. E.g. Export layers into
+              catroid where each layer represents a look. Or import the different objects of a stage as a 
+              multilayer image in paintroid.
+
+            </p>
+            <strong>Mentor:</strong> <i> Stefan Galler (irc: galstc05) </i><br />
+            <hr>
+
+
+            <strong>Title:</strong> Improved History in Paintroid<br />
+            <strong>Brief explanation:</strong>
+            <p>
+              In the current Paintroid version the history of an image project
+              is simply stored in a list of commands. These commands are executed every time 
+              a operation is made. Because this is very time consuming an algorithm which is using
+              only the actual difference between to steps of the image manipulation would be far 
+              more performant.
+            </p>
+            <strong>Expected results:</strong> 
+            <p>
+              An algorithm is designed and implemented which creates a history
+              that allows to undo/redo changes more efficient. This history can also be used for creating
+              autosave and/or project files.
+            </p>
+            <strong>Mentor:</strong> <i> Stefan Galler (irc: galstc05)</i><br />
+            <hr>
+
+            <strong>Title:</strong> Add a (time capsule like) history to Catroid<br />
+            <strong>Brief explanation:</strong>
+            <p>
+              At first we want you to add simple undo / redo functionality into Catroid. 
+              This basically means that user mistakes in the scripts, sounds, costumes shall be un- or re-doable.
+              Imagine it like a typical Undo/Redo Button you find in nearly all of your IDEs.
+
+            </p>
+            <strong>Expected results:</strong> 
+            <p>
+              This task is split up by the mentor so that you will always have to implement 
+              one small task after the other. At the end of GSoC undo and redo should be fully implemented, 
+              tested and integrated into the Catroid master branch. Also there should be a history log where 
+              the user can see his or her changes with exact timestamps.
+            </p>
+            <strong>Mentor:</strong> <i>  Sercan Akpolat(twitter/irc: sercanakpolat)</i><br />
+            <hr>
+
+            <strong>Title:</strong> Catroid as a Wireless Human Interface Device (gamepad, mouse, keyboard) 
+for PCs develop own gamepad for pcs<br />
+            <strong>Brief explanation:</strong>
+            <p>
+              The idea behind it is that your should be able to program your individual 
+              gamepads for your average PCs. Communication of the Android device and the PC shall be done 
+              via Bluetooth and/or WiFi. Imagine a game you like. Now imagine you could write a gamepad, 
+              which lets you create a key which clicks on a special key-combination, e.g. ctrl+alt+entf. 
+              So you press one key on your self-created gamepad and it sends three key-commands to the PC.
+
+            </p>
+            <strong>Expected results:</strong> 
+            <p>
+              This task is split up by the mentor so that you will always have to implement 
+              one small task after the other. At the end of GSoC a the project has to be fully implemented, 
+              tested and integrated into the Catroid master branch. The solution should be simple to use and 
+              adequate for children. KISS is very important here.
+
+            </p>
+            <strong>Mentor:</strong> <i> Sercan Akpolat(twitter/irc: sercanakpolat)</i><br />
+            <hr>
+
+            <strong>Title:</strong> Brick cut, copy and paste functionality across projects + smart multiselection move<br />
+            <strong>Brief explanation:</strong>
+            <p>
+              The main goal is to implement copy, cut and paste functionality for sounds, 
+              looks and bricks. These functionality should be provided across projects in a so-called "rucksack". 
+              This rucksack should be able to handle all these different kinds of objects (sounds, looks..) and be 
+              easily maintainable. If there is enough time also a smart multiselection move functionality for bricks is planned.
+
+            </p>
+            <strong>Expected results:</strong> 
+            <p>
+              At least the copy/cut/paste functionality should be fully implemented, tested and integrated 
+              into the Catroid master branch. The smart brick multiselection move would be a nice feature if there is enough time. 
+
+            </p>
+            <strong>Mentor:</strong> <i> Stefan Jaindl(irc: jaindl.stefan)</i><br />
+            <hr>
+
+            <strong>Title:</strong> Scratch to Catroid converter<br />
+            <strong>Brief explanation:</strong>
+            <p>
+                Write a converter 
+                for [http://scratch.mit.edu/ Scratch] Programs to Catroid programs. This involves, but is not limited to, decoding 
+                the projects from Scratch, converting them to Catroid programs, adding Bricks where necessary (we currently lack 
+                some very often used Bricks) and automating the process.
+
+            </p>
+            <strong>Expected results:</strong> 
+            <p>
+              You get a Scratch Program from [http://scratch.mit.edu/ here] and convert it 
+              into a Catroid Program so that it can be played and edited in Catroid. Of course there will be limitations as, e.g., 
+              Android devices typically do not have hardware keys which are often used in Scratch projects.
+
+            </p>
+            <strong>Mentor:</strong> <i> Anton Rieder (IRC: aried3r)</i><br />
+            <hr>
+
+            <strong>Title:</strong> Cut down test run time to 30 minutes or less<br />
+            <strong>Brief explanation:</strong>
+            <p>
+              Our testruns, including UI Tests, are nearing two hours of runtime. As for everyone, time is a 
+              valuable resource so we want to cut down the runtime to at least half an hour, preferably less.
+              The way we think this could be achieved would be by using Robolectric 2 
+              (http://pivotal.github.com/robolectric/, https://plus.google.com/108284392618554783657/posts/hRgHxsdR7xc) 
+              maybe in addition with FEST Android (http://square.github.com/fest-android/). 
+              (Automatic) Parallelization is another possibility. 
+              For example, not all UI Tests need to be run on a hardware device and could be run in parallel on multiple Emulators. 
+              Splitting the tests into Test-Sets would be one task here.
+
+            </p>
+            <strong>Expected results:</strong> 
+            <p>
+              1) The complete runtime of all test projects takes half an hour or less. 
+              2) Emma code coverage is still the same.
+            </p>
+            <strong>Mentor:</strong> <i>  David R., Anton Rieder (IRC: aried3r)</i><br />
+            <hr>
+
+            <strong>Title:</strong> Catroid as a typeless programming language<br />
+            <strong>Brief explanation:</strong>
+            <p>
+              Basically all variables and constants should be able to hold any kind of data type, like in BYOB 
+              or, e.g., the programming Lisp
+            </p>
+            <strong>Expected results:</strong> 
+            <p>
+              Variables as well as parameter fields of bricks should be able to held, e.g., numbers, texts, lists, 
+              and later also scripts, images, sounds, etc. Lists should be nestable and individual cells of lists should be able to be 
+              composed of different data types. E.g., a brick like Say < + <123> <-1> > should be equally usable as Say 
+              <<concatenate <177> < liters>>, without the need to somehow specify whether the parameter is a number or a 
+              string or a list etc. Casting should be done automatically as much as possible, e.g., in the example, the number 177 
+              should be automatically convert into a string when used in the concatenate example, and as a number when used in,
+              e.g., <+ <1> <<concatenate <2> <4>>> which should be equal to 25. No special indicators such as quotes for 
+              strings should be needed.
+            </p>
+            <strong>Mentor:</strong> <i> Stefan Jaindl, Wolfgang Slany</i><br />
+            <hr>
+
+            <strong>Title:</strong> Recommender system functionality (CATROID-WEB)<br />
+            <strong>Brief explanation:</strong>
+            <p>
+              Users should be able to get suggestions what other projects they might be interested in.
+            </p>
+            <strong>Expected results:</strong> 
+            <p>
+              Users should have more support in discovering projects they might be interested in. 
+            </p>
+            <strong>Mentor:</strong> <i> Alexander Gütler</i><br />
+            <hr>
+
+            <strong>Title:</strong> Add a Tag System (CATROID-WEB)<br />
+            <strong>Brief explanation:</strong>
+            <p>
+              In order to find projects more easily, a tag system should be integrated into the website. 
+              For that we need to integrate three things. Firstly, on the details page corresponding tags of a project should be displayed. 
+              Additionally logged in users should be able to add new tags. Secondly, we need to handle tags for newly uploaded projects. 
+              And finally we need to integrate tag support into our search function. Displaying a tag cloud would also be great.
+
+            </p>
+            <strong>Expected results:</strong> 
+            <p>
+              Users should be able to add tags to their project and search for specific tags.
+
+            </p>
+            <strong>Mentor:</strong> <i> Alexander Gütler</i><br />
+            <hr>
+
+            <strong>Title:</strong> Separation IDE/Interpreter<br />
+            <strong>Brief explanation:</strong>
+            <p>
+              At the moment, the Catroid IDE (think: GUI) and the Catroid Interpreter 
+              (think: Programm Logic) are very entangled. Our goal is to clearly separate those two components
+              and have them communicate via an extensible, well defined, well designed API. One of the first
+              steps will be to determine what belongs to the IDE and what to the Interpreter. Ultimately, 
+              by having the API as a contract we hope that writing different UIs against our Interpreter will
+              be made possible, but also rewriting the Interpreter for other platforms will be made easier, 
+              as long as it strictly implements the API.
+            </p>
+            <strong>Expected results:</strong> 
+            <p>
+              The Catroid IDE and Catroid Interpreter are separate from each other, 
+              a well designed and documented API for communication of the Interpreter with the IDE and 
+              vice versa is defined.
+            </p>
+            <strong>Mentor:</strong> <i> Anton Rieder (IRC: aried3r)</i><br />
+            <hr>
+
+            <strong>Title:</strong> HTML5 IDE<br />
+            <strong>Brief explanation:</strong>
+            <p>
+              The HTML5 player for Catroid projects is already fairly advanced. 
+              The next step is to add an IDE similar to the Catroid IDE for Android. 
+
+            </p>
+            <strong>Expected results:</strong> 
+            <p>
+              A programming environment for Catroid projects that entirely runs in a browser.
+            </p>
+            <strong>Mentor:</strong> <i> Thomas Rosmarin</i><br />
+            <hr>
+
+            <strong>Title:</strong> Simple object recognizer<br />
+            <strong>Brief explanation:</strong>
+            <p>
+              We have already managed to use [OpenCV http://opencv.org] on the phone to 
+              do things like face localization from a video source (in our case the quadcopter video camera). 
+              Now we want more, and something that should be easy for kids, as follows: 
+              There should be a way for kids to teach Catroid to recognize a certain object, e.g., a standard coke bottle, 
+              whenever a certain brick is executed. 
+            </p>
+            <strong>Expected results:</strong> 
+            <p>
+              A kid should be able to add a new brick, e.g., 'recognize' and when  is pressed, 
+              a new name can be entered, e.g., "coke bottle". Then Catroid should go into a training mode 
+              (with appropriate instructions on the screen, e.g., "move the camera randomly around the object under good lighting 
+              conditions while always focusing on the object that should be recognized until Catroid makes a beep sound. 
+              Try to remove all other objects and to use a neutral background."). Finally, whenever the brick is used in the 
+              Catroid project, the coordinates and the width and height of all coke bottles that are recognized  by Catroid on 
+              the current video stream should be given back in a specific list.
+
+            </p>
+            <strong>Mentor:</strong> <i> Thomas Rosmarin</i><br />
+            <hr>
+
+            <strong>Title:</strong> Catroid Tablet version<br />
+            <strong>Brief explanation:</strong>
+            <p>
+              Tablets are getting more and more popular we want to use that trend. You'll have to work 
+              intensively on an appropriate UI, which should be easy to use. You'll need to create an Tablet User Interface and 
+              you'll have to work extensively with our Usability and Design team.
+
+            </p>
+            <strong>Expected results:</strong> 
+            <p>
+              Catroid version for tablets, new UI and and optimized for screens bigger than 7" 
+              (target is e.g. Nexus 10, Galaxy Tab 10N, and so on)
+
+            </p>
+            <strong>Mentor:</strong> <i> Gerald Wagner</i><br />
+            <hr>
+
+            <strong>Title:</strong> Enable to create simple multiplayer games (or other apps that need to communicate)<br />
+            <strong>Brief explanation:</strong>
+            <p>
+              Interact between the stage-part of two or more smartphones over bluetooth, wifi, 
+              or internet connection, Shared user variables (broadcast brick or blackbord type message system with dedicated server)
+
+            </p>
+            <strong>Expected results:</strong> 
+            <p>
+              Broadcast-messages between two or more smartphones in Catroid
+
+            </p>
+            <strong>Mentor:</strong> <i> Gerald Wagner</i><br />
+            <hr>
+
+          </p>
+
+
+
+      </section>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
+</html>
