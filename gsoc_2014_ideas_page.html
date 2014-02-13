@@ -1,78 +1,443 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Ideas Page</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Catrobat</h1>
-        <p>A visual programming language<br/> and set of creativity tools<br/> for smartphones, tablets,<br/> and mobile browsers</p>
-        <p class="view"><a href="http://www.catrobat.org/">Home</a></p>
-        <p class="view"><a href="http://developers.catrobat.org/">Developers' Home</a></p>
-      </header>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<title>Ideas Page</title>
+		<link rel="stylesheet" href="stylesheets/styles.css">
+		<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1>Catrobat</h1>
+				<p>
+					A visual programming language
+					<br/>
+					and set of creativity tools
+					<br/>
+					for smartphones, tablets,
+					<br/>
+					and mobile browsers
+				</p>
+				<p class="view">
+					<a href="http://www.catrobat.org/">Home</a>
+				</p>
+				<p class="view">
+					<a href="http://developers.catrobat.org/">Developers' Home</a>
+				</p>
+			</header>
 
-      <section>
-        <h2>Ideas Page for Google Summer of Code 2014</h2><br />
-        <strong>Welcome, <br />we officially present our project ideas for this years GSoC.</strong>
-          <br />10 March 2014</p>
+			<section>
+				<h2>Ideas Page for Google Summer of Code 2014</h2>
+				<br />
+				<strong>Welcome,
+				<br />
+				we officially present our project ideas for this years GSoC.</strong>
+				<br />
+				10 March 2014</p>
 
-          <p> 
-            <strong><u>General knowledge prerequisites for all projects</u><br />
-             <i>JUnit and Robotium for test-driven development on Android devices (Pocket Code and Pocket Paint), Phpunit and Selenium for test-driven development of Web-related projects, Git (revision control) for all projects
-             </i></strong>
-          </p>
+				<p>
+					<strong><u>General knowledge prerequisites for all projects</u>
+					<br />
+					<i>JUnit and Robotium for test-driven development on Android devices (Pocket Code and Pocket Paint), Phpunit and Selenium for test-driven development of Web-related projects, Git (revision control) for all projects </i></strong>
+				</p>
 
+				<p>
+					<h3> Projects </h3>
 
-          <p>
-            <h3> Projects </h3>
+					<strong>Title:</strong> Add a (time capsule like) history to Catroid
+					<br />
+					<strong>Brief explanation:</strong>
+				<p>
+					At first we want you to add simple undo / redo functionality into Catroid.
+					This basically means that user mistakes in the scripts, sounds, costumes shall be un- or re-doable.
+					Imagine it like a typical Undo/Redo Button you find in nearly all of your IDEs.
 
-            <strong>Title:</strong> Add a (time capsule like) history to Catroid<br />
-            <strong>Brief explanation:</strong>
-            <p>
-              At first we want you to add simple undo / redo functionality into Catroid. 
-              This basically means that user mistakes in the scripts, sounds, costumes shall be un- or re-doable.
-              Imagine it like a typical Undo/Redo Button you find in nearly all of your IDEs.
+				</p>
+				<strong>Expected results:</strong>
+				<p>
+					This task is split up from the mentor so that you will always have to implement
+					one small task after the other. At the end of GSoC undo and redo should be fully implemented,
+					tested and *INTEGRATED* into the Pocket Code master branch.
+				</p>
+				<strong>Mentor:</strong><i> Peter Treitler</i>
+				<br />
+				<hr>
 
-            </p>
-            <strong>Expected results:</strong> 
-            <p>
-              This task is split up by the mentor so that you will always have to implement 
-              one small task after the other. At the end of GSoC undo and redo should be fully implemented, 
-              tested and integrated into the Catroid master branch. Also there should be a history log where 
-              the user can see his or her changes with exact timestamps.
-            </p>
-            <strong>Mentor:</strong> <i>  Sercan Akpolat(twitter/irc: sercanakpolat)</i><br />
-            <hr>
+				<strong>Title:</strong> Scratch to Catrobat converter
+				<br />
+				<strong>Brief explanation:</strong>
+				<p>
+					Extend and update our converter
+					for [http://scratch.mit.edu/ Scratch] Programs to Catrobat programs. This involves, but is not limited to, decoding
+					the projects from Scratch, converting them to Catrobat programs, and automating the process. Our existing code base for this project,
+					which already contains much of the needed functionality, can be found on https://github.com/Catrobat/ScratchToCatrobat
 
+					Note that keyboard events are translated into new "key" objects, with all "When key XXX pressed" event bricks replaced
+					by a small script in this new object that shows the corresponding image of the key on the screen at some appropriate place, and which has a
+					"When tapped" script that sends a 'XXX-key pressed' broadcast message. Where the original key bricks were in the Scratch program,
+					a "When 'XXX-key pressed' broadcast message is received" brick is automatically inserted. Kids can then change this
+					manually to something more appropriate on a smartphone or tablet, e.g., by using the inclination sensors. This also
+					works already but must be made more beautiful and intelligent.
 
-          <p>
-            <strong>Your own project ideas ... </strong><br />
-            <p>
-              Please do not hesitate to bring forward your own ideas and discuss them with the Catrobat team members at #catrobat on Freenode or by contacting us via catrobat@googlegroups.com!
-            </p>
-          </p>
+					All Scratch blocks not yet implemented in Catrobat need to be translated into comments that show all relevant content and parameters.
+				</p>
+				<strong>Expected results:</strong>
+				<p>
+					You get a Scratch Program from [http://scratch.mit.edu/ here] and convert it
+					into a Catrobat Program so that it can be played and edited in Pocket Code. There must be an interface in
+					the administration section of our web interface to initiate this process. Such a web interface already exists
+					in a rudimentary form. The project must be fully implemented, tested, and *INTEGRATED* into the
+					ScratchToCatrobat repository on github.
+				</p>
+				<strong>Mentor:</strong><i> Bianca Teufl or Andreas Schmidhofer</i>
+				<br />
+				<hr>
 
-      </section>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+				<strong>Title:</strong> List support in Formula Editor
+				<br />
+				<strong>Brief explanation:</strong>
+				<p>
+					Lists should be implemented in the Formula Editor.
+					Listelements can be any kind of Formula (NUMBERS, STRINGS, SENSORS, nested LISTS)
+					Implementation of the following functionality is required:
+					* Creation of a list ( listname, Scope: for all or this object only ).
+					* Add an item to a list.
+					* Delete first, last or all item of a list.
+					* Insert an item at first, last or random position in a list.
+					* Replace an item ( first, last or random ) with a new item in a list.
+					* Return an item at first, last or random position in a list.
+					* Length of a list. (Number of items in a list)
+					* Does a list contain a certain value? (Boolean function)
 
-  ga('create', 'UA-42270417-2', 'catrobat.org');
-  ga('send', 'pageview');
+					Optional functionality:
+					* Displaying of lists on stage. (listname, listindex, interpretation of listitem, length of list)
+					* Show list on stage brick.
+					* Hide list on stage brick.
+				</p>
+				<strong>Expected results:</strong>
+				<p>
+					This task is split up from the mentor so that you will always have to implement
+					one small task after the other. At the end of GSoC, the list functionality must be fully implemented,
+					tested, and *INTEGRATED* into the Pocket Code master branch.
+				</p>
+				<strong>Mentor:</strong><i> Franz Schreiner</i>
+				<br />
+				<hr>
 
-</script>
-  </body>
+				<strong>Title:</strong> APK Generator
+				<br />
+				<strong>Brief explanation:</strong>
+				<p>
+					It should be possible to create Android apk's out of Pocket Code programs. There is already a demonstrative standalone version
+					of the Tic-Tac-Toe-Program on Google Play (https://play.google.com/store/apps/details?id=org.catrobat.catroid.standalone.tictactoe_master )
+					with > 5000 Downloads. This was implemented in a separate branch (https://github.com/Catrobat/Catroid/tree/TicTacToe). With this GSoC-Project
+					it should be possible to create an apk out of any uploaded Catrobat program (e.g., by offering a menu "convert to apk" in the admin section of our website).
+					As a next step, it should be possible to upload the created apk on our Server (e.g. Jenkins) for manual approvement or for uploading
+					it manually on Google Play. It would be nice if there is also an admin interface on the server to manage the apk's.
+				</p>
+				<strong>Expected results:</strong>
+				<p>
+					This task is split up from the mentor so that you will always have to implement
+					one small task after the other. At the end of GSoC, the list functionality must be fully implemented,
+					tested, and *INTEGRATED* into the appropriate master branches.
+				</p>
+				<strong>Mentor:</strong><i> Anton Rieder or Stefan Jaindl</i>
+				<br />
+				<hr>
+
+				<strong>Title:</strong> Search for Images
+				<br />
+				<strong>Brief explanation:</strong>
+				<p>
+					It should be possible to add images (and potentially sounds) by mining CC-SA-BY media content (creative commons).
+					This is content that can be used when the license and author are given attribution. Touchdevelop by implements a similar
+					functionality (https://www.touchdevelop.com/ ). As a first step the content should be searchable and insertable only from local
+					Pocket Code programs on the file system and the Pocket Code server. New xml entries are required for each media file. The entries should contain licenses
+					including the original author, plus any other meta information, e.g., a link to the place where and when the files were found on
+					the web or at some other place, and any other information, e.g., keywords or tags etc. Optionally, credits might be given in
+					textual form (as another xml entry), both for single media files as well as for whole Catrobat programs. This project may be realized as a Web API.
+
+					As a next step it would be nice to search on Scratch, Touch-develop, Google Image - but this is not a
+					requirement, it is nice to have.
+				</p>
+				<strong>Expected results:</strong>
+				<p>
+					This task is split up from the mentor so that you will always have to implement
+					one small task after the other. At the end of GSoC, the list functionality must be fully implemented,
+					tested, and *INTEGRATED* into the appropriate master branches.
+				</p>
+				<strong>Mentor:</strong><i> Marko Burazer or Theresa Egger</i>
+				<br />
+				<hr>
+
+				<strong>Title:</strong> Cloning Bricks
+				<br />
+				<strong>Brief explanation:</strong>
+				<p>
+					Cloning in Scratch 2.0 is a feature that allows a sprite to create a clone, or duplicate, of itself, while the project is running.
+					This can be useful in tower defense games, for example, for a wave of objects. Clones of a sprite will be the same as the original,
+					or parent sprite, but as a separate instance (see http://wiki.scratch.mit.edu/wiki/Cloning). 3 additional bricks are required -
+					these bricks are "create a clone", "delete clone" and as script brick "when I start as clone", just like in Scratch.
+				</p>
+				<strong>Expected results:</strong>
+				<p>
+					This task is split up from the mentor so that you will always have to implement
+					one small task after the other. At the end of GSoC, the list functionality must be fully implemented,
+					tested, and *INTEGRATED* into the Pocket Code master branch.
+				</p>
+				<strong>Mentor:</strong><i> Stefan Simon</i>
+				<br />
+				<hr>
+
+				<strong>Title:</strong> Make Pocket Code Bricks feature-complete to Scratch
+				<br />
+				<strong>Brief explanation:</strong>
+				<p>
+					Pocket Code is missing the popular show/hide variable as well as pen bricks from Scratch. The aim of this project is to implement these missing bricks.
+
+					Show and hide variable bricks are needed in Pocket Code programs. They are necessary to display, e.g., game statistics.
+					See http://wiki.scratch.mit.edu/wiki/Show_Variable_()_(block) .
+					The Show Variable () block is a Variables block and a Stack block. The block shows the specified variable's Stage monitor.
+					In projects that use variables' Stage monitors to display things, the displays may have to hide and show at times; this can be done
+					with the Hide Variable () brick.
+
+					Pen blocks in Scratch 2.0 are used to draw something on the screen, much like in Turtle graphics. There are
+					eleven bricks in this category. Pen bricks allow to take various actions:
+					- Stamp the sprite
+					- Put the pen down
+					- Release the pen
+					One example of a one sprite one script project is a simple drawing program.
+					See http://wiki.scratch.mit.edu/wiki/Pen_Blocks
+				</p>
+				<strong>Expected results:</strong>
+				<p>
+					This task is split up from the mentor so that you will always have to implement
+					one small task after the other. At the end of GSoC, the list functionality must be fully implemented,
+					tested, and *INTEGRATED* into the Pocket Code master branch.
+				</p>
+				<strong>Mentor:</strong><i> Stefan Simon or Wolfgang Slany</i>
+				<br />
+				<hr>
+
+				<strong>Title:</strong> Object Screens
+				<br />
+				<strong>Brief explanation:</strong>
+				<p>
+					It should be possible to get an attractive overview over the objects of a program. It should be a bit like
+					with HTC Sense's home screen, see http://youtu.be/zgRGwdcx42I?t=1m25s for a video of the animation type.
+					First, it should be only for objects (image of object and possibly the name). On click on an image, the program menu
+					of the respective object should be opened.
+
+					As a nice to have, if time permits this could also be implemented for scripts.
+				</p>
+				<strong>Expected results:</strong>
+				<p>
+					This task is split up from the mentor so that you will always have to implement
+					one small task after the other. At the end of GSoC, the list functionality must be fully implemented,
+					tested, and *INTEGRATED* into the Pocket Code master branch.
+				</p>
+				<strong>Mentor:</strong><i> Annemarie Harzl</i>
+				<br />
+				<hr>
+
+				<strong>Title:</strong> Youtube-Recorder and -Uploader
+				<br />
+				<strong>Brief explanation:</strong>
+				<p>
+					Our Youtube-Recorder and -Uploader must be brought up-to-date and integrated into Pocket Code.
+					It should also be integrated in the Pocket Code Website. This was already working in 2012, but must be
+					adapted to today's code base. Test-Videos recorded directly from the stage can be found on
+					http://www.youtube.com/user/testlexmiir/videos
+				</p>
+				<strong>Expected results:</strong>
+				<p>
+					This task is split up from the mentor so that you will always have to implement
+					one small task after the other. At the end of GSoC lists must be fully implemented,
+					tested, and *INTEGRATED* into the Catroweb master branch.
+				</p>
+				<strong>Mentor:</strong><i> Stefan Simon or Wolfgang Slany</i>
+				<br />
+				<hr>
+
+				<strong>Title:</strong> Brick/script display enhancement
+				<br />
+				<strong>Brief explanation:</strong>
+				<p>
+					NestingBricks (loops and if-bricks) and Scripts are currently visually separated from the
+					bricks nested within them.
+					There should be an option that allows to see the connection between them, like in Scrath. This includes variable width,
+					automatic wrap around, and wide screen Scratch-like enclosures (connecting branch on the left side, between
+					matching parts (multi-brick commands)
+					- see e.g. the forever brick in this link: http://wiki.scratch.mit.edu/wiki/Show_Variable_()_(block).
+
+					Nice to have: Also provide pinch/zoom overview
+				</p>
+				<strong>Expected results:</strong>
+				<p>
+					This task is split up from the mentor so that you will always have to implement
+					one small task after the other. At the end of GSoC lists must be fully implemented,
+					tested, and *INTEGRATED* into the Pocket Code master branch.
+				</p>
+				<strong>Mentor:</strong><i> Stefan Simon</i>
+				<br />
+				<hr>
+
+				<strong>Title:</strong> ReorderableListBox
+				<br />
+				<strong>Brief explanation:</strong>
+				<p>
+					Provide a listbox with the ability to reorder items per drag and drop with fancy animations.
+					The items will be build generic and containing different Catrobat controls like lables, textboxes, dropdown-fields, etc.
+					The Listbox will be used also for the scripts (the items will be docked to next/previous). It will be used in nearly every part of the WindowsPhone-Catrobat.
+					The Final-ListBox will be highly dynamic and easily adoptable to all the different Catrobat needs.
+
+					Nice to have: Also provide pinch/zoom functions to the listbox, to show different Lists on one screen.
+				</p>
+				<strong>Expected results:</strong>
+				<p>
+					This task is split up from the mentor so that you will always have to implement
+					one small task after the other. At the end of GSoC lists must be fully implemented,
+					tested, and *INTEGRATED* into the Windows Phone master branch.
+				</p>
+				<strong>Mentor:</strong><i> Stefan Simon</i>
+				<br />
+				<hr>
+
+				<strong>Title:</strong> Backpack for Bricks
+				<br />
+				<strong>Brief explanation:</strong>
+				<p>
+					In one of the GSoC 2013 projects a backpack, which is a temporary storage for images and sounds, was implemented - just as in Scratch.
+					With the backpack it is possible to cut/copy/move those items across programs within Pocket Code.
+					The aim of this project is to provide the same functionality for scripts - with support of our Usability team.
+					It should be possible to move whole scripts as well as coherent bricks to the backpack.
+				</p>
+				<strong>Expected results:</strong>
+				<p>
+					This task is split up from the mentor so that you will always have to implement
+					one small task after the other. At the end of GSoC lists must be fully implemented,
+					tested, and *INTEGRATED* into the Pocket Code master branch.
+				</p>
+				<strong>Mentor:</strong><i> Stefan Jaindl</i>
+				<br />
+				<hr>
+
+				<strong>Title:</strong> Recommender and Social Sharing
+				<br />
+				<strong>Brief explanation:</strong>
+				<p>
+					Integrate social sharing functionality into the pocketcode.org
+					website for Catrobat programs and into all PocketCode Mobile Apps, so users are
+					able to like, recommend their favorite PocketCode programs, and share their
+					thoughts with their friends from other social networks. Enable login via Facebook,
+					Twitter, or Google account. Provide a new section "Most popular programs" on
+					pocketcode.org.
+
+					Integrate recommendation list of other relevant programs into the program detail page.
+					This list should contain other popular programs that were downloaded by users that
+					have installed the currently viewed program too.
+					("users who installed this program, installed these programs too")
+
+					The project code should be integrated into the pocketcode.org site, thus technical
+					requirements are the same as for the pocketcode.org site (PHP5).
+				</p>
+				<strong>Expected results:</strong>
+				<p>
+					The project should provide us more information about our
+					users and the ability to detect relations between popular programs.
+					This task is split up from the mentor so that you will always have to implement
+					one small task after the other. At the end of GSoC lists must be fully implemented,
+					tested, and *INTEGRATED* into the master branch.
+				</p>
+				<strong>Mentor:</strong><i> Ralph Samer</i>
+				<br />
+				<hr>
+
+				<strong>Title:</strong> Musicdroid - Guitar
+				<br />
+				<strong>Brief explanation:</strong>
+				<p>
+					Create the new Instrument Guitar for Musicdroid. This should contain
+					the User-Interface and the translation into our already available business-logic for midi-files.
+				</p>
+				<strong>Expected results:</strong>
+				<p>
+					The project should give us the possibility to accompany our piano-melodies with
+					guitar accords. It would also be nice if we could play a simple melody with the guitar.
+				</p>
+				<strong>Mentor:</strong><i> Bianca Teufl</i>
+				<br />
+				<hr>
+
+				<strong>Title:</strong> Musicdroid - Convert singing to notes
+				<br />
+				<strong>Brief explanation:</strong>
+				<p>
+					Musicdroid should have the possibility to convert the singing of the user
+					into notes which could be represented by Musicdroid's note drawing.
+					The approach is available but there has to be some experience in audio engineering.
+					The code should be included into the Musicdroid project.
+				</p>
+				<strong>Expected results:</strong>
+				<p>
+					The project should give us the possibility to convert the singin of the user
+					into a midi-melody which can be represented as a midi track with different instruments.
+				</p>
+				<strong>Mentor:</strong><i> Bianca Teufl</i>
+				<br />
+				<hr>
+
+				<strong>Title:</strong> Collision filtering in PhysicEngine
+				<br />
+				<strong>Brief explanation:</strong>
+				<p>
+					Use libgdx-wrapper-methods of box2D to provide collision filtering in Pocket Code.
+				</p>
+				<strong>Expected results:</strong>
+				<p>
+					let's take an example: we have three kinds of objects
+					in a simple game: players, monsters, and scenery.
+					We can implement rules like: players should not collide with each others,
+					neither do monsters, but players should collide with monsters (and vice-versa).
+					And both have to collide with the scenery.
+				</p>
+				<strong>Mentor:</strong><i> Philipp Taferner</i>
+				<br />
+				<hr>
+
+				<p>
+					<strong>Your own project ideas ... </strong>
+					<br />
+				<p>
+					Please do not hesitate to bring forward your own ideas and discuss them with the Catrobat team members at #catrobat on Freenode or by contacting us via catrobat@googlegroups.com!
+				</p>
+				</p>
+
+			</section>
+		</div>
+		<script src="javascripts/scale.fix.js"></script>
+		<script>
+			(function(i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r;
+				i[r] = i[r] ||
+				function() {
+					(i[r].q = i[r].q || []).push(arguments)
+				}, i[r].l = 1 * new Date();
+				a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+			ga('create', 'UA-42270417-2', 'catrobat.org');
+			ga('send', 'pageview');
+
+		</script>
+	</body>
 </html>
