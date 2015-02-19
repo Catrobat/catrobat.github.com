@@ -1,0 +1,292 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<title>Ideas Page</title>
+		<link rel="stylesheet" href="stylesheets/styles.css">
+		<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1>Catrobat</h1>
+				<p>
+					A visual programming language
+					<br/>
+					and set of creativity tools
+					<br/>
+					for smartphones, tablets,
+					<br/>
+					and mobile browsers
+				</p>
+				<p class="view">
+					<a href="http://www.catrobat.org/">Home</a>
+				</p>
+				<p class="view">
+					<a href="http://developer.catrobat.org/">Developers' Home</a>
+				</p>
+				<p class="view">
+					<a href="http://developer.catrobat.org/first_steps">First steps into Catrobat</a>
+				</p>
+			</header>
+			<section>
+				<h2>Ideas Page for Google Summer of Code 2015</h2>
+				<br />
+				<strong>Welcome,
+				<br />
+				we officially present our project ideas for this year's Google Summer of Code.</strong>
+				<br />
+				20 February 2015</p>
+
+				<p>
+					<strong><u>General knowledge prerequisites for all projects</u>
+					<br />
+					<i>JUnit and Robotium for test-driven development on Android devices (Pocket Code and Pocket Paint), Phpunit and Selenium for test-driven development of Web-related projects, Git (revision control) for all projects </i></strong>
+				</p>
+
+				<p>
+					<strong><u>Proposal template</u>
+					<br />
+					<i>Student proposals should have a given structure. Therefore we provide a proposal template. If you want to apply to our organization please use the following template when you submit your application: <a href="https://docs.google.com/document/d/13FCkLBy6MGdzE2V3w5gJgqogqyBYs__JIMnzA7QkbQI/edit?usp=sharing">Proposal template</a> </i></strong>
+				</p>
+
+				<p>
+					<h3>Overview:</h3>
+					<ul>
+						<li>
+							<a href="#gesture">Gesture Control for Drones</a>
+						</li>
+						<li>
+							<a href="#drumset">Musicdroid Drumset-Synthesizer</a>
+						</li>
+						<li>
+							<a href="#ocarina">Musicdroid Ocarina Instrument</a>
+						<li>
+							<a href="#eraser">Object Eraser Tool</a>
+						</li>
+						</li>
+						<li>
+							<a href="#sensor">Lego NXT Sensor Handling</a>
+						</li>
+						<li>
+							<a href="#infrastructure">Catrobat Infrastructure Automation</a>
+						</li>
+
+						<br/>
+						<li>
+							<a href="#youridea">Your own project ideas ... </a>
+						</li>
+					</ul>
+				</p>
+
+				<p>
+					<h3> Projects </h3>
+
+				<a id="gesture"><strong>Title:</strong> Gesture Control for Drones</a>
+				<br />
+				<strong>Brief explanation:</strong>
+				<p>
+					Pocket Code will be extended by bricks to control Drones like the Parrot AR Drone Quadcopter. At GSoC' 15 a new brick which enables users to control the drone with hand gestures should be implemented. Therefore, as a first step, the recognition of these gestures through the front camera of the smartphone should be implemented. Afterwards Drone-commands to these gestures should be added, such as moving the hand up indicates the Drone to go up.
+				</p>
+				<strong>Expected results:</strong>
+				<p>
+					There will be small tasks split up by the mentor, so that this new feature will get part of the project step by step. In the end there should be a brick which recognizes gestures from the devices camera and reflect these to commands executed by the Drone. This brick should get part of the rest of the Drone project and be included into the app.
+				</p>
+				<strong>Mentor:</strong><i> Markus Hobisch</i>
+				<br />
+				<hr>
+
+				
+
+				<a id="drumset"><strong>Title:</strong> Musicdroid Drumset-Synthesizer</a>
+				<br />
+				<strong>Brief explanation:</strong>
+				<p>
+					In this task the student will create a simple drumset in form of a very small synthesizer. Therefore a grid of buttons will be created which represents beats of a rhythm. The lines of the grid represent different drumset-instruments and the columns are the beats. If one cell is set, the respective instrument gets played at the given beat. There should be a fragment for settings like the pace. This task also includes the creation of the sounds.
+				</p>
+				<strong>Expected results:</strong>
+				<p>
+					As part of Musicdroid this interface and drumset-synthesizer should be implemented and included in Musicdroid. Users can play the drums easily within their projects created with Musicdroid and combine it with other features of this app.
+				</p>
+				<strong>Mentor:</strong><i> Elisabeth Heschl or Andrej Mueller</i>
+				<br />
+				<hr>
+
+				<a id="ocarina"><strong>Title:</strong> Musicdroid Ocarina Instrument</a>
+				<br />
+				<strong>Brief explanation:</strong>
+				<p>
+					In this task the student will create a ocarina, which is a flute-like instrument. There should be buttons which represent the wholes of the instrument and the user should blow into the microphone to create a sound. The already implemented notesheet-view of the piano should also be included. The task includes the creation of the sound.
+				</p>
+				<strong>Expected results:</strong>
+				<p>
+					An user should be able to play the ocarina within Musicdroid. Therefore the described User interface and implementation has to be created and included into Musicdroid, to make it easy for everyone to play this instrument through musicdroid.
+				</p>
+				<strong>Mentor:</strong><i> Elisabeth Heschl or Andrej Mueller</i>
+				<br />
+				<hr>
+                
+                <a id="eraser"><strong>Title:</strong> Object Eraser Tool for Paintroid</a>
+					<br />
+					<strong>Brief explanation:</strong>
+				<p>
+					Implement a tool for our app Pocket Paint which let the user specify an area on the screen which will be erased from the image, similar to the 'Retouch' app on Google. That actually means that a selected area of an object within Pocket Paint should be replaced by its background. Therefore the infrastructure of Pocket Paint has to be considered.
+
+				</p>
+				<strong>Expected results:</strong>
+				<p>
+					At the end of GSoC this tool should be ready to be included into the app, so that
+                    an user just may select an area on his display and may erase it, to create even more complex graphics.
+				</p>
+				<strong>Mentor:</strong><i> Roland Urbano</i>
+				<br />
+				<hr>
+                
+				<a id="sensor"><strong>Title:</strong> Lego NXT Sensor Handling</a>
+				<br />
+				<strong>Brief explanation:</strong>
+				<p>
+					Sensors in the formula editor are currently hard coded. This means that there is a fixed assignment of a Sensors token (which is written to code.xml) and an R.string value which is shown in the user interface. But  in the case of the LegoNXT robot it should be possible to change the assignment R.string value to a Sensors token at run-time. The lego robot has 4 slots where different sensors can be connected. It is possible to assign a sensor type (touch, light, ultrasonic, sound, etc.) to a sensor slot in the catroid settings. Because it is really troublesome to introduce all kind of sensors as tokens and save the them in the code.xml (e.g. nxt_touch_sensor, nxt_light_sensor), the sensor port (e.g. nxt_sensor_1, nxt_sensor_2) is used as token and get saved to the code.xml. So only the mapping of the name to the slot is saved and only this mapping must be changed when the assignment changes.
+				</p>
+				<strong>Expected results:</strong>
+				<p>
+					The sensor handling in Catroid is currently not very dynamic and it is quite complex to add new Sensors.With a dynamic sensor assignment, it should be possible to change the assignment of Sensor token (Sensors enum) to R.string values at run-time. All views which uses this R.strings should recognize this change and update properly.  the context of introducing the dynamic sensor assignment it will be neccessary to refactor some parts of the sensor handling in the formula editor. So take this chance and refactor the sensor handling and abstract it from the formula editor. This refactoring should make it easy to add and manage sensor types afterwards. Also accessing sensor values should be simplified. Additionally it should be possible to show or hide sensor types based on the catroid settings. E.g. if lego nxt bricks are disabled also the nxt sensors should be hidden.
+				</p>
+				<strong>Mentor:</strong><i> Martin Burtscher</i>
+				<br />
+				<hr>
+                
+                <a id="infrastructure"><strong>Title:</strong> Catrobat Infrastructure Automation</a>
+				<br />
+				<strong>Brief explanation:</strong>
+				<p>
+					Currently the Catrobat project uses over 15 services and servers internally as well as facing to the public. Due to the complexity and more or less strict team-boundaries every sub-project within Catrobat built their own services on top of the provided servers. This resulted in a very diverse and isolated infrastructure architecture. Therefore a modern framework like Chef and Puppet should make it possible to create an automated workflow to describe the Catrobat services in a expressive code-like language. Each server and each service can be automatically updated and deployed from this collection of scripts and recipes.
+				</p>
+				<strong>Expected results:</strong>
+				<p>
+					Knowledge about how a server should be configured is accessible and stored in a version control system. Every team member can create pull requests to improve the configuration of a specific service. New servers are set up and initialised within seconds from the existing base recipe. Critical infrastructure like Catroweb servers, our URL-shortener, or JIRA can be recreated within minutes if the hardware fails.
+
+Every configuration and every change is comprehensible and open for inspection by the community. Security related issues are easily fixed with a single change to the repository which results in pushing out the new configuration to all servers and services part of the Catrobat infrastructure. Software updates and new technologies can be adapted more quickly, due to the clearly visible dependencies and architecture of the overall system. Teamwork and interaction between individual Catrobat teams is an important factor in running a large-scale community-driven project. Having a well-documented and easily changeable infrastructure is a key point in providing a good experience to our team members and to the public community of Pocketcode and Catrobat.
+
+				</p>
+				<strong>Mentor:</strong><i> Johannes Anton Rieder</i>
+				<br />
+				<hr>
+                
+				<p>
+					<a id="youridea"><strong>Your own project ideas ... </strong></a>
+					<br />
+				<p>
+					Please do not hesitate to bring forward your own ideas and discuss them with the Catrobat team members at #catrobat on Freenode or by contacting us via catrobat@googlegroups.com!
+				</p>
+				</p>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+
+			</section>
+		</div>
+		<script src="javascripts/scale.fix.js"></script>
+		<script>
+			(function(i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r;
+				i[r] = i[r] ||
+				function() {
+					(i[r].q = i[r].q || []).push(arguments)
+				}, i[r].l = 1 * new Date();
+				a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+			ga('create', 'UA-42270417-2', 'catrobat.org');
+			ga('send', 'pageview');
+
+		</script>
+	</body>
+</html>
