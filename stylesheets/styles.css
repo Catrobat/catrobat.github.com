@@ -21,7 +21,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:1.2em;
 }
 
 h2 {
@@ -43,6 +43,18 @@ a small {
   color:#777;
   margin-top:-0.6em;
   display:block;
+}
+
+a.skiplink {
+display:block;
+margin-top: -1.5em;
+background:transparent;
+color:#FFF;
+}
+
+a.skiplink:hover, a.skiplink:focus {
+background:transparent;
+color:#17a;
 }
 
 .wrapper {
