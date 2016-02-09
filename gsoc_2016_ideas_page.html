@@ -1,0 +1,589 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<title>Ideas Page</title>
+		<link rel="stylesheet" href="stylesheets/styles.css">
+		<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1>Catrobat</h1>
+				<p>
+					A visual programming language
+					<br/>
+					and set of creativity tools
+					<br/>
+					for smartphones, tablets,
+					<br/>
+					and mobile browsers
+				</p>
+				<p class="view">
+					<a href="http://www.catrobat.org/">Home</a>
+				</p>
+				<p class="view">
+					<a href="http://developer.catrobat.org/">Developers' Home</a>
+				</p>
+				<p class="view">
+					<a href="http://developer.catrobat.org/first_steps">First steps into Catrobat</a>
+				</p>
+				<p class="view">
+					<a href="http://catrob.at/pc">Find Pocket Code on Google Play</a>
+				</p>
+				<p class="view">
+					<a href="http://catrob.at/plus"><img src="googleplus.png" height="20px"/></a> <a href="http://catrob.at/fb"><img src="facebook.png" height="20px"/></a> <a href="http://catrob.at/pctwitter"><img src="twitter.png" height="20px"/></a> <a href="http://catrob.at/youtube"><img src="youtube.png" height="20px"/></a> <a href="http://catrob.at/github"><img src="github.png" height="20px"/></a> <a href="mailto:contact@catrobat.org"><img src="mail.jpg" height="20px"/></a>
+				</p>
+			</header>
+
+			<section>
+				<h2>Ideas Page for Google Summer of Code 2016</h2>
+				<br />
+				<strong>Welcome,
+				<br />
+				we officially present our project ideas for this year's Google Summer of Code.</strong>
+				<br />
+				09 February 2016</p>
+
+				<p>
+					<strong><u>General knowledge prerequisites for all projects</u>
+					<br />
+					<i>JUnit and Robotium for test-driven development on Android devices (Pocket Code and Pocket Paint), Phpunit and Selenium for test-driven development of Web-related projects, Git (revision control) for all projects </i></strong>
+				</p>
+
+
+				<p>
+					<h3>Overview:</h3>
+					<ul>
+						<li>
+							<a href="#idea_1">Raspberry Pi Integration in Pocket Code</a>
+						</li>
+						<li>
+							<a href="#idea_2">Social Media Features</a>
+						</li>
+						<li>
+							<a href="#idea_3">Pocket Code Refactoring UI</a>
+						</li>
+						<li>
+							<a href="#idea_4">Groups & Scenes in Pocket Code</a>
+						</li>
+						<li>
+							<a href="#idea_5">Pocket Code Usability Improvements</a>
+						</li>
+						<li>
+							<a href="#idea_6">Feature Completeness (Scratch)</a>
+						</li>
+						<li>
+							<a href="#idea_7">HTML5 Player Release</a>
+						</li>
+						<li>
+							<a href="#idea_8">Remixes Web</a>
+						</li>
+						<li>
+							<a href="#idea_9">Gamepad / Overlay</a>
+						</li>
+						<li>
+							<a href="#idea_10">Screen touched (Single Finger) & Multi-touch finger positions</a>
+						</li>
+						<li>
+							<a href="#idea_11">Expert Mode for Pocket Code</a>
+						</li>
+						<li>
+							<a href="#idea_12">Pocket Code - Integrate S2C</a>
+						</li>
+						<li>
+							<a href="#idea_13">Small Sumo Drone</a>
+						</li>
+						<li>
+							<a href="#idea_14">HTML5 Player: Compatibility/Feature Completeness (Scratch)</a>
+						</li>
+						<li>
+							<a href="#idea_15">HTML5 Player/Project browser: UI Extensions</a>
+						</li>
+						<li>
+							<a href="#idea_16">HTML5 Player: Rendering + Physics</a>
+						</li>
+						<br/>
+						<li>
+							<a href="#youridea">Your own project ideas ... </a>
+						</li>
+					</ul>
+				</p>
+
+				<p>
+					<h3> Projects </h3>
+
+					<a id="idea_1"><strong>Title:</strong> Raspberry Pi Feature extension</a>
+					<br />
+					<strong>Brief explanation and expected results:</strong>
+					<p>
+						<ol>
+							<li>use GPIO pins: set pin, read pin, set PWM values</li>
+							<li>Extend Raspberry Pi Features
+								<ul>
+									<li>sensors: allow to attach several sensors which can be enabled/configured within the preferences (I2C, onewire bus, thermometer, microphone, ...)</li>
+									<li>actors: allow to attach several (more complex) actors and configure them via preferences (IR-sender,  ...)<br/>
+									-> see sensor/actor examples</li>
+									<li>play sounds on RaspberryPi</li>
+									<li> run user-defined scripts on RaspberryPi</li>
+									<li>encrypted communication (TLS)</li>
+									<li> allow to use multiple RPi's</li>
+									<li>attach a camera on a RaspberryPi, add commands to take a photo and use it within Pocket Code</li>
+									<li>attach a display on a RaspberryPi, make it available in Pocket Code</li>
+									<li>add a discovery protocol to the RPi: Avahi/Zeroconf/Bonjour</li>
+									<li>use HDMI output of RaspberryPi (similar to chromecast project). </li>
+								</ul>
+							</li>	
+							<li>Demo application: build a small Robot using Raspberry Pi (including a tutorial)</li>
+						</ol>
+				</p>
+				<strong>Mentor:</strong><i> Roland Urbano</i>
+				<br />
+				<hr>
+
+				<a id="idea_2"><strong>Title:</strong> Social Media Features</a>
+				<br />
+				<strong>Brief explanation and expected results:</strong>
+				<p>
+					List of diverse social media features:
+					<ol>
+						<li>"Upload & share" of Pocket Code programs (existing upload functionality + user-defined post on Facebook/Google+ with link to the program)</li>
+						<li>Social Challenging System: After "Upload & Share" functionality a challenging system can be build: Add a possibility to challenge friends with games directly created in Pocket Code (e.g. with a highscore displayed by Show-/Hide-Variable Bricks) via in-app notifications. This should include a link to the uploaded program and a short text.</li>
+						<li>Create a possibility to add looks and sounds from flickR (Creative Commons content), Picasa, Facebook (via Facebook Graph API) and Instagram.</li>
+						<li>Likes & Sharing of programs on the Pocket Code website (pocketcode.org) (UX guidelines already existing).</li>
+						<li>Add more social media platforms: e.g. Twitter, Instagram, WhatsApp (depending on the social media platform-related activities of Pocket Code's target group, which is currently being analyzed).</li>
+						<li>Facebook & Google+-Login for iOS</li>
+					</ol>
+				</p>
+				<strong>Mentor:</strong><i> Annemarie Harzl</i>
+				<br />
+				<hr>
+				
+				<a id="idea_3"><strong>Title:</strong> Pocket Code Refactoring UI</a>
+				<br />
+				<strong>Brief explanation and expected results:</strong>
+				<p>
+					The feature/brickUI branch is waiting to get implemented. It will improve our usage of Android, removes a lot of code, eases new brick creating and also any adaption (and fixes) in bricks will be more quickly and less error-prone.<br/>
+					In detail:<br/>
+					This feature branch separates the bricks from the UI. The whole logic will be located in the fragments, adapts classes and in the ViewProviders of the bricks. All checkboxes will be replaced by checkable layout and therefore the test classes have to change as well. Especially all brick related tests must be refactored and it is recommended to change them to espresso tests.<br/>
+					Currently there are a lot of JIRA tickets waiting to get fixed and implemented. Fixing refactoring tickets will fix other bugs and ease testing automatically, improving the overall quality. Choosing a proper Student and Mentor is essential.
+
+					The existing JIRA tickets<br/>
+					<ul>
+						<li>recommend test refactoring or implementation of missing test classes</li>
+						<li>concern with performance and code quality issues or inconsistancies</li>
+						<li>clean up and fixes e.g. packages and certain files like format of XML files</li>
+						<li>include checkstyle rules for naming conventions, code formatting issues etc.</li>
+					</ul>
+				</p>
+				<strong>Mentor:</strong><i> Robert Painsi</i>
+				<br />
+				<hr>
+
+				<a id="idea_4"><strong>Title:</strong> Groups & Scenes in Pockte Code</a>
+				<br />
+				<strong>Brief explanation and expected results:</strong>
+				<p>
+				
+					<strong>Object grouping</strong>
+					<p>Object grouping is a feature to structure one’s Pocket Code program at object level. The purpose of introducing object grouping is to keep them together and make the object view more concise and overseeable. The depths of groups is limited to 1 which means there no nested groups (subgroups) are possible. A group is like an object but it can be expanded and collapsed to either show its containing objects or hide them. A group looks like an object with the only difference that it has an expand/collapse widget. The group’s icon is inherited from the first object in the list of containing objects. The selected group could be coloured in a different way.</p>
+					<strong>Scenes</strong>
+					<p>The introduction of “scenes” in Pocket Code should ease the creation of large programs by abstraction of semantically coupled objects including code, looks and sounds into independent sub units. This makes programming of different scenes (levels) of a game insofar easier that only those backgrounds and objects which are used in this particular scene (level) are active, can be accessed by scripts and are subject to execution. A scene can be seen as an independent Pocket Code program. A Pocket Code program containing scenes can be seen as a collection of independent Pocket Code programs (scenes) where a smooth transition is possible during program execution</p>
+				</p>
+				<strong>Mentor:</strong><i> Christian Schindler</i>
+				<br />
+				<hr>				
+	
+				<a id="idea_5"><strong>Title:</strong> Pocket Code Usability improvements</a>
+				<br />
+				<strong>Brief explanation and expected results:</strong>
+				<p>
+					To create a better user experience and improve the navigation in Pocket Code, some usability improvements should be implemented in the project. The main points of these improvements refer to the quality of the navigation in the Pocket Code app, programming with Pocket Code, other points for representation and new Bricks.
+					<strong>Navigation:</strong>
+					<ul>
+						<li>remain at the same place in the menu (e.g. script view, list of objects/programs, ...) after having switched to some other place or deleting an element of the list</li>
+						<li>rename the current program</li>
+						<li>graphical hints/toasts, like a long press dialog to show the opportunity to use long press and find more functionality</li>
+						<li>swipe gesture to switch between program overview and current program or to switch between scripts and hints</li>
+						<li>change the behaviour of short-/longpress on bricks for moving a brick or opening the brick menu</li>
+					</ul>
+
+					<strong>Programming:</strong>
+					<ul>
+						<li>send variables within messages to improve the interaction between objects</li>
+						<li>re-organization of the control bricks to separate events from other control bricks (improve the overview of the bricks)</li>
+						<li>moving an "if-statement" should move the whole if-block</li>
+						<li>showing also the value of a local variable on the stage</li>
+						<li>set the color and size of the shown variable on the stage</li>
+					</ul>
+					
+					<strong>Representation:</strong>
+					<ul>
+						<li>remove the colon after variable names</li>
+						<li>possibility to show long comments within the note brick</li>
+						<li>show project details like description, author, screen resolution, ...</li>
+						<li>increase the limit of the length of a text that should be shown at the stage</li>
+					</ul>
+					
+					<strong>New Bricks and Loops</strong><br>
+
+					When working with pupils/students in our workshops it has been shown that some more features are required in Pocket Code to improve the experience with Pocke Code.
+					Therefore new bricks should be implemented in the project:
+					<ul>
+						<li>wait until / repeat until</li>
+					</ul>
+					With these bricks its easier to create loops or sleeps with a termination condition.
+					This could be essential e.g. for making games, where you often have to wait or repeat something until a condition occurs.
+
+					<ul>
+						<li>if then (without else)</li>
+					</ul>
+
+					Create a separate if-brick without an else brick, like we know it from common programming languages.
+					This brick increases the overview of the bricks, especially with some encapsulated if-conditions.
+
+					<ul>
+						<li>switch to previous look</li>
+					</ul>
+
+					Like the brick "next look" there should be a brick "previous look" to switch also backwards in the list with the different looks for an object.
+
+					<ul>
+						<li>switch backdrop to ___</li>
+					</ul>
+
+					With this brick it's possible to change the backdrop without using a broadcast-message from an object to the background.
+				</p>
+				<strong>Mentor:</strong><i> Anja Petri</i>
+				<br />
+				<hr>		
+	
+				<a id="idea_6"><strong>Title:</strong> Feature Completeness (Scratch)</a>
+				<br />
+				<strong>Brief explanation and expected results:</strong>
+				<p>
+					There are still several bricks and features which are available in Scratch, but not in Pocket Code. First, These features and bricks are needed to have an more improved programming experience and second in order to have a working Scratch2Catrobat programs converter. // The following features and bricks will be part of this project:
+					<p>
+						<strong>Pen/Stamp:</strong><br/>
+
+						Pocket Code is missing the pen bricks from Scratch. The aim of this project is to implement these missing bricks. Pen blocks in Scratch 2.0 are used to draw something on the screen, much like in Turtle graphics. There are eleven bricks in this category. Pen bricks allow to take various actions:- Stamp the sprite  - Put the pen down  - Release the pen  // One example of a one sprite one script project is a simple drawing program.  See http://wiki.scratch.mit.edu/wiki/Pen_Blocks
+					</p>
+					<p>
+						<strong>Cloning:</strong><br/>
+
+						Cloning in Scratch 2.0 is a feature that allows a sprite to create a clone, or duplicate, of itself, while the project is running. This can be useful in tower defense games, for example, for a wave of objects. Clones of a sprite will be the same as the original, or parent sprite, but as a separate instance (see http://wiki.scratch.mit.edu/wiki/Cloning). 3 additional bricks are required - these bricks are "create a clone", "delete clone" and as script brick "when I start as clone", just like in Scratch. 
+					</p>
+					<p>
+						<strong>Object collision / with color / movement:</strong><br/>
+
+						To detect collisions between object is an essential game element - every shooter, race or skill game needs this feature.
+						There are three different kinds of collision detections planned:
+						<ul>
+							<li>(touches) with other object: like in Scratch: Brick "touching finger/edge/object",</li>
+							<li>object collision (touches) with certain color e.g. like in Scratch: Brick "touching color___",</li>
+							<li>Camera look in combination with movement, extension: camera onsprite/onstage (see Scratch)</li>
+						</ul>
+					</p>
+					<p>
+						<strong>Ask Brick</strong><br/>
+
+						Possibility to have a text input field in state. The user can reply to this answer via the text input field. After that this answer is stored in a program variable (like in Scratch, Brick: "Ask____" + answer)
+					</p>
+					<p>
+						<strong>Missing Bricks</strong><br/>
+
+						To ensure brick completeness with Scratch the following bricks are missing:
+						<ul>
+							<li>Move Brick: "go to ____" - finger/object</li>
+							<li>Sensing Brick: "distance to ____" - finger/object</li>
+							<li>Sensing Brick: timer + reset timer (timer is a variable in FE)</li>
+							<li>Sensing Brick: current (minute, month, date,….)</li>
+							<li>Look Brick: change/set color</li>
+							<li>Move Brick: set rotation style: don't rotate, left-right, all-around</li>
+						</ul>
+					</p>
+				</p>
+				<strong>Mentor:</strong><i> Bernadette Spieler and Thomas Hirsch</i>
+				<br />
+				<hr>
+				
+
+				<a id="idea_7"><strong>Title:</strong> HTML5 Player Release</a>
+				<br />
+				<strong>Brief explanation and expected results:</strong>
+				<p>
+					<strong>HTML5 Player first release.</strong>
+					<ul>
+						<li>Testing Sprites, RenderingImage, Canvas GameEngine, Device</li>
+						<li>Find and fix issues with Sprite positioning on the canvas</li>
+						<li>Support for device sensors, testing</li>
+						<li>Testing User Interface</li>
+						<li>Testing Sensor Bricks for upcoming catrobat releases</li>
+						<li>Handle compatibility issues with certain audio formats</li>
+					</ul>
+				</p>
+				<strong>Mentor:</strong><i> Annemarie Harzl</i>
+				<br />
+				<hr>				
+				
+				<a id="idea_8"><strong>Title:</strong>Remixes Web</a>
+				<br />
+				<strong>Brief explanation and expected results:</strong>
+				<p>
+					Feature to split remixed programs into their components.
+					<ul>
+						<li>In Pocket Code, a remixed program is the result of two parent programs which were used by a student to craft a hybrid version of these two programs.</li>
+						<li>The aim of this project is to properly split the result of the remix process into its two parent programs.</li>
+						<li>Analyze components</li>
+						<li>Match contained objects with the ones of the original programs</li>
+						<li>Split remix apart</li>
+						<li>Testing</li>
+					</ul>
+				</p>
+				<strong>Mentor:</strong><i> Marko Burazer</i>
+				<br />
+				<hr>	
+				
+				<a id="idea_9"><strong>Title:</strong> Gamepad / Overlay</a>
+				<br />
+				<strong>Brief explanation and expected results:</strong>
+				<p>
+					The idea behind this feature is that the the user can create a game or app with additional gamepad controls. While playing their game an overlay gamepad is used to control the movements. To minimize view obstruction by the overlay joy-pad, it would only be visible if the user taps screen. The joy-pad location would be determined by each tap and the following gesture (e.g.: swipe up) would be taken as the movement.
+					<br/>
+					When the screen is not tapped the joy-pad would be almost transparent.
+				</p>
+				<strong>Mentor:</strong><i> Thomas Schranz</i>
+				<br />
+				<hr>
+				
+				<a id="idea_10"><strong>Title:</strong> Screen touched (Single Finger) & Multi-touch finger positions</a>
+				<br />
+				<strong>Brief explanation and expected results:</strong>
+				<p>
+					New sensor variable is to be developed indicating if a finger currently touching the display and  representing x- and y-position of the finger currently touching the display.
+					<br/>
+					The sensor names are:
+					<ul>
+						<li>is_finger_touching</li>
+						<li>finger_x</li>
+						<li>finger_y</li>
+					</ul>
+					If more than one finger is touching the display the is_finger_touching is true until ALL fingers are removed from the display. If more than one finger is touching the display the x and y coordinates of the finger which hit the surface last will be stored in finger_x and finger_y 
+					<br/>
+					Implement multitouch recognition and the use of current finger positions as sensor values. Furthermore basic gesture recognition (e.g.: swipe up) could also be implemented allowing the users to create more complex and fun games and apps.
+				</p>
+				<strong>Mentor:</strong><i> Matthias M&uuml;ller</i>
+				<br />
+				<hr>
+
+		
+				<a id="idea_11"><strong>Title:</strong> Expert Mode for Pocket Code</a>
+				<br />
+				<strong>Brief explanation and expected results:</strong>
+				<p>
+					Experts or people that are spending a lot of time in Pocket Code or with larg projects will benefit from the following options:
+					<br/>
+					<strong>Bricks 2D</strong><br/>
+
+					This feature is a “Mission Control” view mode. Each object has a set of scripts which can only be scrolled through at the moment. This list can easily get long and very difficult to overview. A two finger pinch inward gesture (zoom out) would be used to enable this view, where all the scripts would be displayed side by side on one screen. By tapping anywhere or a two pinch outward gesture (zoom in) would take the user back to the original view. Fluid animations would ensure a smooth look.
+
+					<br/>
+					<strong>Comment out</strong><br/>
+
+					Each object has a set of scripts that define its behaviour. This “comment out” feature would allow to disable a script and make it visually distinguishable from the active ones. This would mean that the users would no longer have to delete a script if they would want to temporarily disable it.
+
+					<br/>
+					<strong>Debug Mode</strong><br/>
+
+					When pausing the game a new “enable debug mode” button would display a set of useful information. This includes variable values, sensor data and the momentarily executed scripts. Additionally a step by step code execution could be implemented.
+				</p>
+				<strong>Mentor:</strong><i> -</i>
+				<br />
+				<hr>
+		
+
+		
+				<a id="idea_12"><strong>Title:</strong> Pocket Code - Integrate S2C</a>
+				<br />
+				<strong>Brief explanation and expected results:</strong>
+				<p>
+					The <a href="https://github.com/Catrobat/ScratchToCatrobat">ScratchToCatrobat converter</a> is one of our most important undertakings and exists to fill the gap between the well known Scratch system and our Pocket Code project.
+					It empowers kids to run their self-made Scratch projects on their own phone. Our converter service is hosted on one of our servers that provides a very simplistic web interface for our users.
+					<br/>
+					In order to convert a Scratch program users have to perform the following steps:
+					<ol>
+						<li>search for a program on the Scratch website</li>
+						<li>visit the webpage of our converter server on their phone/tablet device</li>
+						<li>enter the URL or project ID of the Scratch project</li>
+						<li>Download the converted Catrobat program and open it with Pocket Code</li>
+					</ol>
+					This workflow is very cumbersome/tedious for users and requires using at least two different apps (browser and Pocket Code) which leads to unwanted media disruptions.
+					<br/>
+					<i>Tasks for this project:</i>
+					<ul>
+						<li>integrate Scratch search (with Autocomplete) into our Android Pocket Code app</li>
+						<li>list of all converted programs (app)</li>
+						<li>progress view for currently converted programs (app)</li>
+						<li>websocket client (communicates with our converter web service)  (app)</li>
+						<li>websocket service (server)</li>
+						<li>Google Authentication (used to identify users and to store & share converted programs with other Android devices) (server & app)</li>
+					</ul>
+				</p>
+				<strong>Mentor:</strong><i> Wolfgang Slany</i>
+				<br />
+				<hr>		
+		
+	
+		
+				<a id="idea_13"><strong>Title:</strong> Small Sumo Drone</a>
+				<br />
+				<strong>Brief explanation and expected results:</strong>
+				<p>
+					The goal for this project is to provide functionality and integration of the Parrot Airborne Drone for the Catrobat project. The most important parts include the connection to the drone, the transmission of the controls as well the visual data transmission.
+					<br/>The basic structures for the drone support on the application side is already given by the previous work. The challenge will be to create a clean interface for the communication between application and drone.
+
+					<br/>After the project it should be possible to control a Airborne Drone in the same way as the already implemented AR.Drone2.0. This includes the basic movement as takeoff and land, gain and loose altitude, change direction in which the drone is heading and the actual movements (forward, backward and to the sides).
+
+					<br/>Each of this movements should be completely customizable through one individual Catroid Brick. Furthermore the video transmission of the drone should be displayable anywhere on the screen in different sizes. 
+				</p>
+				<strong>Mentor:</strong><i> Markus Hobisch</i>
+				<br />
+				<hr>		
+	
+		
+				<a id="idea_14"><strong>Title:</strong> HTML5 Player - Compatibility / Feature Completeness (Scratch)</a>
+				<br />
+				<strong>Brief explanation and expected results:</strong>
+				<p>
+					The HTML5 Player uses a costom JSON project format that was design to be compatible to both, the original pocket code as well as the current scratch file format.
+					Most of the features (differences) between PocketCode and Scratch are already part of our current HTML5 players design.
+					There are still several bricks and features which are available in Scratch, but not in Pocket Code. First, These features and bricks are needed to have an more improved programming experience and second in order to have a working Scratch2Catrobat programs converter. 
+					<br/>
+					The following features and bricks will be part of this project:
+					<p>
+					<i><strong>Server (PHP):</strong></i><br/>
+					Unzip and convert/parse a Scratch project file into a HTML5 project file.
+					Add serverside DTOs for bricks currently not supported.
+					</p>
+					<p>
+					<i><strong>Client (javascript):</strong></i><br/>
+					Extend the look object to provide PocketCode/Scratch compatibility.
+					Override the current Sprite object to generate Scratch based redering output (sprite positioning, direction, brightness, filters) if not implemented yet.<br/>
+					Add missing bricks (described below) in cooperation with the PocketCode team working on the same stories in PocketCode:
+					</p>
+					<p>
+					<strong>Pen/Stamp:</strong><br/>
+					Pocket Code is missing the pen bricks from Scratch. The aim of this project is to implement these missing bricks. Pen blocks in Scratch 2.0 are used to draw something on the screen, much like in Turtle graphics. There are eleven bricks in this category. Pen bricks allow to take various actions:- Stamp the sprite  - Put the pen down  - Release the pen  // One example of a one sprite one script project is a simple drawing program.  See http://wiki.scratch.mit.edu/wiki/Pen_Blocks
+					</p>
+					<p>
+					<strong>Cloning:</strong><br/>
+					Cloning in Scratch 2.0 is a feature that allows a sprite to create a clone, or duplicate, of itself, while the project is running. This can be useful in tower defense games, for example, for a wave of objects. Clones of a sprite will be the same as the original, or parent sprite, but as a separate instance (see http://wiki.scratch.mit.edu/wiki/Cloning). 3 additional bricks are required - these bricks are "create a clone", "delete clone" and as script brick "when I start as clone", just like in Scratch. 
+					</p>
+					<p>
+					<strong>Object collision / with color / movement:</strong><br/>
+					To detect collisions between object is an essential game element - every shooter, race or skill game needs this feature.
+					There are three different kinds of collision detections planned:
+
+					(touches) with other object: like in Scratch: Brick "touching finger/edge/object",
+					object collision (touches) with certain color e.g. like in Scratch: Brick "touching color___",
+					Camera look in combination with movement, extension: camera onsprite/onstage (see Scratch)			</p>
+					<p>
+					<strong>Ask Brick</strong><br/>
+					Possibility to have a text input field in state. The user can reply to this answer via the text input field. After that this answer is stored in a program variable (like in Scratch, Brick: "Ask____" + answer)
+					</p>
+					<p>
+					<strong>Missing Bricks</strong><br/>
+					To ensure brick completeness with Scratch the following bricks are missing:
+					<ul>
+						<li>Move Brick: "go to ____" - finger/object</li>
+						<li>Sensing Brick: "distance to ____" - finger/object</li>
+						<li>Sensing Brick: timer + reset timer (timer is a variable in FE)</li>
+						<li>Sensing Brick: current (minute, month, date,….)</li>
+						<li>Look Brick: change/set color</li>
+						<li>Move Brick: set rotation style: don't rotate, left-right, all-around </li>
+					</ul>
+					</p>
+				</p>
+				<strong>Mentor:</strong><i> -</i>
+				<br />
+				<hr>	
+	
+		
+				<a id="idea_15"><strong>Title:</strong> HTML5 Player/Project browser: UI Extensions</a>
+				<br />
+				<strong>Brief explanation and expected results:</strong>
+				<p>
+					Extend the current HTML5 Player to provide several new UI features:
+					<ul>
+						<li>Search/browse/load projects within our player application</li>
+						<li>Store latest projects executed using a HTML5 local store</li>
+						<li>Provide a quick start (home screen) icon for mobile to launch our player directly</li>
+						<li>Provide a menu or buttons to select UI language</li>
+						<li>Provide a menu or button as well as logic to switch to full screen (mobile)</li>
+						<li>Extend the Page object to provide a mobile alike navigation</li>
+						<li>Write a visual (HTML, css) represention for existing bricks so users can also browse the projects code (read only)</li>
+					</ul>
+				</p>
+				<strong>Mentor:</strong><i> Thomas Hirsch</i>
+				<br />
+				<hr>		
+		
+				<a id="idea_16"><strong>Title:</strong> HTML5 Player: Rendering + Physics</a>
+				<br />
+				<strong>Brief explanation and expected results:</strong>
+				<p>
+					Our player currently makes use of the fabricJs library to render sprites to our viewport.
+					We only use fabricJs to draw sprites and handle click/tab events- therefor the wohle framework is a huge overhead (even if custom compiled).
+					Our application was already designed to replace this library to enable individual caching logic on sprites and looks.
+					<ul>
+						<li>make a desition on how to replace the fabricJs library with an individual rendering engine (design)</li>
+						<li>replace fabricJs and</li>
+						<li>write/rewrite all required test cases</li>
+					</ul>
+					Physics is going to be release soon and there is currently no support:
+					<ul>
+						<li>Extend the serverside code (PHP)</li> 
+						<li>Override the current sprite object to get a physics enabled sprite object based on the PocketCode (java) implementation</li>
+						<li>Implement missing bricks</li>
+						<li>Implement unit tests for all extensions made</li>
+					</ul>
+				</p>
+				<strong>Mentor:</strong><i> Paul Schreiner</i>
+				<br />
+				<hr>		
+	
+				<p>
+					<a id="youridea"><strong>Your own project ideas ... </strong></a>
+					<br />
+				<p>
+					Please do not hesitate to bring forward your own ideas and discuss them with the Catrobat team members at #catrobat on Freenode or by contacting us via catrobat@googlegroups.com!
+				</p>
+				</p>
+
+
+			</section>
+		</div>
+		<script src="javascripts/scale.fix.js"></script>
+		<script>
+			(function(i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r;
+				i[r] = i[r] ||
+				function() {
+					(i[r].q = i[r].q || []).push(arguments)
+				}, i[r].l = 1 * new Date();
+				a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+			ga('create', 'UA-42270417-2', 'catrobat.org');
+			ga('send', 'pageview');
+		</script>
+	</body>
+</html>
+
