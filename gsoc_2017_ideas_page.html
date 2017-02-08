@@ -61,7 +61,34 @@
 					<h3>Overview:</h3>
 					<ul>
 						<li>
-							<a href="#idea_1">TBA</a>
+							<a href="#idea_1">HTML5 Physics Engine</a>
+						</li>
+						<li>
+							<a href="#idea_2">iOS: Implementation of missing Bricks and Sensors</a>
+						</li>
+						<li>
+							<a href="#idea_3">Catroid-Core: Refactoring Code</a>
+						</li>
+						<li>
+							<a href="#idea_4">Catroid-Core: Refactoring Ui Tests</a>
+						</li>
+						<li>
+							<a href="#idea_5">Catroid-Core: Refactoring Unit Tests</a>
+						</li>
+						<li>
+							<a href="#idea_6">Catroid-Core: Refactor/Introduce Flavoring (Flavoring NEW)</a>
+						</li>
+						<li>
+							<a href="#idea_7">Pocket Code - Pocket Paint: Integrate Pocket Paint AS a Flavor into Pocket Code</a>
+						</li>
+						<li>
+							<a href="#idea_8">UX Redesign of Pocket Code</a>
+						</li>
+						<li>
+							<a href="#idea_9">iOS: Create your own Bricks - User Bricks</a>
+						</li>
+						<li>
+							<a href="#idea_10">HTML5: UserBricks (Scripts + CallUserScript)</a>
 						</li>
 						
 					</ul>
@@ -70,17 +97,243 @@
 				<p>
 					<h3> Projects </h3>
 
-					<a id="idea_1"><strong>Title:</strong>TBA</a>
+					<a id="idea_1"><strong>Title:</strong> HTML5 Physics Engine</a>
 					<br />
 					<strong>Brief explanation and expected results:</strong>
-					<p>
+					<p>PocketCode provides several code bricks for physics-enabled sprites:
+						<ul>
+							<li> SetPhysicsObjectTypeBrick</li>
+							<li> SetVelocityBrick</li>
+							<li> RotationSpeedLeftBrick</li>
+							<li> RotationSpeedRightBrick</li>
+							<li> SetGravityBrick</li>
+							<li> SetMassBrick</li>
+							<li> SetBounceFactorBrick</li>
+							<li> SetFrictionBrick</li>
+							<li> WhenCollisionBrick</li>
+					    </ul>
+
+						A basic implementation of the bricks is already available (setter, getter) but these values are currently not supported (ignored).
+						The physics engine will take care of these settings and render the physics states parallel to our current rendering engine supporting the same interfaces. 
+						The engine should work on desktop and mobile browsers.
+						Some tasks you will have to accomplish:
+						<ul>
+						<li> Work on the specification together with your mentor </li>
+						<li> Calculate vertices from images </li>
+						<li> Replace the current look object with a physics object (physics sprite)</li>
+						<li> Calculate physics states of all physics objects per rendering frame</li>
+						<li> Rewrite existing code where conflicts occur between rendering engines (ifOnEdgeBounce, rotationType, whenCollision, ..)</li>
+						<li> Unit- & integration- testing (several devices, browsers, ..)</li>
+						<li> ... </li>
+						</ul>
+						
 			
 				</p>
-				<strong>Mentor:</strong><i> TBA</i>
+				<strong>Desired Outcome:</strong><i> HTML5 Player supporting all physics bricks</i><br/>
+				<strong>Mentor:</strong><i> Matthias Mueller</i>
 				<br />
 				<hr>
 	
+		<a id="idea_2"><strong>Title:</strong> iOS: Implementation of missing Bricks and Sensors</a>
+		<br />
+		<strong>Brief explanation and expected results:</strong>
+		<p>
+			
+			In order to be able to support Catrobat Language version 0.991 it is necessary to implement a set of missing Bricks and Sensors.<br/>
+
+			New Bricks:
+			<ul>
+			<li> CameraBrick</li>
+			<li> ChooseCameraBrick</li>
+			<li> IfThenLogicBeginBrick</li>
+			<li> RepeatUntilBrick</li>
+			<li> WhenTouchDownBrick</li>
+		</ul>
+
+			New Sensors:
+			<ul>
+			
+			<li> screen_touch_x</li>
+			<li> screen_touch_y</li>
+			<li> screen_touch_x(1)</li>
+			<li> screen_touch_y(1)</li>
+			<li> screen_is_touched(1)</li>
+			<li> last_screen_touch_index</li>
+			<li> color</li>
+		</ul>
+
+			Tasks your have to accomplish:
+		    <ul>
+			<li> Create data models for new Bricks</li>
+			<li> Implement serialization and deserialization</li>
+			<li> Implement Brick visualization and related UI actions</li>
+			<li> Implement new logic in Player Engine</li>
+			<li> Write unit & integration tests</li>
+		</ul>
+			
+			
+	    </p>
+	<strong>Desired Outcome:</strong><i> Support of all Bricks and Sensors for Catrobat Language version 0.991 (except physics bricks)</i><br/>
+	<strong>Mentor:</strong><i> Michael Herold</i>
+	<br />
+	<hr>
 	
+		<a id="idea_3"><strong>Title:</strong>Catroid-Core: Refactoring Code</a>
+		<br />
+		<strong>Brief explanation and expected results:</strong>
+		<p>
+		Refactor code to improve:
+		<ul>
+		<li>readability</li>
+		<li>maintainability</li>
+		<li>testability</li>
+		<li>PMD, CPD, Findbugs and LINT checking</li>
+	</ul>
+		Architectural changes to
+		<ul>
+		<li>comply Android guidelines</li>
+		<li>comply design patterns</li>
+		Enforce testability and introduce and enforce the use of MOCKing.<br/>
+		Give architectural overview as documentation for future developments with tangible examples.	
+		
+	    </p>
+	<strong>Desired Outcome:</strong><i> Slimmer, maintainable, clean code compliant, more stable, more robust, Pocket Code version using architectural Patterns rather than Antipatterns</i><br/>
+	<strong>Mentor:</strong><i> Christian Schindler</i>
+	<br />
+	<hr>	
+
+		<a id="idea_4"><strong>Title:</strong> Catroid-Core: Refactoring Ui Tests</a>
+		<br />
+		<strong>Brief explanation and expected results:</strong>
+		<p>
+<ul>
+<li>Transition from Robotium to Espresso framework for the GUI-tests and therefor getting rid of unnecessary waits</li>
+<li>Get rid of Polidea testrunner</li>
+<li>Get rid of redundant, flaky and broken tests</li>
+<li>Create meaningful tests compliant with clean code rules</li>
+<li>Get rid of reflections</li>
+<li>Get rid of reflections in tests to introduce end enforce the use of MOCKing</li>
+<li>Setting up proper gradle tasks and jenkins integration</li>
+<li>Create guidelines as documentation in confluence how to test in this project with tangible examples</li>
+</ul>
+	    </p>
+	<strong>Desired Outcome:</strong><i> Refactored, slimmer test harness using Espresso instead of Robotium and introduce and enforce the use of Mocking framework</i><br/>
+	<strong>Mentor:</strong><i> Thomas Schranz</i>
+	<br />
+	<hr>
+	
+
+			<a id="idea_5"><strong>Title:</strong> Catroid-Core: Refactoring Unit Tests</a>
+			<br />
+			<strong>Brief explanation and expected results:</strong>
+			<p>
+	<ul>
+		<li>Review of existing JUnit tests and splitting them in two groups, actual Unit tests and Integration tests</li>
+		<li>Re-implement subset of UiTests that do not require a Ui as integration/unit tests</li>
+		<li>Get rid of Polidea testrunner</li>
+		<li>Get rid of redundant, flaky and broken tests</li>
+		<li>Create meaningful tests compliant with clean code rules</li>
+		<li>Get rid of reflections</li>
+		<li>Get rid of reflections in tests to introduce end enforce the use of MOCKing</li>
+		<li>Setting up proper gradle tasks and jenkins integration</li>
+		<li>Create guidelines as documentation in confluence how to test in this project with tangible examples</li>
+	</ul>
+		    </p>
+		<strong>Desired Outcome:</strong><i> Refactored, slimmer and more robust JUnit tests, introduction of a new test group of integration tests (technically based on JUnit), and enforce the use of Mocking framework</i><br/>
+		<strong>Mentor:</strong><i> Wolfgang Slany</i>
+		<br />
+		<hr>
+		
+
+		<a id="idea_6"><strong>Title:</strong>Catroid-Core: Refactor/Introduce Flavoring (Flavoring NEW)</a>
+		<br />
+		<strong>Brief explanation and expected results:</strong>
+		<p>
+<ul>
+	<li>Meaningful, stable, robust, way to activate additional unique features in Pocket Code which are not the core functionality like, e.g., Education features needed for School courses (Dashboard, Analytics)</li>
+	<li>Feature de/activation must have an impact on the size of the APK - in terms of footprint of the resulting APK, the less flavor features are activated the smaller the footprint</li>
+	<li>Pocket Code itself should be flavor - why? This makes sense to integrate, e.g., Paint and just activate this as a flavor</li>
+</ul>
+	    </p>
+	<strong>Desired Outcome:</strong><i> Working flavoring as a base for integration of Pocket Paint and other functionality beside the core Pocket Code functionality</i><br/>
+	<strong>Mentor:</strong><i> Bernadette Spieler</i>
+	<br />
+	<hr>
+	
+		<a id="idea_7"><strong>Title:</strong> Pocket Code - Pocket Paint: Integrate Pocket Paint AS a Flavor into Pocket Code</a>
+		<br />
+		<strong>Brief explanation and expected results:</strong>
+		<p>
+<ul>
+	<li>Pocket Paint should be integrated into Pocket Paint in a way that it can be set to be build as a standalone APK and also punbished as such in the Google Playstore</li>
+	<li>The footprint must be according the used features - smaller than with activated Pocket Code</li>
+</ul>
+	    </p>
+	<strong>Desired Outcome:</strong><i> Make Pocket Paint a flavor of Pocket Code</i><br/>
+	<strong>Mentor:</strong><i> Annemarie Harzl</i>
+	<br />
+	<hr>		
+	
+	
+	
+		<a id="idea_8"><strong>Title:</strong> UX Redesign of Pocket Code</a>
+		<br />
+		<strong>Brief explanation and expected results:</strong>
+		<p>
+<ul>
+	<li>Redesign GUI for Pocket Code - look and feel as it was done in Pocket Paint the last year </li>
+	<li>Detailed Guideline for the Redesign, in respect of material design, will be provided</li>
+</ul>
+	    </p>
+	<strong>Desired Outcome:</strong><i> Redesign of all GUI Elements according the current Android and the worked out UX guidelines</i><br/>
+	<strong>Mentor:</strong><i> Sebastian Schrimpf</i>
+	<br />
+	<hr>
+	
+	
+		<a id="idea_9"><strong>Title:</strong> iOS: Create your own Bricks - User Bricks</a>
+		<br />
+		<strong>Brief explanation and expected results:</strong>
+		<p>
+	User Bricks provide the functionality to create custom scripts which allow one to reuse user-defined functionality across objects without duplicating Bricks. This is the Catrobat-equivalent to "Custom Blocks" in Scratch.<br/>
+	Tasks you have to accomplish:
+<ul>
+	<li> Create data model
+	<li> Implement serialization and deserialization
+	<li> Provide a user interface to create and edit User Bricks
+		<ul>
+	    <li> Each User Bricks consists of a header and a number of normal Bricks</li>
+	    <li> The header of a User Brick can contain text and variables which can be used within the User Brick</li>
+	</ul></li>
+	<li> Integrate in Player Engine</li>
+	<li> Write unit & integration tests</li>
+</ul>
+	    </p>
+	<strong>Desired Outcome:</strong><i> User should have the possibility to create custom scripts which can be reused without duplicating Bricks</i><br/>
+	<strong>Mentor:</strong><i> TBA</i>
+	<br />
+	<hr>
+	
+	
+		<a id="idea_10"><strong>Title:</strong> HTML5: UserBricks (Scripts + CallUserScript)</a>
+		<br />
+		<strong>Brief explanation and expected results:</strong>
+		<p>Parser: Parsing the user scripts (early version) is already available in our backend (PHP). There may be the need of customization the parser and adding unit tests for the backend.
+Client:
+<ul>
+	<li>load the userScripts into our gameEngine</li>
+	<li>brick logic for calling the scripts</li>
+	<li>adjusting parser/formula objects to execute code in a new scope (e.g. using script parameters instead of local/global variables)</li>
+	<li>extend the sprite cloning brick to clone the user scripts as well if necessary</li>
+	<li>make sure the stopScriptBrick is handled correctly when placed inside a userScript</li>
+	<li>unit + integration testing (several platforms, browsers, ..)</li>
+</ul>
+	    </p>
+	<strong>Desired Outcome:</strong><i> HTML5 Player supporting user defined scripts and the brick calling theses scripts</i><br/>
+	<strong>Mentor:</strong><i> TBA</i>
+	<br />
+	<hr>
+		
 				<p>
 					<a id="youridea"><strong>Your own project ideas ... </strong></a>
 					<br />
