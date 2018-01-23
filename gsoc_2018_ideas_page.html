@@ -48,12 +48,18 @@
 				<br />
 				we officially present our project ideas for this year's Google Summer of Code.</strong>
 				<br />
-				22 Jan 2018</p>
+				23 Jan 2018</p>
 
 				<p>
 					<strong><u>General knowledge prerequisites for all projects</u>
 					<br />
-					<i>JUnit and Robotium for test-driven development on Android devices (Pocket Code and Pocket Paint), Phpunit and Selenium for test-driven development of Web-related projects, Git (revision control) for all projects </i></strong>
+					<i>JUnit, Robotium and Espresso for test-driven development on Android devices (Pocket Code and Pocket Paint), basic knowledge in app development (Android or iOS, depending on the project) and of course Git (revision control) for all projects. Also please check that you have sufficient hardware (e.g. a Android/iOSsmartphone for testing) for the development, since we can't provide you any for the coding period. </i></strong>
+				</p>
+				
+				<p>
+					<strong><u>General information about the ideas</u>
+					<br />
+					<i>These ideas are just some topics we came up with, where currently nobody is working on. However, Catrobat is a project with a wide range of possibilities and we're aware of our blindspots: So let's live the spirit of Open Source and come up with improvements (e.g. new feautes, extensions,...) that are related to the project and you're interested in :)  We do have many senior-contributors who would be happy to mentor such a project ;) Don't be shy and check out the last point on the list: Your idea!</i></strong>
 				</p>
 
 
@@ -61,7 +67,11 @@
 					<h3>Overview:</h3>
 					<ul>
 						<li>
-							<a href="#idea_1">Idea 1</a>
+							<a href="#idea_1">Include Paintroid into Pocket Code</a>
+							<a href="#idea_2">Testing, Testing, Testing</a>
+							<a href="#idea_3">Refactoring Part 2: Bricks</a>
+							<a href="#idea_4">iOS: Devices Sensors and Code Refactoring</a>
+							<a href="#youridea">Your idea</a>
 						</li>
 						
 					</ul>
@@ -70,21 +80,60 @@
 				<p>
 					<h3> Projects </h3>
 
-					<a id="idea_1"><strong>Title:</strong> Idea 1</a>
+					<a id="idea_1"><strong>Title:</strong>Include Paintroid into Pocket Code</a>
 					<br />
 					<strong>Brief explanation and expected results:</strong>
-					<p>
+					<p>Make Pocket Paint a subproject of Pocket Code
 				</p>
-				<strong>Desired Outcome:</strong><i></i><br/>
+				<strong>More Information:</strong><i></i><br/>
+				<ul><li>Pocket Paint should get integrated into Pocket Code<em><br></em></li><li>The final outcome should be a subproject similar to Pocket Music</li><li>Remove any memory hogs (singletons, unecessary static variables)</li><li>Merge activites which offer functionality already present in Pocket Code (e.g. language selection)</li><li>Adapt namespaces</li><li>Refactor unit and integration tests</li><li>Move resources and assets (Reuse if possible)</li><li>Integrate strings from crowdin, avoid duplication if possible</li></ul>
 				<p />
 				<hr>
+
+					<a id="idea_2"><strong>Title:</strong>Testing, Testing, Testing</a>
+					<br />
+					<strong>Brief explanation and expected results:</strong>
+					<p> increased code coverage, consolidated and more stable test setup, production code refactored with a focus on better testability
+				</p>
+				<strong>Desired Outcome:</strong><i></i><br/>
+				<strong>More Information:</strong><br/>
+
+				Code coverage wise theres a lot of work to do. The recent frontend refactoring that switched big portions of the ui to now utilize android recycler view only comes with a rather basic set of tests, more tests have to be put in place here.<br/>
+
+				Theres quite a lot of room for improvement when it comes to testable code, eg. encapsulating storage handling, problems that arise due to handing context deeper and deeper into classes that should not need it in the first place, etc. Those should be refactored and tests cleaned up accordingly.<br/>
+
+				Also going hand in hand with the task above, refactoring the existing test utilities (especially with unit tests) to enforce a more object oriented approach towards testing. (Historically in this project tests were almost exclusively treated as if one could only use an imperative approach for writing tests)<br/>
+
+				Unit and Espresso test sets are currently running on our Jenkins instances, but a few subsets of tests are currently not part of any automated run, eg. device tests, sensor test box tests, etc. Jenkins jobs for those subsets should be written, the existing test annotations can be used, and all jobs should be consolidated.
+				<p />
+				<hr>
+				
+					<a id="idea_3"><strong>Title:</strong>Refactoring Part 2: Bricks</a>
+					<br />
+					<strong>Brief explanation and expected results:</strong>
+					<p>UI and Interpreter are completely separate. UI adheres to Material Design Guidelines.
+				</p>
+				<strong>More Information:</strong><i></i><br/>
+In GSoC 17 the UI was refactored, however, the Bricks are still unchanged. The Bricks as a visual representation of the LibGdx actions should be completely separate. Standalone APKs would then finally be independent from the UI.<br>he storage handling and the hierarchy suffered greatly when Scenes were introduced, this has to be changed. The internal structure of scripts is horrific → lists with dependencies and duplicate cross references. A solution would be to implement<br>a tree structure instead (but could also be something else). Broadcasting is currently being refactored, but integration is still an open and hot topic.
+				<p />
+				<hr>	
+				
+					<a id="idea_4"><strong>Title:</strong>iOS: Devices Sensors and Code Refactoring</a>
+					<br />
+					<strong>Brief explanation and expected results:</strong>
+					<p>Match iOS sensor ranges with Android specification. The student needs to come up with a design to enforce testability and the use of Mocking
+				</p>
+				<strong>More Information:</strong><i></i><br/>
+<strong>Devices Sensors and Code Refactoring</strong></p><p>The Pocket Code app makes use of a variety of device sensors like inclination, compass, loudness, face detection and much more.</p><p>On both, the Android and the beta version of iOS, called "Catty", these sensors are widely used in a large number of user-built programs.</p><p><strong>Current Situation:</strong></p><p>The Android version of Pocket Code and Catty are currently handling sensors in a different way resulting in a varying interpretation of sensor values (e.g. differing ranges of values). Additionally, many sensors get initialised with a differing default value.</p><p>Due to these deviations, many Catrobat programs behave differently depending on whether executed on the Android or Catty version.</p><p><strong>Planned Improvements:</strong></p><p>Catty should be refactored so that the handling of sensors, the conversion of ranges and the initialisation happens in a synchronized, highly performant and more-readable way.</p><p>Additionally, a suitable test framework for sensors needs to be introduced. The student needs to come up with a design to enforce testability and enforce the use of Mocking.</p><br>
+				<p />
+				<hr>				
 	
 		
 				<p>
 					<a id="youridea"><strong>Your own project ideas ... </strong></a>
 					<br />
-				<p>
-					Please do not hesitate to bring forward your own ideas and discuss them with the Catrobat team members at #catrobat on Freenode or by contacting us via <a href="http://catrob.at/mailinglist"><img src="google-group.png" height="20px"/> catrobat@googlegroups.com</a>!
+				<p> In the last year we made the experience that you have many great ideas and knowledge! Catrobat is currently still focusing on refactoring and we're aware that there are many ways how to improve performance, reduce memory usage, make our services more stable and of course the code easier to maintain. We're sure you do have ideas how to achieve this, although we maybe never heard of this approach before -> that's the great thing about Open Source! And well, that's also the experience we made at last year's GSoC - and we liked it!</p> But also new features or extensions for iOS and Android are welcome to be introduced to us. Help us to spread coding and Open Source!<br/>
+					Please do not hesitate to bring forward your own ideas and discuss them with our community on our mailing-list: <a href="http://catrob.at/mailinglist"><img src="google-group.png" height="20px"/> catrobat@googlegroups.com</a>!
 				</p>
 				</p>
 
