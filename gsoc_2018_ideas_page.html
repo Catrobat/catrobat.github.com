@@ -48,7 +48,7 @@
 				<br />
 				we officially present our project ideas for this year's Google Summer of Code.</strong>
 				<br />
-				23 Jan 2018</p>
+				29 Jan 2018</p>
 
 				<p>
 					<strong><u>General knowledge prerequisites for all projects</u>
@@ -79,6 +79,15 @@
 							<a href="#idea_4">iOS: Devices Sensors and Code Refactoring</a>
 						</li>
 							<li>
+							<a href="#idea_5">Robotic arm for testing device sensors</a>
+						</li>
+							<li>
+							<a href="#idea_6">Scratch compatibility - Color Collision</a>
+						</li>
+							<li>
+							<a href="#idea_7">Scratch compatibility - Missing Bricks</a>
+						</li>
+							<li>
 							<a href="#youridea">Your idea</a>
 						</li>
 						
@@ -91,7 +100,7 @@
 					<a id="idea_1"><strong>Title:</strong>Include Paintroid into Pocket Code</a>
 					<br />
 					<strong>Brief explanation and expected results:</strong>
-					<p>Make Pocket Paint a subproject of Pocket Code
+					<p>Make Pocket Paint a subproject of Pocket Code: Currently <a href="http://catrob.at/pp">Pocket Paint</a> is an individual app on Google Play. However, since it is primarily used in connection with Pocket Code, it makes sense to merge these two apps into one. Instead of being an individual app, we want it to be included into Pocket Code - keeping the same functionality, but improving the User Experience for the user. Several challenges occur that will have to be considered for this project: How do modularize the code to make keep it maintable and keep a good performance? How to test it properly? How to resolve issues that result from the fact that these have been two different projects in the past? And also are there parts of the code that might be refactored during this process easily?
 				</p>
 				<strong>More Information:</strong><i></i><br/>
 				<ul><li>Pocket Paint should get integrated into Pocket Code<em><br></em></li><li>The final outcome should be a subproject similar to Pocket Music</li><li>Remove any memory hogs (singletons, unecessary static variables)</li><li>Merge activites which offer functionality already present in Pocket Code (e.g. language selection)</li><li>Adapt namespaces</li><li>Refactor unit and integration tests</li><li>Move resources and assets (Reuse if possible)</li><li>Integrate strings from crowdin, avoid duplication if possible</li></ul>
@@ -134,6 +143,56 @@ In GSoC 17 the UI was refactored, however, the Bricks are still unchanged. The B
 				<strong>More Information:</strong><i></i><br/>
 <strong>Devices Sensors and Code Refactoring</strong></p><p>The Pocket Code app makes use of a variety of device sensors like inclination, compass, loudness, face detection and much more.</p><p>On both, the Android and the beta version of iOS, called "Catty", these sensors are widely used in a large number of user-built programs.</p><p><strong>Current Situation:</strong></p><p>The Android version of Pocket Code and Catty are currently handling sensors in a different way resulting in a varying interpretation of sensor values (e.g. differing ranges of values). Additionally, many sensors get initialised with a differing default value.</p><p>Due to these deviations, many Catrobat programs behave differently depending on whether executed on the Android or Catty version.</p><p><strong>Planned Improvements:</strong></p><p>Catty should be refactored so that the handling of sensors, the conversion of ranges and the initialisation happens in a synchronized, highly performant and more-readable way.</p><p>Additionally, a suitable test framework for sensors needs to be introduced. The student needs to come up with a design to enforce testability and enforce the use of Mocking.</p><br>
 				<p />
+				<hr>	
+				
+					<a id="idea_5"><strong>Title:</strong>Robotic arm for testing device sensors</a>
+					<br />
+					<strong>Brief explanation and expected results:</strong>
+					<p>A Framework for automated testing of Device's sensor with a Roboarm connected to Jenkins</p>
+				<strong>More Information:</strong><i></i><br/>
+<p>Include a Roboarm (e.g.such one available from <a href="https://www.conrad.com/ce/en/product/191516/Arexx-RA1-PRO-Metallic-Robot-Arm">Conrad</a>) into the automatic Jenkins test pipeline to test following sensors:
+<ul>
+<li>accelleration</li>
+<li>magnetic sensor</li>
+<li>Proximity sensor</li>
+<li>Inclination x/y/z</li>
+</ul>
+The robotic arm is to be interfaced with a Raspberry Pi. An Android testdevice is to be mounted on the robotic arm in a way, that it can be easily unmounted, that it has working USB Connection to the Jenkins, to upload the testsuite and run the tests. A REST-ful service has to be implemented which runs on the Raspberry Pi which takes commands to move the robotic arm in a way which is needed for testing the sensors in the device. The server mus be accessible via the network and accept command from the tests running on the device. Tests for this device test suite for the aforementioned sensors are to be written, that the device can be moved with the robotic arm and the sensor data can be read out and compared to expected values. A jenkins test job has to be implemented to run the sensor-tests on the device.
+				<p />
+				<hr>
+				
+				<a id="idea_6"><strong>Title:</strong>Scratch compatibility - Color Collision</a>
+					<br />
+					<strong>Brief explanation and expected results:</strong>
+					<p>Bricks for Collisions: Object-with-Color: object with color in backgorund or other sprite; Color-with-Color: define a color of a sprte colliding with another color
+				</p>
+				<strong>More Information:</strong><i></i><br/>
+<p>
+For collision detection it should be possible to define a color that an object collides with either in the backgorund or in any other sprite on the screen. Next step is to detect that a certain color of the sprites collides with a certain color in backgorund or in any other sprite. Here must be paid attention to the position of the layer the sprite is rendered to in terms of visibility of the color which is to be tested for collision with the sprite. E.G., if a color which is to be tested for collision is already coverd by a sprite NOT containing this color, the sprite which tests for collision is to be rendered above this aforementioned sprite - no collission is to be detected. Another case must be considered, if the the sprite checking for collision with color is covered by another sprite NOT contining the color, and another sprite contining the color is renderd above both of them - no collission is to be detected. In Detail there are more cases as such which musst be carefully determined and tested, that the color collision works the same like in Scratch.
+<ul>
+<li>UI feature to select colors (sprite or a background)</li>
+<li>implementation to behave like Scratch color collision</li>
+<li>run-time optimization/scalability: it must be possible to check for collision with colors with an arbitrary number of objects rendered to the screen</li>
+</ul>
+				<p />
+				<hr>	
+				
+				<a id="idea_7"><strong>Title:</strong>Scratch compatibility - Missing Bricks</a>
+					<br />
+					<strong>Brief explanation and expected results:</strong>
+					<p>Since Catrobat got inspired by Scratch and other visual programming languages, we also want to provide similar features, to make it young users as easy as possible to switch between those. Thus, certain features, beside the color collision, still need to be implemented in Pocket Code.
+				</p>
+				<strong>More Information:</strong><i></i><br/>
+<p>
+<ul>
+	<li>Timer Sensor: Implement a Timer value as sensor, that starts when the program starts and also include a new brick to reset this timer to 0.</li>
+	<li>Set Volume for Sprites: Currently the "set volume brick" sets the volume for the whole app. However, it would have a huge benefit if you could also set the volume for certain sprites too.</li>
+	<li>Volume-Sensor Value: As mentioned above it should be possible to set the volume individually for each sprite. But, as an extension it afterwards should also be possible to access this volume as sensor-value from other sprites.</li>
+	<li>Show/Hide List: Currently there is just the Show/Hide Variable Brick. Similar to that it should be also possible for lists.</li>
+	<li>Extend "Distance to": Currently "Distance to" in the formular editor just allows you to get the distance to the last touch-position on the screen. This feature should be extened by also adding the possibility to get the distance to another object (you may select in the formula editor)</li>
+	<li>Delete everything from list: Implement a special brick that deletes all elements from a list. Do not just use a loop therefore, try to find a fast and elegant solution to achieve this.</li>
+</ul
+>				<p />
 				<hr>				
 	
 		
