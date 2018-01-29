@@ -88,6 +88,9 @@
 							<a href="#idea_7">Scratch compatibility - Missing Bricks</a>
 						</li>
 							<li>
+							<a href="#idea_8">Google Blockly Integration</a>
+						</li>
+							<li>
 							<a href="#youridea">Your idea</a>
 						</li>
 						
@@ -191,10 +194,20 @@ For collision detection it should be possible to define a color that an object c
 	<li>Show/Hide List: Currently there is just the Show/Hide Variable Brick. Similar to that it should be also possible for lists.</li>
 	<li>Extend "Distance to": Currently "Distance to" in the formular editor just allows you to get the distance to the last touch-position on the screen. This feature should be extened by also adding the possibility to get the distance to another object (you may select in the formula editor)</li>
 	<li>Delete everything from list: Implement a special brick that deletes all elements from a list. Do not just use a loop therefore, try to find a fast and elegant solution to achieve this.</li>
-</ul
->				<p />
+</ul>				<p />
 				<hr>				
-	
+			
+				<a id="idea_8"><strong>Title:</strong>Google Blockly integration</a>
+					<br />
+				<strong>More Information:</strong><i></i><br/>
+<p>
+<strong>Google Blockly is a library for building visual programming editors.</strong><br/>
+Google Blockly is increasingly being used as a platform for visual programming languages such as Scratch 3.0, AppInventor, and code.org. Especially the actively developed Scratch 3.0 instantiation is very congruent with Catrobat, since Catrobat was initially modeled after Scratch.<br/>
+<strong>Current Situation:</strong><br/>
+Catrobat bricks used in scripts that are manipulated in the IDE part of Catroid (Android code base of Pocket Code and its flavors) and Catty (iOS code base of Pocket Code and its flavors), as well as the script preview on the sharing platform of Catrobat (Catroweb), all use our own visualizer. They display the scripts in a linear way, without the typical C and E nested bricks as known from Scratch and Blockly.<br/>
+<strong>Planned Improvements:</strong><br/>
+We want to use the Scratch variant of Blockly to display Catrobat scripts and bricks in a webview. In a first step, the passive script preview on the sharing platform of Catrobat (Catroweb) should use Blockly instead of our current code base. One important issue that needs to be addressed is to use the correctly translated strings (localization, including for right to left languages such as Arabic). In a next step, this visualization of bricks shall also be used in a webview in Catroid and Catty, as an alternative way to display scripts and blocks, on an infinite virtual plane. For the two apps, it should be possible to switch back and forth between the read-only Blockly view and our current view of the scripts. Another important consideration needs to be that we want to be able to keep important the Blockly/Scratch 3.0 code repeatedly indefinitely in the future in order to be able to incorporate bug- and security fixes as well as feature enhancements.	<p />
+				<hr>	
 		
 				<p>
 					<a id="youridea"><strong>Your own project ideas ... </strong></a>
