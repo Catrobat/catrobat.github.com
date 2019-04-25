@@ -1,0 +1,154 @@
+* {
+  /*border: 1px solid rgba(0, 0, 0, 0.3);*/
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Source+Sans+Pro');
+
+#banner img{
+  margin-top: 70px;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+#content {
+  margin-top: 75px;
+}
+
+@media screen and (max-width: 600px) {
+  .navigation a:not(:first-child) {display: none;}
+  .navigation a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navigation.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+    z-index: 1;
+  }
+}
+
+
+.stretch {
+    width:100%;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: orange;
+}
+
+.navigation  {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  background-color: #0B3E99;
+  display: block;
+}
+
+.navigation .icon {
+  display: none;
+}
+
+.navigation a {
+  display: inline-block;
+  text-align: center;
+  font-size: 250%;
+  padding: 10px;
+  border-color: black;
+  color: white;
+}
+
+.navigation img {
+  max-height:40px;
+}
+
+.social {
+  max-width: 50px;
+}
+
+.store {
+  max-width: 190px;
+}
+.navigation  a:hover, a:active {
+  background-color: #e1b32a;
+  color: black;
+}
+
+.text {
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 150%;
+  color: white;
+}
+
+body {
+  min-height: 100%;
+  margin: auto;
+  padding: 0;
+  background-image: linear-gradient(#0B3E99, #00004d);
+  background-color: #3A085D;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+html {
+  min-height: 100%;
+}
+
+.column {
+  float: left;
+  width: 45%;
+  padding: 2%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.picture-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.contact {
+  margin-top: 70px;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 150%;
+  width: 100em;
+  color: white;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+}
