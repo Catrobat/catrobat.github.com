@@ -1,0 +1,300 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<title>Ideas Page</title>
+		<link rel="stylesheet" href="stylesheets/styles.css">
+		<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1>Catrobat</h1>
+				<p>
+					A visual programming language
+					<br/>
+					and set of creativity tools
+					<br/>
+					for smartphones, tablets,
+					<br/>
+					and mobile browsers
+				</p>
+				<p class="view">
+					<a href="http://www.catrobat.org/">Home</a>
+				</p>
+				<p class="view">
+					<a href="http://developer.catrobat.org/">Developers' Home</a>
+				</p>
+				<p class="view">
+					<a href="http://developer.catrobat.org/first_steps">First steps into Catrobat</a>
+				</p>
+				<p class="view">
+					<a href="http://catrob.at/pc">Find Pocket Code on Google Play</a>
+				</p>
+				<p class="view">
+					<a href="http://catrob.at/PCios">Find Pocket Code on the App Store</a>
+				</p>
+				<p class="view">
+					<a href="http://catrob.at/plus"><img src="googleplus.png" height="20px"/></a> <a href="http://catrob.at/fb"><img src="facebook.png" height="20px"/></a> <a href="http://catrob.at/pctwitter"><img src="twitter.png" height="20px"/></a> <a href="http://catrob.at/youtube"><img src="youtube.png" height="20px"/></a> <a href="http://catrob.at/mailinglist"><img src="google-group.png" height="20px"/></a> <a href="http://catrob.at/github"><img src="github.png" height="20px"/></a> <a href="mailto:contact@catrobat.org"><img src="mail.jpg" height="20px"/></a>
+				</p>
+			</header>
+
+			<section>
+				<h2>Ideas Page for Google Summer of Code 2020</h2>
+				<br />
+				<strong>Welcome,
+				<br />
+				we officially present our project ideas for this year's Google Summer of Code.</strong>
+				<br />
+				Last Updated: 31 Jan 2020</p>
+
+				<p>
+					<strong><u>General information about the ideas</u>
+					<br />
+					<i>These ideas are just some topics we came up with, where currently nobody is working on. However, Catrobat is a project with a wide range of possibilities and we're aware of our blindspots: So let's live the spirit of Open Source and come up with improvements (e.g. new features, extensions,...) that are related to the project and you're interested in. We do have many senior-contributors who would be happy to mentor such a project. Don't be shy and check out the last point on the list: <a href="#youridea">Your idea</a>!</i></strong>
+				</p>
+
+				<p>
+					<strong><u>General knowledge prerequisites for all projects</u></strong>
+					<ul>
+						<li>Knowledge in the usage of git</li>
+						<li>Basic knowledge in the concepts of software testing and test-driven development</li>
+						<li>Basic knowledge in app development (for Android and iOS projects)</li>
+						<li>Java, JUnit, Robotium and Espresso for Android development</li>
+						<li>Swift and Objective C for iOS development</li>
+						<li>Also please check that you have the proper hardware for the development (e.g. a Android/iOS smartphone for testing, Mac for iOS development)</i>
+					</ul>
+				</p>
+
+				<p>
+					<strong><u>Your application</u></strong>
+					<br />
+					Please find the mandatory template for the application and additional information on <a href="https://catrob.at/gsoc20application">this shared Google Doc</a>.
+				</p>
+
+				<hr />
+
+				<p>
+					<h3>Overview:</h3>
+					<ul>
+						<li>
+							<a href="#idea_1">Awesome Demo Game Project</a>
+						</li>
+						<li>
+							<a href="#idea_2">iOS: Landscape mode</a>
+						</li>
+						<li>
+							<a href="#idea_3">iOS: Integrate Google Sign-In and add tagging for projects</a>
+						</li>
+						<li>
+							<a href="#idea_4">Android: Redesign landing page for Pocket Code</a>
+						</li>
+						<li>
+							<a href="#idea_5">Android: Separate and modularize interpreter and IDE in Pocket Code (refactoring)</a>
+						</li>
+						<li>
+							<a href="#idea_6">Web: Redesign and refactoring of the share platform</a>
+						</li>
+						<li>
+							<a href="#idea_7">Web: Implement new OAuth Provider and refactor Google Sign-In</a>
+						</li>
+						<li>
+							<a href="#idea_8">DevOps: Automated Deployment Chain</a>
+						</li>
+						<li>
+							<a href="#idea_9">DevOps: Fully virtualization of the CI & CD</a>
+						</li>
+						<li>
+							<a href="#idea_10">Embroidery Robot Programming</a>
+						</li>
+						<li>
+							<a href="#youridea">Your idea</a>
+						</li>
+
+					</ul>
+				</p>
+
+				<p>
+					<h3>Projects</h3>
+
+					<hr />
+					<h3><a id="idea_1">Awesome Demo Game Project</a></h3>
+<p>Spend the whole GSoC time developing and designing one tutorial game for coding using the Luna&Cat IDE app, i.e., programming in the Catrobat visual programming language. The game must be playable both on a phone as well as when cast from the phone to a smart TV.</p>
+
+<p>The game should be strongly inspired by a hugely popular recent 2D game, your own suggestions of popular games are highly welcome. You may also get inspiration by search for lists of the <a href="https://www.google.com/search?q=best+OR+popular+2d+games">best OR popular 2d games.</a> </p>
+
+<p>If you have your own original idea about a game, please feel free to suggest it. Note, however, that the focus in GSoC should be on coding, not story design. Also, reusing existing already successful ideas will tremendously increase the probability that the game will be popular, and allow you to get much further in its implementation. Also note that the game will be published under Catrobat’s licenses as described in detail on <a href="https://catrob.at/licenses">https://catrob.at/licenses</a> and that the game will thus become part of the Catrobat FLOSS project’s source code. Thus, all artwork, sounds, character names etc must be compatible with our licenses, i.e., freely publishable under our licenses, the AGPL version 3 and CC BY-SA 4.0, or under a compatible, possibly even freer license such as CC0. </p>
+
+<p>The artwork, sound effects, and background music must also be of high quality and high resolution, but do not have to be necessarily have been created originally by yourself, as long as the rights are compatible with our licenses. </p>
+
+<p>The development of the game may possibly also be a community effort, but that’s up to you. This means that if you want, you may involve a team of people who want to work together with you on the game, either coding extensions or additional levels, contributing media assets, testing, creating promotion videos of it, etc. How you put together your team is entirely up to you, and you alone are responsible for the recruitment of and coordination within your team. Some Catrobat games have been created by large crowds. You and your team working together on the game would be perfectly fine and welcome, as long as you by yourself spend the full GSoC period working 100% on it too, and you do the main part of the coding, since Google wants GSoC projects to basically be single developer coding subprojects. However, most FLOSS projects are community efforts, and collaboration has always been one of the tenets of such projects. Also note that there will be no T-Shirts etc from Google for the other members of your team, so all contributions by other team members must be motivated intrinsically, or by additional means left to your discretion. </p>
+
+<p>In summary, this GSoC project’s game should become an incredibly awesome & amazing demo game that showcases what kind of mind boggling games can be created with Pocket Code. </p>
+
+<p>In your GSoC application, please add a link to a proof of concept for such a game in landscape mode (because it should be payable when cast to a TV screen) that you have created on your phone using Pocket Code. Also describe shortly your ideas for the story of the game you want to develop in your GSoC project. </p>
+
+<p>Boyakasha!</p>
+
+<p>Mentor contact: wolfgang@catrobat.org</p>
+<p />
+				<hr />
+
+					<h3><a id="idea_2">iOS: Landscape mode</a></h3>
+					<p>Users of the iOS implementation of Pocket Code should be able to choose between a landscape and a portrait mode when creating a new project, just like in the Android implementation of Pocket Code:</p>
+					<ul>
+						<li>According to this choice, the whole stage should be in a landscape or portrait orientation.</li>
+    				<li>In order to enable this, changes need to be done in the UI, the persistence level and most importantly, a lot of sensors (both for the device and for the objects) need to be translated according to the given orientation.</li>
+    				<li>The student needs to come up with a design to enforce testability and enforce the use of mocking.</li>
+					</ul>
+
+				<hr />
+
+					<h3><a id="idea_3">iOS: Integrate Google Sign-In and add tagging for projects</a></h3>
+					<p>Users of Pocket Code should be able to sign-in and upload their projects both with their Catrobat accounts and with their Google accounts. In order to accomplish this, at least the following tasks have to be accomplished:</p>
+					<ul>
+						<li>The authentication providers and the project upload have to be refactored and a suitable test framework needs to be introduced.</li>
+						<li>The student needs to come up with a design to enforce testability and enforce the use of mocking and API client testing with fixtures.</li>
+						<li>Additionally, similar to the Android implementation of Pocket Code, the user should be able to choose between a predefined set of tags (e.g., Game, Animation, Art, Experimental) prior to upload their own projects. Again, the upload functionality needs to be refactored to enforce testability and API client testing with fixtures.</li>
+				</ul>
+
+				<hr />
+
+					<h3><a id="idea_4">Android: Redesign landing page for Pocket Code</a></h3>
+					<p>The first page of Pocket Code should be redesigned so that parts of the community page are shown, e.g., featured projects, most recent projects, including "My projects":</p>
+					<ul>
+						<li>New UI for the first page of Pocket Code</li>
+						<li>Fetch projects using the API from the share</li>
+						<li>For legacy users who are only updating, i.e., who have had Pocket Code already installed: After the first time the app is executed after the update, show the legacy users a selection option with screenshots of the old and new interface, and ask whether they want to continue using the old, or whether they want to try the new interface.</li>
+					</ul>
+
+				<hr />
+
+					<h3><a id="idea_5">Android: Separate and modularize interpreter and IDE in Pocket Code (refactoring)</a></h3>
+					<p>Modularize Pocket Code so that we end up with one separate module for each the IDE and the Interpreter:</p>
+					<ul>
+						<li>In Pocket Code the IDE is seen as the interface for creating/editing projects, as well as the Pocket Code Community</li>
+						<li>The Interpreter is responsible for interpreting and executing Catrobat projects. So basically that’s where the action happens. The user created projects gets executed in this module.</li>
+					</ul>
+
+					<p>This projects includes planning on how to split up the code base to modularize Pocket Code and come up with a step-by-step refactoring:</p>
+					<ul>
+						<li>Planning Interfaces to communicate in a more generic way</li>
+						<li>Building Wrappers around classes where functionality lies in Background for easier Refactoring</li>
+						<li>Begin of detailed Refactoring</li>
+					</ul>
+
+				<hr />
+
+					<h3><a id="idea_6">Web: Redesign and refactoring of the share platform</a></h3>
+					<p>Redesign the user-profile and user-project pages:</p>
+					<ul>
+						<li>Develop a cleaner more modern design</li>
+						<li>Improve performance (e.g., caching for code statistics, remix graph, ...)</li>
+						<li>Adding detail pages for scratch projects (prepare/download)</li>
+						<li>Adding Studios</li>
+						<li>Adding more social features</li>
+					</ul>
+
+					<p>Redesign the search engine:</p>
+					<ul>
+						<li>Increase precision and performance</li>
+						<li>Include Scratch projects</li>
+					</ul>
+
+					<p>Improving the media library:</p>
+					<ul>
+						<li>Adding a search feature (also in the API)</li>
+						<li>Improve performance by pagination</li>
+						<li>Download whole media packages (Looks + Scripts + Sounds)</li>
+					</ul>
+
+				<hr />
+
+					<h3><a id="idea_7">Web: Implement new OAuth Provider and refactor Google Sign-In</a></h3>
+					<p>The current OAuth provider is outdated and should be refactored:</p>
+					<ul>
+						<li>Implement new OAuth2 Provider for Symfony (preferably <a href="https://github.com/hwi/HWIOAuthBundle">HWIOAuthBundle</a>)</li>
+						<li>The authentication providers have to be refactored and suitable tests need to be written</li>
+						<li>Additionally, the currently used Social Login Provider needs to be refactored/thrown out and documented thoroughly</li>
+						<li>Optionally, expanding social logins to other platforms, e.g., Facebook, GitHub etc.</li>
+					</ul>
+
+				<hr />
+
+					<h3><a id="idea_8">DevOps: Automated Deployment Chain</a></h3>
+					<p>The overall idea is to make it possible for the Product Owner to release an APK of a certain release candidate to the production channel of Google including all necessary steps of signing and aligning the APK.</p>
+					<p>The workflow to do so shall be kicked off by a Product Owner who logs into the Jenkins and starts a release-job, which:</p>
+					<ul>
+						<li>builds the release candidate in DEBUG version</li>
+						<li>runs all RELEASE-relevant tests on this DEBUG version</li>
+						<li>when it is OK, a RELEASE version is built - the <strong>signing</strong> and <strong>aligning</strong> of this artifact takes place in a secure sandbox which is NOT easily accessible from the outside</li>
+						<li>after previous step the signed and aligned APK is once again tested with the RELEASE-relevant tests to ensure the release-version DOES NOT BREAK any functionality covered by the release-relevant tests</li>
+						<li>when the release-relevant tests with the RELEASE-APK ran green, the APK is automatically deployed in conjunction with its Metadata (prepare by the initial Jenkins job (there exists a working POC)) to the Google Play release-channel</li>
+					</ul>
+
+					<p><strong>Remark:</strong> There are several options for doing so:  E.g., a dedicated Jenkins slave for building, signing, aligning the RELEASE APK; a small virtual machine (externally inaccessible) hosting a web-service which either fetches the RELEASE built be Jenkins, signs and aligns it and uploads it back to Jenkins which in turn uses Fastlane to release it to Google Play OR any other APP-Store; OR the web-service triggers the Jenkins instance on this particular server to build, sign and align and deploy it to the Google release channel....).</p>
+					<p>Part of the GSoC project is to find a viable AND SECURE way do achieve this tasks in the Catrobat infrastructure internally and not with external tools. The keys MUST NOT LEAVE the Catrobat environment and MUST be stored on an externally inaccessible server.</p>
+
+				<hr />
+
+					<h3><a id="idea_9">DevOps: Fully virtualization of the CI & CD</a></h3>
+					<p>The overall idea is to fully virtualize the Jenkins setup and to streamline all jobs for that the development team has the most benefits and can easily incorporate the jobs into their workflow.</p>
+					<p>The only physically remaining server will be the server with the hardware-testing box and the robot-arm for physically testing devices' sensors and actors, e.g., speaker, flashlight, vibration, micro, gyroscope, magnetic sensor, proximity, etc. It will be also a part of the GSoC project to create a meaningful test-suite which is incorporated in various scenarios like - smoke tests and regression tests and probably release tests.</p>
+					<p><strong>Reasons:</strong></p>
+					<ul>
+						<li>The current Jenkins hardware in the team room is physically accessible by various people and cannot be safeguarded.</li>
+						<li>The new hardware (dedicated physical server) can be partitioned with VMWare virtual machines to resemble a useful setup.</li>
+						<li>The hardware resources of the new server outperfom the current setup.</li>
+						<li>The Jobs must be refactored to match the increased  requirements to usability of the development team.</li>
+						<li>The virtualization must be conducted in regard off the Automation of the deployment pipeline.</li>
+					</ul>
+
+				<hr />
+
+					<h3><a id="idea_10">Embroidery Robot Programming</a></h3>
+					<p>Spend the whole GSoC time developing huge Embroidery Designs using the Pocket Code IDE app, i.e., programming in the Catrobat visual coding language:</p>
+					<ul>
+						<li>If you have your own original idea about an embroidery design, please feel free to suggest it.</li>
+						<li>Note, however, that the focus in GSoC should be on coding.</li>
+						<li>This GSoC project’s Embroidery Design should become an incredibly awesome & amazing demo design that showcases what kind of mind-boggling embroidery designs can be created with Pocket Code.</li>
+					</ul>
+
+				<hr />
+
+				<p>
+					<a id="youridea"><strong>Your own project ideas ... </strong></a>
+					<br />
+				<p>
+					In the last year we made the experience that you have many great ideas and knowledge! Catrobat is currently still focusing on refactoring and we're aware that there are many ways how to improve performance, reduce memory usage, make our services more stable and of course the code easier to maintain. We're sure you do have ideas how to achieve this, although we may have never heard of this approach before -> that's the great thing about Open Source! And well, that's also the experience we made at last year's GSoC - and we liked it!</p>
+				<p>
+					Also new features or extensions for iOS and Android are welcome to be introduced to us. Help us to spread coding and Open Source!<br/>
+					Please do not hesitate to bring forward your own ideas and discuss them with our community on our mailing-list: <a href="http://catrob.at/mailinglist"><img src="google-group.png" height="20px"/> catrobat@googlegroups.com</a>!
+				</p>
+				</p>
+
+
+			</section>
+		</div>
+		<script src="javascripts/scale.fix.js"></script>
+		<script>
+			(function(i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r;
+				i[r] = i[r] ||
+				function() {
+					(i[r].q = i[r].q || []).push(arguments)
+				}, i[r].l = 1 * new Date();
+				a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+			ga('create', 'UA-42270417-2', 'catrobat.org');
+			ga('send', 'pageview');
+		</script>
+	</body>
+</html>
