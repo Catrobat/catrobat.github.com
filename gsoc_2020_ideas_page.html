@@ -51,7 +51,7 @@
 				<br />
 				we officially present our project ideas for this year's Google Summer of Code.</strong>
 				<br />
-				Last Updated: 31 Jan 2020</p>
+				Last Updated: 17 Feb 2020</p>
 
 				<p>
 					<strong><u>General information about the ideas</u>
@@ -102,6 +102,9 @@
 						</li>
 						<li>
 							<a href="#idea_7">Web: Implement new OAuth Provider and refactor Google Sign-In</a>
+						</li>
+						<li>
+							<a href="#idea_11">Web: Refactoring of test system and alternative API testing</a>
 						</li>
 						<li>
 							<a href="#idea_8">DevOps: Automated Deployment Chain</a>
@@ -239,6 +242,15 @@
 
 					<p><strong>Remark:</strong> There are several options for doing so:  E.g., a dedicated Jenkins slave for building, signing, aligning the RELEASE APK; a small virtual machine (externally inaccessible) hosting a web-service which either fetches the RELEASE built be Jenkins, signs and aligns it and uploads it back to Jenkins which in turn uses Fastlane to release it to Google Play OR any other APP-Store; OR the web-service triggers the Jenkins instance on this particular server to build, sign and align and deploy it to the Google release channel....).</p>
 					<p>Part of the GSoC project is to find a viable AND SECURE way do achieve this tasks in the Catrobat infrastructure internally and not with external tools. The keys MUST NOT LEAVE the Catrobat environment and MUST be stored on an externally inaccessible server.</p>
+					<hr />
+
+					<h3><a id="idea_11">Web: Refactoring of test system and alternative API testing</a></h3>
+					<p>The test system needs to be refactored and split up to speed up testing processes with the already existing docker container.</p>
+					<ul>
+						<li>Tests need to be split up in more sections/test suits so that we can execute them in parallel using our docker container</li>
+						<li>The underlying <i>FeatureContextFiles</i> need to be refactored, cleaned, adapted where necessary and code duplications need to be removed</li>
+						<li>Since we are on our way to introduce <i>APIv2</i>, it is a good time to check if our current Testsuite (<i>Behat</i>) is adequately equipped to extensively test our new API. If not an alternative should be found and implemented (in accordance with the rest of the team)</li>
+					</ul>
 
 				<hr />
 
