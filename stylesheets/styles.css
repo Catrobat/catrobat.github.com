@@ -245,6 +245,11 @@ footer {
   pre, code {
     word-wrap:normal;
   }
+  
+  iframe {
+    margin:auto;
+    width: 100%;
+  }
 }
 
 @media print, screen and (max-width: 480px) {
@@ -254,6 +259,11 @@ footer {
   
   header ul {
     display:none;
+  }
+  
+  iframe {
+    margin:auto;
+    width: 100%;
   }
 }
 
