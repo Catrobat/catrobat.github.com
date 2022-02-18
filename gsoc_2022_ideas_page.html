@@ -1,0 +1,227 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<title>Ideas Page</title>
+		<link rel="stylesheet" href="stylesheets/styles.css">
+		<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1>Catrobat</h1>
+				<p>
+					A visual programming language
+					<br/>
+					and set of creativity tools
+					<br/>
+					for smartphones, tablets,
+					<br/>
+					and mobile browsers
+				</p>
+				<p class="view">
+					<a href="http://www.catrobat.org/">Home</a>
+				</p>
+				<p class="view">
+					<a href="http://developer.catrobat.org/">Developers' Home</a>
+				</p>
+				<p class="view">
+					<a href="http://developer.catrobat.org/first_steps">First steps into Catrobat</a>
+				</p>
+				<p class="view">
+					<a href="http://catrob.at/pc">Find Pocket Code on Google Play</a>
+				</p>
+				<p class="view">
+					<a href="http://catrob.at/PCios">Find Pocket Code on the App Store</a>
+				</p>
+				<p class="view">
+					<a href="http://catrob.at/plus"><img src="googleplus.png" height="20px"/></a> <a href="http://catrob.at/fb"><img src="facebook.png" height="20px"/></a> <a href="http://catrob.at/pctwitter"><img src="twitter.png" height="20px"/></a> <a href="http://catrob.at/youtube"><img src="youtube.png" height="20px"/></a> <a href="http://catrob.at/mailinglist"><img src="google-group.png" height="20px"/></a> <a href="http://catrob.at/github"><img src="github.png" height="20px"/></a> <a href="mailto:contact@catrobat.org"><img src="mail.jpg" height="20px"/></a>
+				</p>
+			</header>
+
+			<section>
+				<h2>Ideas Page for Google Summer of Code 2022</h2>
+				<br />
+				<strong>Welcome,
+				<br />
+				we officially present our project ideas for this year's Google Summer of Code.</strong>
+				<br />
+				Last Updated: 18 Feb 2022</p>
+
+				<p>
+					<strong><u>General information about the ideas</u>
+					<br />
+					<i>These ideas are just some topics we came up with, where currently nobody is working on. However, Catrobat is a project with a wide range of possibilities and we're aware of our blindspots: So let's live the spirit of Open Source and come up with improvements (e.g., new features, extensions, ...) that are related to the project and in which you're interested in. We do have many senior contributors who would be happy to mentor such a project. Don't be shy and check out the last point on the list: <a href="#youridea">Your idea</a>!</i></strong>
+				</p>
+
+				<p>
+					<strong><u>General knowledge prerequisites for all projects</u></strong>
+					<ul>
+						<li>Knowledge in the usage of Git and GitHub</li>
+						<li>Basic knowledge in the concepts of software testing (e.g., test doubles) and test-driven development</li>
+						<li>Basic knowledge in app development (for Android and iOS projects)</li>
+						<li>Java, JUnit, Mockito, Robotium and Espresso for Android development</li>
+						<li>Swift and Objective C for iOS development</li>
+						<li>Also please check that you have the proper hardware for the development (e.g., a Android/iOS smartphone for testing, Mac for iOS development)</i>
+					</ul>
+				</p>
+
+				<p>
+					<strong><u>Your application</u></strong>
+					<br />
+					Please find the mandatory template for the application and additional information on <a href="https://catrob.at/gsoc22application">this shared Google Doc</a>.
+				</p>
+
+				<hr />
+
+				<p>
+					<h3>Overview:</h3>
+					<ul>
+						<li>
+							<a href="#idea_1">Awesome Demo Game Project (medium size)</a>
+						</li>
+						<li>
+							<a href="#idea_2">Awesome Demo Game Project (large size)</a>
+						</li>
+						<li>
+							<a href="#idea_3">Execute Kotlin Code in Catty (iOS version of Pocket Code) (large size)</a>
+						</li>
+						<li>
+							<a href="#idea_4">Paintroid landing page (large size)</a>
+						</li>
+						<li>
+							<a href="#idea_5">Paintroid Smudge Tool (medium size)</a>
+						</li>
+						<li>
+							<a href="#idea_14">Embroidery Designer Inspect Tool (large or medium size)</a>
+						</li>
+						<li>
+							<a href="#idea_15">Catroid Editor for Userdefined Bricks (medium size)</a>
+						</li>
+						<li>
+							<a href="#idea_6">Pocket Code for Android: Undo/redo functionality in Catroid (large or medium size)</a>
+						</li>
+						<li>
+							<a href="#idea_7">Pocket Paint for Android: Hide the top and bottom bars, and make the drawing surface full screen by default (large size)</a>
+						</li>
+						<li>
+							<a href="#idea_8">Pocket Paint for Android: Refactoring tests and functionality to Kotlin (large or medium size)</a>
+						</li>
+						<li>
+							<a href="#idea_9">Pocket Code for Android: Refactoring tests and functionality to Kotlin (large or medium size)</a>
+						</li>
+						<li>
+							<a href="#idea_10">Pocket Paint for Android: Erase background tool (make it transparent more easily) (medium size)</a>
+						</li>
+						<li>
+							<a href="#idea_11">Pocket Paint for Android: Add a feature that allows a user to see a zoomed in view of the area beneath his finger while drawing (medium size)</a>
+						</li>
+						<li>
+							<a href="#idea_12">Merge Feature for Catroid (large size)</a>
+						</li>
+						<li>
+							<a href="#youridea">Your idea</a>
+						</li>
+
+					</ul>
+				</p>
+
+				<p>
+					<h3>Projects</h3>
+
+				<hr />
+					<h3><a id="idea_1">Awesome Demo Game Project (medium size)</a></h3>
+					<p>Spend the whole GSoC time developing and designing one tutorial game for coding using the Luna&Cat IDE app, i.e., programming in the Catrobat visual programming language. The game must be playable both on a phone as well as when cast from the phone to a smart TV.</p>
+					<p>The game should be strongly inspired by a hugely popular recent 2D game, your own suggestions of popular games are highly welcome. You may also get inspiration by search for lists of the <a href="https://www.google.com/search?q=best+OR+popular+2d+games">best OR popular 2d games.</a> </p>
+					<p>If you have your own original idea about a game, please feel free to suggest it. Note, however, that the focus in GSoC should be on coding, not story design. Also, reusing existing already successful ideas will tremendously increase the probability that the game will be popular, and allow you to get much further in its implementation. Also note that the game will be published under Catrobat’s licenses as described in detail on <a href="https://catrob.at/licenses">https://catrob.at/licenses</a> and that the game will thus become part of the Catrobat FLOSS project’s source code. Thus, all artwork, sounds, character names etc must be compatible with our licenses, i.e., freely publishable under our licenses, the AGPL version 3 and CC BY-SA 4.0, or under a compatible, possibly even freer license such as CC0. </p>
+					<p>The artwork, sound effects, and background music must also be of high quality and high resolution, but do not have to be necessarily have been created originally by yourself, as long as the rights are compatible with our licenses. </p>
+					<p>The development of the game may possibly also be a community effort, but that’s up to you. This means that if you want, you may involve a team of people who want to work together with you on the game, either coding extensions or additional levels, contributing media assets, testing, creating promotion videos of it, etc. How you put together your team is entirely up to you, and you alone are responsible for the recruitment of and coordination within your team. Some Catrobat games have been created by large crowds. You and your team working together on the game would be perfectly fine and welcome, as long as you by yourself spend the full GSoC period working 100% on it too, and you do the main part of the coding, since Google wants GSoC projects to basically be single developer coding subprojects. However, most FLOSS projects are community efforts, and collaboration has always been one of the tenets of such projects. Also note that there will be no T-Shirts etc from Google for the other members of your team, so all contributions by other team members must be motivated intrinsically, or by additional means left to your discretion. </p>
+					<p>In summary, this GSoC project’s game should become an incredibly awesome & amazing demo game that showcases what kind of mind boggling games can be created with Pocket Code. </p>
+					<p>In your GSoC application, please add a link to a proof of concept for such a game in landscape mode (because it should be playable when cast to a TV screen) that you have created on your phone using Pocket Code. Also describe shortly your ideas for the story of the game you want to develop in your GSoC project. </p>
+					<p>Boyakasha!</p>
+					<p />
+				<hr />
+
+					<h3><a id="idea_2">Awesome Demo Game Project (large size)</a></h3>
+					<p>Spend the whole GSoC time developing and designing one tutorial game for coding using the Luna&Cat IDE app, i.e., programming in the Catrobat visual programming language. The game must be playable both on a phone as well as when cast from the phone to a smart TV.</p>
+					<p>The game should be strongly inspired by a hugely popular recent 2D game, your own suggestions of popular games are highly welcome. You may also get inspiration by search for lists of the <a href="https://www.google.com/search?q=best+OR+popular+2d+games">best OR popular 2d games.</a> </p>
+					<p>If you have your own original idea about a game, please feel free to suggest it. Note, however, that the focus in GSoC should be on coding, not story design. Also, reusing existing already successful ideas will tremendously increase the probability that the game will be popular, and allow you to get much further in its implementation. Also note that the game will be published under Catrobat’s licenses as described in detail on <a href="https://catrob.at/licenses">https://catrob.at/licenses</a> and that the game will thus become part of the Catrobat FLOSS project’s source code. Thus, all artwork, sounds, character names etc must be compatible with our licenses, i.e., freely publishable under our licenses, the AGPL version 3 and CC BY-SA 4.0, or under a compatible, possibly even freer license such as CC0. </p>
+					<p>The artwork, sound effects, and background music must also be of high quality and high resolution, but do not have to be necessarily have been created originally by yourself, as long as the rights are compatible with our licenses. </p>
+					<p>The development of the game may possibly also be a community effort, but that’s up to you. This means that if you want, you may involve a team of people who want to work together with you on the game, either coding extensions or additional levels, contributing media assets, testing, creating promotion videos of it, etc. How you put together your team is entirely up to you, and you alone are responsible for the recruitment of and coordination within your team. Some Catrobat games have been created by large crowds. You and your team working together on the game would be perfectly fine and welcome, as long as you by yourself spend the full GSoC period working 100% on it too, and you do the main part of the coding, since Google wants GSoC projects to basically be single developer coding subprojects. However, most FLOSS projects are community efforts, and collaboration has always been one of the tenets of such projects. Also note that there will be no T-Shirts etc from Google for the other members of your team, so all contributions by other team members must be motivated intrinsically, or by additional means left to your discretion. </p>
+					<p>In summary, this GSoC project’s game should become an incredibly awesome & amazing demo game that showcases what kind of mind boggling games can be created with Pocket Code. </p>
+					<p>In your GSoC application, please add a link to a proof of concept for such a game in landscape mode (because it should be playable when cast to a TV screen) that you have created on your phone using Pocket Code. Also describe shortly your ideas for the story of the game you want to develop in your GSoC project. </p>
+					<p>Boyakasha!</p>
+					<p />
+				<hr />
+
+
+							<h3><a id="idea_3">Execute Kotlin Code in Catty (iOS version of Pocket Code) (large size)</a></h3>
+							<p>Make it possible to execute Kotlin code in catty, so we can use paintroid tools directly in catty</p>
+
+							<h3><a id="idea_4">Paintroid landing page (large size)</a></h3>
+							<p>A landing page similar to catroid, where you can see all your saved pictures.</p>
+
+							<h3><a id="idea_5">Paintroid Smudge Tool (medium size)</a></h3>
+							<p>Extension of the existing smudge tool. It was part of a GsoC Project last year, but was too complicated to finish PAINTROID-292 - Smudge tool [READY FOR DEVELOPMENT}</p>
+
+							<h3><a id="idea_14">Embroidery Designer Inspect Tool (large or medium size)</a></h3>
+							<p>An inspection tool for embroidery projects that allows you to get important information about the project, view the embroidery more closely and thus edit it better. In a larger version of the project, first steps can be taken to easily touch-up stiches in order to make small corrections before saving an embroidery robot control file.</p>
+
+							<h3><a id="idea_15">Catroid Editor for Userdefined Bricks (medium size)</a></h3>
+							<p>An editor for user-defined bricks, to be able to modify them after they have been created.</p>
+							
+							<h3><a id="idea_6">Pocket Code for Android: Undo/redo functionality in Catroid (large or medium size)</a></h3>
+							<p>In the current version of Catroid, there are a few places where the immediately previously executed step can be undone, thus avoiding a need for an interaction with the user to ask whether, e.g., an object should really be deleted. There are still many places and interactions where this single-step undo has not been implemented. The aim of this project is to add more such single-step undo operations where they are still missing. Depending on the size of the project, and if there is time, these single-step undo operations shall be step by step replaced by a standard undo-redo feature.</p>
+							
+							<h3><a id="idea_7">Pocket Paint for Android: Hide the top and bottom bars, and make the drawing surface full screen by default (large size)</a></h3>
+							<p>Currently Menus and Options are shown by default in top and bottom bars, and the default zoom is smaller than the screen's drawing surface, resulting in lost space on the sides of the image. The goal is to have the already existing full screen functionality active by default and find an intuitive way to show menus only by fading in and out depending on whether the finger leaves or touches the screen.</p>
+							
+							<h3><a id="idea_8">Pocket Paint for Android: Refactoring tests and functionality to Kotlin (large or medium size)</a></h3>
+							<p>Several parts of the project have already been refactored to use Kotlin, but there are still parts that should be refactored, and reworked to use Kotlin instead of Java.</p>
+							
+							<h3><a id="idea_9">Pocket Code for Android: Refactoring tests and functionality to Kotlin (large or medium size)</a></h3>
+							<p>Several parts of the project have already been refactored to use Kotlin, but there are still parts that should be refactored, and reworked to use Kotlin instead of Java.</p>
+							
+							<h3><a id="idea_10">Pocket Paint for Android: Erase background tool (make it transparent more easily) (medium size)</a></h3>
+							<p>The goal is to create a new tool that allows the user to select an area and erase the parts of the drawing surface outside the area, see similar tools in many picture manipulation programs.</p>
+
+							<h3><a id="idea_11">Pocket Paint for Android: Add a feature that allows a user to see a zoomed in view of the area beneath his finger while drawing (medium size)</a></h3>
+							<p>The goal is to create a new feature that allows a user to see a zoomed in view of the area beneath his/her finger while drawing, to allow for easier fine manipulation. The magnifying glass should be round, drag-and-droppable, move automatically way to another place (up or down) if the user's finger approaches it by drawing, have a default magnifying level of 3x, and there shall be some setting where one can turn it off (or on again) and change the magnification level. When no finger touches the drawing surface, the magnifying glass shall fade away.</p>
+
+							<h3><a id="idea_12">Merge Feature for Catroid (large size)</a></h3>
+							<p>Design and develop a feature for the Android version of Pocket Code that allows to merge two user projects into one, without duplicating scripts, objects, sounds etc that already exist in both projects. Similar to git merge, but for Catrobat user projects. Repeatedly merging the same project into itself should not increase the project's size. Think about how to handle different screen resolutions, orientations, etc, or how to treat conflicting variable names, correctly update remix graph data, etc.</p>
+
+				<p>
+					<a id="youridea"><strong>Your own project ideas ... (large or medium size)</strong></a>
+					<br />
+				<p>In the last year we made the experience that you have many great ideas and knowledge! Catrobat is currently still focusing on refactoring and we're aware that there are many ways how to improve performance, reduce memory usage, make our services more stable and of course the code easier to maintain. We're sure you do have ideas how to achieve this, although we may have never heard of this approach before -> that's the great thing about Open Source! And well, that's also the experience we made at last year's GSoC - and we liked it!</p>
+				<p>Also new features or extensions for iOS and Android are welcome to be introduced to us. Help us to spread coding and Open Source!</p>
+				<p>Please do not hesitate to bring forward your own ideas and discuss them with our community on our mailing-list: <a href="http://catrob.at/mailinglist"><img src="google-group.png" height="20px"/> catrobat@googlegroups.com</a>!</p>
+				</p>
+
+
+			</section>
+		</div>
+		<script src="javascripts/scale.fix.js"></script>
+		<script>
+			(function(i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r;
+				i[r] = i[r] ||
+				function() {
+					(i[r].q = i[r].q || []).push(arguments)
+				}, i[r].l = 1 * new Date();
+				a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+			ga('create', 'UA-42270417-2', 'catrobat.org');
+			ga('send', 'pageview');
+		</script>
+	</body>
+</html>
