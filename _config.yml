@@ -1,0 +1,104 @@
+title: Catrobat
+description: A visual programming language and set of creativity tools
+url: https://developer.catrobat.org
+repository: sebastiangollob/catrobat.github.com
+theme: just-the-docs
+
+logo: "/assets/images/catrobat_logo_2.png"
+favicon_ico: "/assets/images/favicon.ico"
+
+permalink: pretty
+
+aux_links:
+  "Main Website":
+    - "https://catrobat.org/"
+  "Get our Apps":
+    - "https://catrobat.org/our-apps/"
+
+exclude:
+   - .sass-cache/
+   - .jekyll-cache/
+   - gemfiles/
+   - Gemfile
+   - Gemfile.lock
+   - node_modules/
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
+   - bin/
+   - lib/
+   - "*.gemspec"
+   - "*.gem"
+   - LICENSE.txt
+   - package.json
+   - package-lock.json
+   - Rakefile
+   - README.md
+   - fixtures/
+
+search_enabled: true
+enable_copy_code_button: true
+heading_anchors: true
+aux_links_new_tab: true
+
+# Navigation external links
+nav_external_links:
+  - title: Known Issues
+    url: https://jira.catrob.at/browse/CAT/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel
+  - title: Source
+    url: https://github.com/Catrobat
+  - title: Project statistics
+    url: https://www.openhub.net/p/catrobat
+
+# Footer
+back_to_top: true
+back_to_top_text: "Back to top"
+# footer_content: "Copyright &copy; Catrobat"
+
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%e. %B %Y at %H:%M" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/sebastiangollob/catrobat.github.com" # the github URL for your repo
+gh_edit_branch: "main" # the branch that your docs is served from
+# gh_edit_source: docs # the source that your files originate from
+gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+
+# Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
+color_scheme: light
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
+plugins:
+  - jekyll-seo-tag
+#  - jekyll-github-metadata
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
