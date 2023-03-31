@@ -32,7 +32,7 @@ background-color: #B57BFF;
   </table>
 </div>
 
-{% if site.data.team.product_owners.active > 0 %}
+{% if site.data.team.product_owners.active.size > 0 %}
 
 ## Product Owners
 
@@ -56,7 +56,7 @@ background-color: #B57BFF;
 </div>
 {% endif %}
 
-{% if site.data.team.product_owners.former > 0 %}
+{% if site.data.team.product_owners.former.size > 0 %}
 
 ## Former Product Owners
 
@@ -80,7 +80,7 @@ background-color: #B57BFF;
 </div>
 {% endif %}
 
-{% if site.data.team.designers > 0 %}
+{% if site.data.team.designers.size > 0 %}
 
 ## Designers
 
@@ -104,7 +104,7 @@ background-color: #B57BFF;
 </div>
 {% endif %}
 
-{% if site.data.team.senior_developers.active > 0 %}
+{% if site.data.team.senior_developers.active.size > 0 %}
 
 ## Active Senior Members
 
@@ -128,7 +128,7 @@ background-color: #B57BFF;
 </div>
 {% endif %}
 
-{% if site.data.team.senior_developers.former > 0 %}
+{% if site.data.team.senior_developers.former.size > 0 %}
 
 ## Almuni Senior Members
 
@@ -152,7 +152,7 @@ background-color: #B57BFF;
 </div>
 {% endif %}
 
-{% if site.data.team.developers > 0 %}
+{% if site.data.team.contributors.size > 0 %}
 
 ## All Members
 
