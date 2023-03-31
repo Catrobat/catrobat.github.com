@@ -14,6 +14,7 @@ GEM
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
     ffi (1.15.5)
+    ffi (1.15.5-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
     i18n (1.12.0)
@@ -89,7 +90,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
-  jekyll-github-metadata (~> 2.15)
+  jekyll-github-metadata
   just-the-docs
   liquid (~> 4.0, >= 4.0.4)
   wdm (>= 0.1.0)
