@@ -16,26 +16,26 @@ aux_links:
     - "https://catrobat.org/our-apps/"
 
 exclude:
-   - .sass-cache/
-   - .jekyll-cache/
-   - gemfiles/
-   - Gemfile
-   - Gemfile.lock
-   - node_modules/
-   - vendor/bundle/
-   - vendor/cache/
-   - vendor/gems/
-   - vendor/ruby/
-   - bin/
-   - lib/
-   - "*.gemspec"
-   - "*.gem"
-   - LICENSE.txt
-   - package.json
-   - package-lock.json
-   - Rakefile
-   - README.md
-   - fixtures/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - bin/
+  - lib/
+  - "*.gemspec"
+  - "*.gem"
+  - LICENSE.txt
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README.md
+  - fixtures/
 
 search_enabled: true
 enable_copy_code_button: true
@@ -88,7 +88,7 @@ callouts:
 
 plugins:
   - jekyll-seo-tag
-#  - jekyll-github-metadata
+  - jekyll-github-metadata
 
 kramdown:
   syntax_highlighter_opts:
