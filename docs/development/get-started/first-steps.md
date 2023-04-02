@@ -1,6 +1,9 @@
 ---
 title: First steps into Catrobat
 layout: default
+nav_order: 2
+parent: Get Started
+grand_parent: Development
 last_modified_date: 2022-03-08 21:03
 ---
 

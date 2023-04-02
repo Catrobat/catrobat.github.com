@@ -1,5 +1,6 @@
 ---
 title: Credits
+nav_order: 25
 layout: home
 ---
 

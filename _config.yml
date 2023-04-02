@@ -62,12 +62,12 @@ last_edit_time_format: "%e. %B %Y at %H:%M" # uses ruby's time format: https://r
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub"
 gh_edit_repository: "https://github.com/sebastiangollob/catrobat.github.com" # the github URL for your repo
-gh_edit_branch: "main" # the branch that your docs is served from
+gh_edit_branch: "update2023" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
-color_scheme: light
+color_scheme: dark
 
 callouts_level: quiet # or loud
 callouts:
@@ -88,7 +88,6 @@ callouts:
 
 plugins:
   - jekyll-seo-tag
-  - jekyll-github-metadata
 
 kramdown:
   syntax_highlighter_opts:
