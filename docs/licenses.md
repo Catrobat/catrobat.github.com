@@ -1,5 +1,6 @@
 ---
 title: Licenses
+nav_order: 23
 layout: home
 ---
 

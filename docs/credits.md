@@ -1,5 +1,6 @@
 ---
 title: Credits
+nav_order: 25
 layout: home
 ---
 
@@ -26,11 +27,14 @@ background-color: #B57BFF;
     <tbody>
       <tr>
         <td>{{ site.data.team.project_head.firstname }} {{ site.data.team.project_head.lastname }}</td>
+        <td>{{ site.data.team.project_head.firstname }} {{ site.data.team.project_head.lastname }}</td>
         <td>Created initial concept and design</td>
       </tr>
     </tbody>
   </table>
 </div>
+
+{% if site.data.team.product_owners.active.size > 0 %}
 
 {% if site.data.team.product_owners.active > 0 %}
 
@@ -46,17 +50,20 @@ background-color: #B57BFF;
     </thead>
     <tbody>
       {% for person in site.data.team.product_owners.active %}
+      {% for person in site.data.team.product_owners.active %}
       <tr>
+        <td>{{ person.firstname }} {{ person.lastname }}</td>
         <td>{{ person.firstname }} {{ person.lastname }}</td>
         <td>Product Owner for Catroid</td>
       </tr>
+      {% endfor %}
       {% endfor %}
     </tbody>
   </table>
 </div>
 {% endif %}
 
-{% if site.data.team.product_owners.former > 0 %}
+{% if site.data.team.product_owners.former.size > 0 %}
 
 ## Former Product Owners
 
@@ -80,7 +87,7 @@ background-color: #B57BFF;
 </div>
 {% endif %}
 
-{% if site.data.team.designers > 0 %}
+{% if site.data.team.designers.size > 0 %}
 
 ## Designers
 
@@ -104,7 +111,7 @@ background-color: #B57BFF;
 </div>
 {% endif %}
 
-{% if site.data.team.senior_developers.active > 0 %}
+{% if site.data.team.senior_developers.active.size > 0 %}
 
 ## Active Senior Members
 
@@ -128,7 +135,7 @@ background-color: #B57BFF;
 </div>
 {% endif %}
 
-{% if site.data.team.senior_developers.former > 0 %}
+{% if site.data.team.senior_developers.former.size > 0 %}
 
 ## Almuni Senior Members
 
@@ -152,7 +159,7 @@ background-color: #B57BFF;
 </div>
 {% endif %}
 
-{% if site.data.team.developers > 0 %}
+{% if site.data.team.contributors.size > 0 %}
 
 ## All Members
 
