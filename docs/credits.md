@@ -163,7 +163,7 @@ background-color: #B57BFF;
     {{ person.firstname }} {{ person.lastname }},
   {% else %}
     {{ person.firstname }} {{ person.lastname }} and {{ site.data.team.project_head.firstname }} {{ site.data.team.project_head.lastname }}
-  {% endif %}
+  {% endif %}  
 {% endfor %}
 </p>
 {% endif %}
