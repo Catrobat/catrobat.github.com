@@ -50,6 +50,8 @@ nav_external_links:
     url: https://github.com/Catrobat
   - title: Project statistics
     url: https://www.openhub.net/p/catrobat
+  - title: News
+    url: https://catrobat.org/news/
 
 # Footer
 back_to_top: true

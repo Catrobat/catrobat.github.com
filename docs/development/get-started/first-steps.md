@@ -7,6 +7,30 @@ grand_parent: Development
 last_modified_date: 2022-03-08 21:03
 ---
 
+<style>
+.btn-logo {
+width: 25px;
+height: 25px; 
+vertical-align: middle;
+}
+</style>
+
+<a href="https://discord.com/invite/tnsePcW8HY" class="btn">
+  <img src="../../../../assets/images/discord_logo.svg" alt="Discord Logo" class="btn-logo">
+</a>
+<a href="https://www.youtube.com/" class="btn">
+  <img src="../../../../assets/images/youtube_logo.svg" alt="YouTube Logo" class="btn-logo">
+</a>
+<a href="https://groups.google.com/g/catrobat" class="btn">
+  <img src="../../../../assets/images/google_logo.svg" alt="Google Group Logo" class="btn-logo">
+</a>
+<a href="https://www.facebook.com/CatrobatPocketCode" class="btn">
+  <img src="../../../../assets/images/facebook_logo.svg" alt="Facebook Logo" class="btn-logo">
+</a>
+<a href="https://twitter.com/Pocket_Code" class="btn">
+  <img src="../../../../assets/images/twitter_logo.svg" alt="Twitter Logo" class="btn-logo">
+</a>
+
 ## Your first steps into Catrobat
 
 The following lines should help you with your first steps into the Catrobat project.
@@ -22,13 +46,13 @@ We strictly use Test-Driven Development and Clean Code (by Robert C. Martin). Re
 
 ### Pull Request Review
 
-* Have you fixed an Issue and written **at least one** test for it?
-* Hopefully the pipeline does also pass **without errors**?
+- Have you fixed an Issue and written **at least one** test for it?
+- Hopefully the pipeline does also pass **without errors**?
 
 🤞 Awesome!
 
 Open a new pull request via GitHub.
 It could take time until you hear from us. In the meanwhile, why don't you choose another Issue?
 
-* Has your pull request been accepted? Go back to 6.
-* Are there no more Issues? It can't be! Go back to 5.
+- Has your pull request been accepted? Go back to 6.
+- Are there no more Issues? It can't be! Go back to 5.
