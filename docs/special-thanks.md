@@ -3,6 +3,30 @@ title: Special Thanks
 layout: home
 ---
 
+<style>
+.btn-logo {
+width: 25px;
+height: 25px; 
+vertical-align: middle;
+}
+</style>
+
+<a href="https://discord.com/invite/tnsePcW8HY" class="btn">
+  <img src="../../assets/images/discord_logo.svg" alt="Discord Logo" class="btn-logo">
+</a>
+<a href="https://www.youtube.com/" class="btn">
+  <img src="../../assets/images/youtube_logo.svg" alt="YouTube Logo" class="btn-logo">
+</a>
+<a href="https://groups.google.com/g/catrobat" class="btn">
+  <img src="../../assets/images/google_logo.svg" alt="Google Group Logo" class="btn-logo">
+</a>
+<a href="https://www.facebook.com/CatrobatPocketCode" class="btn">
+  <img src="../../assets/images/facebook_logo.svg" alt="Facebook Logo" class="btn-logo">
+</a>
+<a href="https://twitter.com/Pocket_Code" class="btn">
+  <img src="../../assets/images/twitter_logo.svg" alt="Twitter Logo" class="btn-logo">
+</a>
+
 ## The Catrobat team would like to give special thanks to:
 
 Mitchel Resnick and his Lifelong Kindergarten group at the MIT Media Lab as well as all others who were involved in the development of the Scratch programming language, in particular John Maloney, as well as the Scratch online community site, in particular Andrés Monroy-Hernández, which serve as our main inspiration source, and who gave us helpful feedback on our project as well as continuous encouragements. Also Christopher Marten-Ellis Graves, who's Master's Thesis on Multi-Touch Programming in Scratch inspired us on how to implement multi-touch support in Catrobat.

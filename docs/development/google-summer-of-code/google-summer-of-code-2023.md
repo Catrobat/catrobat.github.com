@@ -1,0 +1,454 @@
+---
+title: Google Summer Of Code 2023
+layout: default
+nav_order: 4
+parent: Google Summer Of Code
+grand_parent: Development
+last_modified_date: 2022-03-20
+---
+
+<style>
+.btn-logo {
+width: 25px;
+height: 25px; 
+vertical-align: middle;
+}
+</style>
+
+<a href="https://discord.com/invite/tnsePcW8HY" class="btn">
+  <img src="../../../../assets/images/discord_logo.svg" alt="Discord Logo" class="btn-logo">
+</a>
+<a href="https://www.youtube.com/" class="btn">
+  <img src="../../../../assets/images/youtube_logo.svg" alt="YouTube Logo" class="btn-logo">
+</a>
+<a href="https://groups.google.com/g/catrobat" class="btn">
+  <img src="../../../../assets/images/google_logo.svg" alt="Google Group Logo" class="btn-logo">
+</a>
+<a href="https://www.facebook.com/CatrobatPocketCode" class="btn">
+  <img src="../../../../assets/images/facebook_logo.svg" alt="Facebook Logo" class="btn-logo">
+</a>
+<a href="https://twitter.com/Pocket_Code" class="btn">
+  <img src="../../../../assets/images/twitter_logo.svg" alt="Twitter Logo" class="btn-logo">
+</a>
+
+# Ideas Page for Google Summer of Code 2023
+
+{: .no_toc }
+Last Updated: 20th March 2023
+
+We are thrilled to share our carefully curated project ideas for this year's Google Summer of Code.
+
+## General Information
+
+{: .no_toc }
+These ideas are just some topics we came up with, where currently nobody is working on. However, Catrobat is a project with a wide range of possibilities and we're aware of our blindspots: So let's live the spirit of Open Source and come up with improvements (e.g., new features, extensions, ...) that are related to the project and in which you're interested in. We do have many senior contributors who would be happy to mentor such a project. Don't be shy and check out the last point on the list: Your idea!
+
+## General Knowledge Prerequisites for all Projects
+
+{: .no_toc }
+
+- Knowledge in the usage of Git and GitHub
+- Basic knowledge in the concepts of software testing (e.g., test doubles) and test-driven development
+- Basic knowledge in app development (for Android and iOS projects)
+- Java, JUnit, Mockito, Robotium and Espresso for Android development
+- Swift and Objective C for iOS development
+- Also please check that you have the proper hardware for the development (e.g., a Android/iOS smartphone for testing, Mac for iOS development)
+
+## Your Application
+
+{: .no_toc }
+Please find the mandatory template for the application and additional information on this <a href="https://catrobat.at/gsoc2023application">shared Google Doc</a>.
+
+## Idea Overview
+
+{: .no_toc }
+
+1. [Awesome Demo Game Project (175 or 350 Hours)](#awesome-demo-game-project-175-or-350-hours)
+2. [Embroidery Designer Inspect Tool (175 or 350 Hours)](#embroidery-designer-inspect-tool-175-or-350-hours)
+3. [Catroid Editor for Userdefined Bricks (175 Hours)](#catroid-editor-for-userdefined-bricks-175-hours)
+4. [Pocket Code for Android: Undo/Redo Functionality in Catroid (175 or 350 Hours)](#pocket-code-for-android-undo--redo-functionality-in-catroid-175-or-350-hours)
+5. [Pocket Paint for Android: Refactoring Tests and Functionality to Kotlin (175 or 350 Hours)](#pocket-paint-for-android-refactoring-test-and-functionality-to-kotlin-175-or-350-hours)
+6. [Pocket Code for Android: Refactoring Tests and Functionality to Kotlin](#pocket-code-for-android-refactoring-tests-and-functionality-to-kotlin-175-or-350-hours)
+7. [Pocket Paint for Android: Erase Background Tool (make it transparent more easily) (175 Hours)](#pocket-paint-for-android-erase-background-tool-make-it-transparent-more-easily-175-hours)
+8. [Merge Feature for Catroid (350 Hours)](#merge-feature-for-catroid-350-hours)
+9. [Project Converter in Dart from Catrobat to Godot (175 or 350 Hours)](#project-converter-in-dart-from-catrobat-to-godot-175-or-350-hours)
+10. [Reimplement Catroid's Formula Editor in Flutter (175 or 350 Hours)](#reimplement-catroids-formula-editor-in-flutter-175-or-350-hours)
+11. [Reimplement Catroid's Sharing Site GUI in Flutter (175 or 350 Hours)](#reimplement-the-catrobat-community-feature-of-catroid-in-flutter-175-or-350-hours)
+12. [Reimplement parts of Catroid's IDE GUI in Flutter (175 or 350 Hours)](#reimplement-parts-of-catroids-ide-gui-in-flutter-175-or-350-hours)
+13. [Add LLM-Based AI Pair-Programming support for users (175 or 350 Hours)](#add-llm-based-ai-pair-programming-support-for-users-175-or-350-hours)
+14. [Your Idea (175 or 350 Hours)](#your-own-project-ideas--175-or-350-hours)
+
+## Project Descriptions
+
+### Awesome Demo Game Project (175 or 350 Hours)
+
+Spend the whole GSoC time developing and designing one tutorial game for coding using the Luna&Cat IDE app, i.e., programming in the Catrobat visual programming language. The game must be playable both on a phone as well as when cast from the phone to a smart TV.
+
+The game should be strongly inspired by a hugely popular recent 2D game, your own suggestions of popular games are highly welcome. You may also get inspiration by search for lists of the <a href="https://www.google.com/search?q=best+OR+popular+2d+games">best OR popular 2d games</a>.
+
+If you have your own original idea about a game, please feel free to suggest it. Note, however, that the focus in GSoC should be on coding, not story design. Also, reusing existing already successful ideas will tremendously increase the probability that the game will be popular, and allow you to get much further in its implementation. Also note that the game will be published under Catrobat’s licenses as described in detail on <a href="https://catrob.at/licenses">https://catrob.at/licenses</a> and that the game will thus become part of the Catrobat FLOSS project’s source code. Thus, all artwork, sounds, character names etc must be compatible with our licenses, i.e., freely publishable under our licenses, the AGPL version 3 and CC BY-SA 4.0, or under a compatible, possibly even freer license such as CC0.
+
+The artwork, sound effects, and background music must also be of high quality and high resolution, but do not have to be necessarily have been created originally by yourself, as long as the rights are compatible with our licenses.
+
+The development of the game may possibly also be a community effort, but that’s up to you. This means that if you want, you may involve a team of people who want to work together with you on the game, either coding extensions or additional levels, contributing media assets, testing, creating promotion videos of it, etc. How you put together your team is entirely up to you, and you alone are responsible for the recruitment of and coordination within your team. Some Catrobat games have been created by large crowds. You and your team working together on the game would be perfectly fine and welcome, as long as you by yourself spend the full GSoC period working 100% on it too, and you do the main part of the coding, since Google wants GSoC projects to basically be single developer coding subprojects. However, most FLOSS projects are community efforts, and collaboration has always been one of the tenets of such projects. Also note that there will be no T-Shirts etc from Google for the other members of your team, so all contributions by other team members must be motivated intrinsically, or by additional means left to your discretion.
+
+In summary, this GSoC project’s game should become an incredibly awesome & amazing demo game that showcases what kind of mind boggling games can be created with Pocket Code.
+
+In your GSoC application, please add a link to a proof of concept for such a game in landscape mode (because it should be playable when cast to a TV screen) that you have created on your phone using Pocket Code. Also describe shortly your ideas for the story of the game you want to develop in your GSoC project.
+
+**Required Skills:**
+
+- Coding Basics
+- PocketCode
+
+**Possible Mentors:**
+
+- Yash Punia
+- Stefan Kutschera
+- Patrick Ratschiller
+- Wolfgang Slany
+
+**Expected size of project:**
+
+- 175 or 350 Hours
+
+**Difficulty level:**
+
+- To Be Determined (tbd)
+
+### Embroidery Designer Inspect Tool (175 or 350 Hours)
+
+An inspection tool for embroidery projects that allows you to get important information about the project, view the embroidery more closely and thus edit it better. In a larger version of the project, first steps can be taken to easily touch-up stiches in order to make small corrections before saving an embroidery robot control file.
+
+**Required Skills:**
+
+- Kotlin
+- Java
+- Android-Development
+- Agile Development
+
+**Possible Mentors:**
+
+- Stefan Kutschera
+- Patrick Ratschiller
+- Wolfgang Slany
+
+**Expected size of project:**
+
+- 175 or 350 Hours
+
+**Difficulty level:**
+
+- To Be Determined (tbd)
+
+### Catroid Editor for Userdefined Bricks (175 Hours)
+
+An editor for user-defined bricks, to be able to modify them after they have been created.
+
+**Required Skills:**
+
+- Kotlin
+- Java
+- Android-Development
+- Agile Development
+
+**Possible Mentors:**
+
+- Stefan Kutschera
+- Patrick Ratschiller
+- Wolfgang Slany
+
+**Expected size of project:**
+
+- 175 Hours
+
+**Difficulty level:**
+
+- To Be Determined (tbd)
+
+### Pocket Code for Android: Undo / Redo Functionality in Catroid (175 or 350 Hours)
+
+In the current version of Catroid, there are a few places where the immediately previously executed step can be undone, thus avoiding a need for an interaction with the user to ask whether, e.g., an object should really be deleted. There are still many places and interactions where this single-step undo has not been implemented. The aim of this project is to add more such single-step undo operations where they are still missing. Depending on the size of the project, and if there is time, these single-step undo operations shall be step by step replaced by a standard undo-redo feature.
+
+**Required Skills:**
+
+- Kotlin
+- Java
+- Android-Development
+- Agile Development
+
+**Possible Mentors:**
+
+- Stefan Kutschera
+- Patrick Ratschiller
+- Wolfgang Slany
+
+**Expected size of project:**
+
+- 175 or 350 Hours
+
+**Difficulty level:**
+
+- To Be Determined (tbd)
+
+### Pocket Paint for Android: Refactoring Test and Functionality to Kotlin (175 or 350 Hours)
+
+Several parts of the project have already been refactored to use Kotlin, but there are still parts that should be refactored, and reworked to use Kotlin instead of Java.
+
+**Required Skills:**
+
+- Kotlin
+- Java
+- Android-Development
+- Agile Development
+
+**Possible Mentors:**
+
+- Stefan Kutschera
+- Patrick Ratschiller
+- Wolfgang Slany
+
+**Expected size of project:**
+
+- 175 or 350 Hours
+
+**Difficulty level:**
+
+- To Be Determined (tbd)
+
+### Pocket Code for Android: Refactoring Tests and Functionality to Kotlin (175 or 350 Hours)
+
+Several parts of the project have already been refactored to use Kotlin, but there are still parts that should be refactored, and reworked to use Kotlin instead of Java.
+
+**Required Skills:**
+
+- Kotlin
+- Java
+- Android-Development
+- Agile Development
+
+**Possible Mentors:**
+
+- Stefan Kutschera
+- Patrick Ratschiller
+- Wolfgang Slany
+
+**Expected size of project:**
+
+- 175 or 350 Hours
+
+**Difficulty level:**
+
+- To Be Determined (tbd)
+
+### Pocket Paint for Android: Erase Background Tool (Make it transparent more easily) (175 Hours)
+
+The goal is to create a new tool that allows the user to select an area and erase the parts of the drawing surface outside the area, see similar tools in many picture manipulation programs.
+
+**Required Skills:**
+
+- Kotlin
+- Java
+- Android-Development
+- Agile Development
+
+**Possible Mentors:**
+
+- Stefan Kutschera
+- Patrick Ratschiller
+- Wolfgang Slany
+
+**Expected size of project:**
+
+- 175 Hours
+
+**Difficulty level:**
+
+- To Be Determined (tbd)
+
+### Merge Feature for Catroid (350 Hours)
+
+Design and develop a feature for the Android version of Pocket Code that allows to merge two user projects into one, without duplicating scripts, objects, sounds etc that already exist in both projects. Similar to git merge, but for Catrobat user projects. Repeatedly merging the same project into itself should not increase the project's size. Think about how to handle different screen resolutions, orientations, etc, or how to treat conflicting variable names, correctly update remix graph data, etc.
+
+**Required Skills:**
+
+- Kotlin
+- Java
+- Android-Development
+- Agile Development
+
+**Possible Mentors:**
+
+- Stefan Kutschera
+- Patrick Ratschiller
+- Wolfgang Slany
+
+**Expected size of project:**
+
+- 350 Hours
+
+**Difficulty level:**
+
+- To Be Determined (tbd)
+
+### Project Converter in Dart from Catrobat to Godot (175 or 350 Hours)
+
+Implement a prof-of-concept converter from Catrobat projects to Godot for Android or iOS in Dart. Only parts need to be implemented, not the full feature set.
+
+**Required Skills:**
+
+- Dart
+- Godot
+- Test Driven Development
+- Clean Code
+
+**Possible Mentors:**
+
+- Wolfgang Slany
+
+**Requirement:**
+
+- self-organized work
+
+**Expected size of project:**
+
+- 175 or 350 Hours (your choice)
+
+**Difficulty level:**
+
+- advanced
+
+### Reimplement Catroid's Formula Editor in Flutter (175 or 350 Hours)
+
+Reimplement Catroid's Formula Editor in Flutter. Only parts need to be implemented, not the full feature set.
+
+**Required Skills:**
+
+- Flutter
+- Test Driven Development
+- Clean Code
+
+**Possible Mentors:**
+
+- Wolfgang Slany
+
+**Requirement:**
+
+- self-organized work
+
+**Expected size of project:**
+
+- 175 or 350 Hours (your choice)
+
+**Difficulty level:**
+
+- advanced
+
+### Reimplement the Catrobat Community feature of Catroid in Flutter (175 or 350 Hours)
+
+Reimplement the Catrobat Community feature of Catroid in Flutter. Only parts need to be implemented, not the full feature set.
+
+**Required Skills:**
+
+- Flutter
+- Test Driven Development
+- Clean Code
+
+**Possible Mentors:**
+
+- Wolfgang Slany
+
+**Requirement:**
+
+- self-organized work
+
+**Expected size of project:**
+
+- 175 or 350 Hours (your choice)
+
+**Difficulty level:**
+
+- advanced
+
+### Reimplement parts of Catroid's IDE GUI in Flutter (175 or 350 Hours)
+
+Reimplement remaining parts of Catroid's IDE GUI in Flutter. Not included would be the representation and manipulation of scripts, the formula editor, the paint editor, the Catrobat community features, or the stage. Also, only parts need to be implemented, not the full feature set.
+
+**Required Skills:**
+
+- Flutter
+- Test Driven Development
+- Clean Code
+
+**Possible Mentors:**
+
+- Wolfgang Slany
+
+**Requirement:**
+
+- self-organized work
+
+**Expected size of project:**
+
+- 175 or 350 Hours (your choice)
+
+**Difficulty level:**
+
+- advanced
+
+### Add LLM-Based AI Pair-Programming support for users (175 or 350 Hours)
+
+Add support for an LLM (large language model) based on tools such as GPT-4 to support AI-based programming support for our users. This support could range from proposing code from text prompts, help in correcting bugs or other issues, finding a good architecture or meaningful names, writing Catrobat language tests for one's code, proposing extensions, proposing project ideas, explaining downloaded code, providing translations of variable or message names etc from downloaded projects of other users, proposing image and sound resources based on the context and text prompts, explaining basic or more advanced concepts needed to realize projects, e.g., simple concepts such as variables and loops, or more complex ones such as software design patterns or testing strategies. Only parts need to be implemented, not the full feature set. The API key can be assumed to be provided by the user and may need to be entered into the settings of our apps. The initial prompt will have to detail the Catrobat context to the used LLM, and will be provided by the Catrobat team.
+
+**Required Skills:**
+
+- Kotlin
+- Test Driven Development
+- Clean Code
+
+**Possible Mentors:**
+
+- Wolfgang Slany
+
+**Requirement:**
+
+- self-organized work
+
+**Expected size of project:**
+
+- 175 or 350 Hours (your choice)
+
+**Difficulty level:**
+
+- advanced
+
+### Your own Project Ideas ... (175 or 350 Hours)
+
+In the last year we made the experience that you have many great ideas and knowledge! Catrobat is currently still focusing on refactoring and we're aware that there are many ways how to improve performance, reduce memory usage, make our services more stable and of course the code easier to maintain. We're sure you do have ideas how to achieve this, although we may have never heard of this approach before -> that's the great thing about Open Source! And well, that's also the experience we made at last year's GSoC - and we liked it!
+
+Also new features or extensions for iOS and Android are welcome to be introduced to us. Help us to spread coding and Open Source!
+
+Please do not hesitate to bring forward your own ideas and discuss them with our community on our mailing-list: <a href="catrobat.at/mailinglist">catrobat@googlegroups.com</a>!
+
+**Required Skills:**
+
+- Kotlin
+- Java
+- Android-Development
+- iOS-Development
+- Agile Development
+
+**Possible Mentors:**
+
+- Yash Punia
+- Stefan Kutschera
+- Patrick Ratschiller
+- Wolfgang Slany
+
+**Expected size of project:**
+
+- 175 or 350 Hours (your choice)
+
+**Difficulty level:**
+
+- To Be Determined (tbd)

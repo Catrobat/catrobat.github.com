@@ -4,34 +4,25 @@ layout: home
 ---
 
 <style>
-	table {
-		border-collapse: collapse;
-		margin: 0 auto;
-	}
-	td {
-		width: 50px;
-		height: 50px;
-		border: 1px ;
-		transition: background-color 0.5s ease;
-        text-align: center;
-	}
-	td:hover {
-		background-color: darkgray;
-	}
+.btn-logo {
+width: 25px;
+height: 25px; 
+vertical-align: middle;
+}
 </style>
 
-<table>
-	<tr>
-		<td><a href="https://discord.com/invite/tnsePcW8HY">Discord</a></td>
-		<td>YouTube</td>
-		<td><a href="https://groups.google.com/g/catrobat">Google Group</a></td>
-		<td><a href="https://www.facebook.com/CatrobatPocketCode">Facebook</a></td>
-		<td><a href="https://twitter.com/Pocket_Code">Twitter</a></td>
-	</tr>
-</table>
-
-[Discord](https://discord.com/invite/tnsePcW8HY){: .btn }
-[YouTube](https://discord.com/invite/tnsePcW8HY){: .btn }
-[Google Group](https://groups.google.com/g/catrobat){: .btn }
-[Facebook](https://www.facebook.com/CatrobatPocketCode){: .btn }
-[Twitter](https://twitter.com/Pocket_Code){: .btn }
+<a href="https://discord.com/invite/tnsePcW8HY" class="btn">
+  <img src="../../assets/images/discord_logo.svg" alt="Discord Logo" class="btn-logo">
+</a>
+<a href="https://www.youtube.com/" class="btn">
+  <img src="../../assets/images/youtube_logo.svg" alt="YouTube Logo" class="btn-logo">
+</a>
+<a href="https://groups.google.com/g/catrobat" class="btn">
+  <img src="../../assets/images/google_logo.svg" alt="Google Group Logo" class="btn-logo">
+</a>
+<a href="https://www.facebook.com/CatrobatPocketCode" class="btn">
+  <img src="../../assets/images/facebook_logo.svg" alt="Facebook Logo" class="btn-logo">
+</a>
+<a href="https://twitter.com/Pocket_Code" class="btn">
+  <img src="../../assets/images/twitter_logo.svg" alt="Twitter Logo" class="btn-logo">
+</a>
