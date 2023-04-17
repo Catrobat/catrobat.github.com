@@ -29,3 +29,9 @@ layout: home
 		<td><a href="https://twitter.com/Pocket_Code">Twitter</a></td>
 	</tr>
 </table>
+
+[Discord](https://discord.com/invite/tnsePcW8HY){: .btn }
+[YouTube](https://discord.com/invite/tnsePcW8HY){: .btn }
+[Google Group](https://groups.google.com/g/catrobat){: .btn }
+[Facebook](https://www.facebook.com/CatrobatPocketCode){: .btn }
+[Twitter](https://twitter.com/Pocket_Code){: .btn }

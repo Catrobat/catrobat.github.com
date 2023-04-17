@@ -27,7 +27,6 @@ background-color: #B57BFF;
     <tbody>
       <tr>
         <td>{{ site.data.team.project_head.firstname }} {{ site.data.team.project_head.lastname }}</td>
-        <td>{{ site.data.team.project_head.firstname }} {{ site.data.team.project_head.lastname }}</td>
         <td>Created initial concept and design</td>
       </tr>
     </tbody>
@@ -35,8 +34,6 @@ background-color: #B57BFF;
 </div>
 
 {% if site.data.team.product_owners.active.size > 0 %}
-
-{% if site.data.team.product_owners.active > 0 %}
 
 ## Product Owners
 
@@ -50,13 +47,10 @@ background-color: #B57BFF;
     </thead>
     <tbody>
       {% for person in site.data.team.product_owners.active %}
-      {% for person in site.data.team.product_owners.active %}
       <tr>
-        <td>{{ person.firstname }} {{ person.lastname }}</td>
         <td>{{ person.firstname }} {{ person.lastname }}</td>
         <td>Product Owner for Catroid</td>
       </tr>
-      {% endfor %}
       {% endfor %}
     </tbody>
   </table>
@@ -169,7 +163,7 @@ background-color: #B57BFF;
     {{ person.firstname }} {{ person.lastname }},
   {% else %}
     {{ person.firstname }} {{ person.lastname }} and {{ site.data.team.project_head.firstname }} {{ site.data.team.project_head.lastname }}
-  {% endif %}
+  {% endif %}  
 {% endfor %}
 </p>
 {% endif %}
