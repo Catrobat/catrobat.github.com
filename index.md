@@ -23,28 +23,6 @@ Catrobat programs written or Catrobat projects created on one platform can be di
 
 We strive to develop our software in an uncompromising Test-Driven way (even for the hardware parts). We are using agile methods such as Ping-Pong-Pair-Programming, Collective Code Ownership, Continuous Integration, Robert C. Martin’s Clean Code method and several others such as Simple Design, aiming to ensure a precise, believably correct, and 100% up-to-date documentation as well as high-quality code. We use specification by example (also called Behaviour Driven Development) to some extent to ensure that the natively implemented interpreters execute Catrobat programs in the same way on all supported platforms.
 
-<style>
-.btn-logo {
-width: 25px;
-height: 25px; 
-vertical-align: middle;
-}
-</style>
-
-<a href="https://discord.com/invite/tnsePcW8HY" class="btn">
-  <img src="../../assets/images/discord_logo.svg" alt="Discord Logo" class="btn-logo">
-</a>
-<a href="https://www.youtube.com/" class="btn">
-  <img src="../../assets/images/youtube_logo.svg" alt="YouTube Logo" class="btn-logo">
-</a>
-<a href="https://groups.google.com/g/catrobat" class="btn">
-  <img src="../../assets/images/google_logo.svg" alt="Google Group Logo" class="btn-logo">
-</a>
-<a href="https://www.facebook.com/CatrobatPocketCode" class="btn">
-  <img src="../../assets/images/facebook_logo.svg" alt="Facebook Logo" class="btn-logo">
-</a>
-<a href="https://twitter.com/Pocket_Code" class="btn">
-  <img src="../../assets/images/twitter_logo.svg" alt="Twitter Logo" class="btn-logo">
-</a>
+{% include socials.html %}
 
 [sharing site]: https://share.catrob.at/
