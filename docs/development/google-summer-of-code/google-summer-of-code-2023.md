@@ -1,35 +1,11 @@
 ---
 title: Google Summer Of Code 2023
-layout: default
+layout: home-with-socials
 nav_order: 4
 parent: Google Summer Of Code
 grand_parent: Development
 last_modified_date: 2022-03-20
 ---
-
-<style>
-.btn-logo {
-width: 25px;
-height: 25px; 
-vertical-align: middle;
-}
-</style>
-
-<a href="https://discord.com/invite/tnsePcW8HY" class="btn">
-  <img src="../../../../assets/images/discord_logo.svg" alt="Discord Logo" class="btn-logo">
-</a>
-<a href="https://www.youtube.com/" class="btn">
-  <img src="../../../../assets/images/youtube_logo.svg" alt="YouTube Logo" class="btn-logo">
-</a>
-<a href="https://groups.google.com/g/catrobat" class="btn">
-  <img src="../../../../assets/images/google_logo.svg" alt="Google Group Logo" class="btn-logo">
-</a>
-<a href="https://www.facebook.com/CatrobatPocketCode" class="btn">
-  <img src="../../../../assets/images/facebook_logo.svg" alt="Facebook Logo" class="btn-logo">
-</a>
-<a href="https://twitter.com/Pocket_Code" class="btn">
-  <img src="../../../../assets/images/twitter_logo.svg" alt="Twitter Logo" class="btn-logo">
-</a>
 
 # Ideas Page for Google Summer of Code 2023
 
@@ -63,20 +39,26 @@ Please find the mandatory template for the application and additional informatio
 
 {: .no_toc }
 
-1. [Awesome Demo Game Project (175 or 350 Hours)](#awesome-demo-game-project-175-or-350-hours)
-2. [Embroidery Designer Inspect Tool (175 or 350 Hours)](#embroidery-designer-inspect-tool-175-or-350-hours)
-3. [Catroid Editor for Userdefined Bricks (175 Hours)](#catroid-editor-for-userdefined-bricks-175-hours)
-4. [Pocket Code for Android: Undo/Redo Functionality in Catroid (175 or 350 Hours)](#pocket-code-for-android-undo--redo-functionality-in-catroid-175-or-350-hours)
-5. [Pocket Paint for Android: Refactoring Tests and Functionality to Kotlin (175 or 350 Hours)](#pocket-paint-for-android-refactoring-test-and-functionality-to-kotlin-175-or-350-hours)
-6. [Pocket Code for Android: Refactoring Tests and Functionality to Kotlin](#pocket-code-for-android-refactoring-tests-and-functionality-to-kotlin-175-or-350-hours)
-7. [Pocket Paint for Android: Erase Background Tool (make it transparent more easily) (175 Hours)](#pocket-paint-for-android-erase-background-tool-make-it-transparent-more-easily-175-hours)
-8. [Merge Feature for Catroid (350 Hours)](#merge-feature-for-catroid-350-hours)
-9. [Project Converter in Dart from Catrobat to Godot (175 or 350 Hours)](#project-converter-in-dart-from-catrobat-to-godot-175-or-350-hours)
-10. [Reimplement Catroid's Formula Editor in Flutter (175 or 350 Hours)](#reimplement-catroids-formula-editor-in-flutter-175-or-350-hours)
-11. [Reimplement Catroid's Sharing Site GUI in Flutter (175 or 350 Hours)](#reimplement-the-catrobat-community-feature-of-catroid-in-flutter-175-or-350-hours)
-12. [Reimplement parts of Catroid's IDE GUI in Flutter (175 or 350 Hours)](#reimplement-parts-of-catroids-ide-gui-in-flutter-175-or-350-hours)
-13. [Add LLM-Based AI Pair-Programming support for users (175 or 350 Hours)](#add-llm-based-ai-pair-programming-support-for-users-175-or-350-hours)
-14. [Your Idea (175 or 350 Hours)](#your-own-project-ideas--175-or-350-hours)
+- [Ideas Page for Google Summer of Code 2023](#ideas-page-for-google-summer-of-code-2023)
+  - [General Information](#general-information)
+  - [General Knowledge Prerequisites for all Projects](#general-knowledge-prerequisites-for-all-projects)
+  - [Your Application](#your-application)
+  - [Idea Overview](#idea-overview)
+  - [Project Descriptions](#project-descriptions)
+    - [Awesome Demo Game Project (175 or 350 Hours)](#awesome-demo-game-project-175-or-350-hours)
+    - [Embroidery Designer Inspect Tool (175 or 350 Hours)](#embroidery-designer-inspect-tool-175-or-350-hours)
+    - [Catroid Editor for Userdefined Bricks (175 Hours)](#catroid-editor-for-userdefined-bricks-175-hours)
+    - [Pocket Code for Android: Undo / Redo Functionality in Catroid (175 or 350 Hours)](#pocket-code-for-android-undo--redo-functionality-in-catroid-175-or-350-hours)
+    - [Pocket Paint for Android: Refactoring Test and Functionality to Kotlin (175 or 350 Hours)](#pocket-paint-for-android-refactoring-test-and-functionality-to-kotlin-175-or-350-hours)
+    - [Pocket Code for Android: Refactoring Tests and Functionality to Kotlin (175 or 350 Hours)](#pocket-code-for-android-refactoring-tests-and-functionality-to-kotlin-175-or-350-hours)
+    - [Pocket Paint for Android: Erase Background Tool (Make it transparent more easily) (175 Hours)](#pocket-paint-for-android-erase-background-tool-make-it-transparent-more-easily-175-hours)
+    - [Merge Feature for Catroid (350 Hours)](#merge-feature-for-catroid-350-hours)
+    - [Project Converter in Dart from Catrobat to Godot (175 or 350 Hours)](#project-converter-in-dart-from-catrobat-to-godot-175-or-350-hours)
+    - [Reimplement Catroid's Formula Editor in Flutter (175 or 350 Hours)](#reimplement-catroids-formula-editor-in-flutter-175-or-350-hours)
+    - [Reimplement the Catrobat Community feature of Catroid in Flutter (175 or 350 Hours)](#reimplement-the-catrobat-community-feature-of-catroid-in-flutter-175-or-350-hours)
+    - [Reimplement parts of Catroid's IDE GUI in Flutter (175 or 350 Hours)](#reimplement-parts-of-catroids-ide-gui-in-flutter-175-or-350-hours)
+    - [Add LLM-Based AI Pair-Programming support for users (175 or 350 Hours)](#add-llm-based-ai-pair-programming-support-for-users-175-or-350-hours)
+    - [Your own Project Ideas ... (175 or 350 Hours)](#your-own-project-ideas--175-or-350-hours)
 
 ## Project Descriptions
 
