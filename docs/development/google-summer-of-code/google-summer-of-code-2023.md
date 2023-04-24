@@ -4,14 +4,11 @@ layout: home-with-socials
 nav_order: 4
 parent: Google Summer Of Code
 grand_parent: Development
-last_modified_date: 2022-03-20
 ---
 
 # Ideas Page for Google Summer of Code 2023
 
 {: .no_toc }
-Last Updated: 20th March 2023
-
 We are thrilled to share our carefully curated project ideas for this year's Google Summer of Code.
 
 ## General Information
