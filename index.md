@@ -2,7 +2,6 @@
 title: Home
 layout: home
 nav_order: 1
-last_modified_date: 2023-03-08 20:27
 ---
 
 ## Welcome to the developers website of the Catrobat project!
