@@ -6,5 +6,3 @@ has_children: true
 parent: Development
 permalink: /docs/development/google-summer-of-code
 ---
-
-TODO
