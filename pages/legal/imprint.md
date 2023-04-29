@@ -2,7 +2,7 @@
 title: Imprint
 nav_order: 1
 layout: home-with-socials
-parent: Legal Information
+parent: Legal
 ---
 
 ## Imprint
