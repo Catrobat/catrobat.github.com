@@ -1,11 +1,12 @@
 ---
-title: Creative
+title: CC BY-SA 4.0
 layout: home-with-socials
 parent: Licenses
 grand_parent: Legal
+nav_order: 100
 ---
 
-## Creative Commons Attribution-ShareAlike 4.0 International Public License
+## Creative Commons Attribution-ShareAlike 4.0 International
 
 This is a local copy of the original License at <https://creativecommons.org/licenses/by-sa/4.0/legalcode>
 
