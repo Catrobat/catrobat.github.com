@@ -1,6 +1,6 @@
 ---
 title: Terms of Use
-nav_order: 5
+nav_order: 2
 layout: home-with-socials
 parent: Legal
 ---
