@@ -44,14 +44,10 @@ aux_links_new_tab: true
 
 # Navigation external links
 nav_external_links:
-  - title: Known Issues
-    url: https://jira.catrob.at/browse/CAT/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel
-  - title: Source
+  - title: GitHub
     url: https://github.com/Catrobat
   - title: Project statistics
     url: https://www.openhub.net/p/catrobat
-  - title: News
-    url: https://catrobat.org/news/
 
 # Footer
 back_to_top: true
