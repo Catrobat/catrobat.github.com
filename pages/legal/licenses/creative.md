@@ -1,9 +1,8 @@
 ---
 title: Creative
 layout: home-with-socials
-nav_order: 3
 parent: Licenses
-grandparent: Legal
+grand_parent: Legal
 ---
 
 ## Creative Commons Attribution-ShareAlike 4.0 International Public License
