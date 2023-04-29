@@ -1,9 +1,6 @@
 ---
 layout: home-with-socials
 title: Legal
-nav_order: 3
+nav_order: 9999
 has_children: true
-permalink: /docs/legal
 ---
-
-TODO

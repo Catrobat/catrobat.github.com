@@ -1,7 +1,8 @@
 ---
-title: Credits
-nav_order: 25
+title: Contributors
+nav_order: 1
 layout: home-with-socials
+parent: Credits
 ---
 
 ## The Catrobat development team

@@ -1,9 +1,8 @@
 ---
 title: License
-nav_order: 2
 layout: home-with-socials
-parent: Test
-grandparent: Legal
+parent: Licenses
+grand_parent: Legal
 ---
 
 ## Licenses of the Catrobat System

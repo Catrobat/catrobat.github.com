@@ -1,7 +1,8 @@
 ---
 title: Imprint
-nav_order: 24
+nav_order: 1
 layout: home-with-socials
+parent: Legal Information
 ---
 
 ## Imprint

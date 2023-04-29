@@ -1,6 +1,8 @@
 ---
 title: Special Thanks
 layout: home-with-socials
+nav_order: 2
+parent: Credits
 ---
 
 ## The Catrobat team would like to give special thanks to:

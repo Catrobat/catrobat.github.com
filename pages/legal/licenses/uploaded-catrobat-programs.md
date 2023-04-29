@@ -1,9 +1,8 @@
 ---
 title: Uploaded Catrobat Programs
 layout: home-with-socials
-nav_order: 3
 parent: Licenses
-grandparent: Legal
+grand_parent: Legal
 ---
 
 ## Licenses of uploaded Catrobat programs
@@ -14,4 +13,4 @@ By uploading and sharing a Catrobat program (also called a Catrobat project) via
 - All non-software artifacts of the uploaded program, such as, e.g., text, graphics, photos, sounds, music, videos, audiovisual combinations, interactive features, and other materials are made available under the <a href="/docs/legal/licenses/creative">Creative Commons Attribution-ShareAlike 4.0 International Public License (CC BY-SA 4.0) </a>. See <https://creativecommons.org/licenses/by-sa/4.0/> for a human-readable summary of this license.
 - You accept and agree to our <a href="/docs/legal/terms-of-use">Terms of use and service</a>.
 
-Please mail any suggestions regarding these licenses to webmaster@catrobat.org. 
+Please mail any suggestions regarding these licenses to webmaster@catrobat.org.
