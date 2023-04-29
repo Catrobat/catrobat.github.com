@@ -3,6 +3,7 @@ title: Uploaded Catrobat Programs
 layout: home-with-socials
 parent: Licenses
 grand_parent: Legal
+nav_order: 2
 ---
 
 ## Licenses of uploaded Catrobat programs

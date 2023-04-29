@@ -1,8 +1,9 @@
 ---
-title: GNU Affero General Public License v3
+title: AGPLv3
 layout: home-with-socials
 parent: Licenses
 grand_parent: Legal
+nav_order: 101
 ---
 
 Copyright © 2007 Free Software Foundation, Inc. <https://fsf.org/>
