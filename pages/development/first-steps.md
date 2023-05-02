@@ -1,9 +1,8 @@
 ---
 title: First steps into Catrobat
 layout: home-with-socials
-nav_order: 2
-parent: Get Started
-grand_parent: Development
+nav_order: 1
+parent: Development
 ---
 
 ## Your first steps into Catrobat
