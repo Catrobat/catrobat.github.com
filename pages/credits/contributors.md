@@ -39,7 +39,8 @@ We would like to acknowledge and thank the following individuals and organizatio
 ## Product Owners
 
 <p>
-{% for person in site.data.contributors.product_owners.active %}
+{% assign sortedList = site.data.contributors.product_owners.active | sort: 'lastname' %}
+{% for person in sortedList %}
 {% assign penultimate = forloop.length | minus: 1 %}
   {% if forloop.index == penultimate %}
     {% person_output person %} and
@@ -57,7 +58,8 @@ We would like to acknowledge and thank the following individuals and organizatio
 ### Alumni
 
 <p>
-{% for person in site.data.contributors.product_owners.former %}
+{% assign sortedList = site.data.contributors.product_owners.former | sort: 'lastname' %}
+{% for person in sortedList %}
 {% assign penultimate = forloop.length | minus: 1 %}
   {% if forloop.index == penultimate %}
     {% person_output person %} and
@@ -75,7 +77,8 @@ We would like to acknowledge and thank the following individuals and organizatio
 ## Team Coordinators
 
 <p>
-{% for person in site.data.contributors.coordinators.active %}
+{% assign sortedList = site.data.contributors.coordinators.active | sort: 'lastname' %}
+{% for person in sortedList %}
 {% assign penultimate = forloop.length | minus: 1 %}
   {% if forloop.index == penultimate %}
     {% person_output person %} and
@@ -93,7 +96,8 @@ We would like to acknowledge and thank the following individuals and organizatio
 ### Alumni
 
 <p>
-{% for person in site.data.contributors.coordinators.former %}
+{% assign sortedList = site.data.contributors.coordinators.former | sort: 'lastname' %}
+{% for person in sortedList %}
 {% assign penultimate = forloop.length | minus: 1 %}
   {% if forloop.index == penultimate %}
     {% person_output person %} and
@@ -111,7 +115,8 @@ We would like to acknowledge and thank the following individuals and organizatio
 ## Senior Developers
 
 <p>
-{% for person in site.data.contributors.senior_developers.active %}
+{% assign sortedList = site.data.contributors.senior_developers.active | sort: 'lastname' %}
+{% for person in sortedList %}
 {% assign penultimate = forloop.length | minus: 1 %}
   {% if forloop.index == penultimate %}
     {% person_output person %} and
@@ -129,7 +134,8 @@ We would like to acknowledge and thank the following individuals and organizatio
 ### Alumni
 
 <p>
-{% for person in site.data.contributors.senior_developers.former %}
+{% assign sortedList = site.data.contributors.senior_developers.former | sort: 'lastname' %}
+{% for person in sortedList %}
 {% assign penultimate = forloop.length | minus: 1 %}
   {% if forloop.index == penultimate %}
     {% person_output person %} and
@@ -147,7 +153,8 @@ We would like to acknowledge and thank the following individuals and organizatio
 ## Designers
 
 <p>
-{% for person in site.data.contributors.designers %}
+{% assign sortedList = site.data.contributors.designers | sort: 'lastname' %}
+{% for person in sortedList %}
 {% assign penultimate = forloop.length | minus: 1 %}
   {% if forloop.index == penultimate %}
     {% person_output person %} and
@@ -165,7 +172,8 @@ We would like to acknowledge and thank the following individuals and organizatio
 ## All Members
 
 <p>
-{% for person in site.data.contributors.contributors %}
+{% assign sortedList = site.data.contributors.contributors | sort: 'lastname' %}
+{% for person in sortedList %}
   {% if forloop.last == false %}
     {% person_output person %},
   {% else %}
@@ -181,7 +189,8 @@ We would like to acknowledge and thank the following individuals and organizatio
 {% assign sortedList = site.data.contributors.translators | sort: 'language' %}
 {% for language in sortedList %}
   <b>{{ language.language }}</b>:
-  {% for person in language.people %}
+  {% assign sortedList2 = language.people | sort: 'lastname' %}
+  {% for person in sortedList2 %}
   {% assign penultimate = forloop.length | minus: 1 %}
     {% if forloop.index == penultimate %}
       {% person_output person %} and
@@ -200,7 +209,8 @@ We would like to acknowledge and thank the following individuals and organizatio
 {% for entry in site.data.contributors.createAtSchoolNOLBMembers %}
   <p>
     <b>{{ entry.university.name }}</b>:
-    {% for person in entry.people %}
+    {% assign sortedList2 = entry.people | sort: 'lastname' %}
+    {% for person in sortedList2 %}
     {% assign penultimate = forloop.length | minus: 1 %}
       {% if forloop.index == penultimate %}
         {% person_output person %} and
