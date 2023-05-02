@@ -9,9 +9,9 @@ module Jekyll
             data = context[@data]
 
             if data['github'] and data['github'] != ""
-                output = "<a href=\"https://github.com/#{data['github']}\" target=\"_blank\" title=\"GitHub Profile\" >#{data['firstname']} #{data['lastname']}</a>"
+                output = "<a href=\"https://github.com/#{data['github']}\" target=\"_blank\" title=\"GitHub Profile\" ><nobr>#{data['firstname']} #{data['lastname']}</nobr></a>"
             else
-                output = "#{data['firstname']} #{data['lastname']}"
+                output = "<nobr>#{data['firstname']} #{data['lastname']}</nobr>"
             end
             output
         end
