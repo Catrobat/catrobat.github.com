@@ -34,12 +34,31 @@ We would like to acknowledge and thank the following individuals and organizatio
   </table>
 </div>
 
-{% if site.data.contributors.product_owners.active.size > 0 %}
+{% if site.data.contributors.project_managers.size > 0 %}
+
+## Project Managers
+
+<p>
+{% assign sortedList = site.data.contributors.project_managers | sort: 'lastname' %}
+{% for person in sortedList %}
+{% assign penultimate = forloop.length | minus: 1 %}
+  {% if forloop.index == penultimate %}
+    {% person_output person %} and
+  {% elsif forloop.last %}
+    {% person_output person %}
+  {% else %}
+    {% person_output person %},
+  {% endif %}
+{% endfor %}
+</p>
+{% endif %}
+
+{% if site.data.contributors.product_owners.size > 0 %}
 
 ## Product Owners
 
 <p>
-{% assign sortedList = site.data.contributors.product_owners.active | sort: 'lastname' %}
+{% assign sortedList = site.data.contributors.product_owners | sort: 'lastname' %}
 {% for person in sortedList %}
 {% assign penultimate = forloop.length | minus: 1 %}
   {% if forloop.index == penultimate %}
@@ -53,31 +72,12 @@ We would like to acknowledge and thank the following individuals and organizatio
 </p>
 {% endif %}
 
-{% if site.data.contributors.product_owners.former.size > 0 %}
-
-### Alumni
-
-<p>
-{% assign sortedList = site.data.contributors.product_owners.former | sort: 'lastname' %}
-{% for person in sortedList %}
-{% assign penultimate = forloop.length | minus: 1 %}
-  {% if forloop.index == penultimate %}
-    {% person_output person %} and
-  {% elsif forloop.last %}
-    {% person_output person %}
-  {% else %}
-    {% person_output person %},
-  {% endif %}
-{% endfor %}
-</p>
-{% endif %}
-
-{% if site.data.contributors.coordinators.active.size > 0 %}
+{% if site.data.contributors.coordinators.size > 0 %}
 
 ## Team Coordinators
 
 <p>
-{% assign sortedList = site.data.contributors.coordinators.active | sort: 'lastname' %}
+{% assign sortedList = site.data.contributors.coordinators | sort: 'lastname' %}
 {% for person in sortedList %}
 {% assign penultimate = forloop.length | minus: 1 %}
   {% if forloop.index == penultimate %}
@@ -91,50 +91,12 @@ We would like to acknowledge and thank the following individuals and organizatio
 </p>
 {% endif %}
 
-{% if site.data.contributors.coordinators.former.size > 0 %}
-
-### Alumni
-
-<p>
-{% assign sortedList = site.data.contributors.coordinators.former | sort: 'lastname' %}
-{% for person in sortedList %}
-{% assign penultimate = forloop.length | minus: 1 %}
-  {% if forloop.index == penultimate %}
-    {% person_output person %} and
-  {% elsif forloop.last %}
-    {% person_output person %}
-  {% else %}
-    {% person_output person %},
-  {% endif %}
-{% endfor %}
-</p>
-{% endif %}
-
-{% if site.data.contributors.senior_developers.active.size > 0 %}
+{% if site.data.contributors.senior_developers.size > 0 %}
 
 ## Senior Developers
 
 <p>
-{% assign sortedList = site.data.contributors.senior_developers.active | sort: 'lastname' %}
-{% for person in sortedList %}
-{% assign penultimate = forloop.length | minus: 1 %}
-  {% if forloop.index == penultimate %}
-    {% person_output person %} and
-  {% elsif forloop.last %}
-    {% person_output person %}
-  {% else %}
-    {% person_output person %},
-  {% endif %}
-{% endfor %}
-</p>
-{% endif %}
-
-{% if site.data.contributors.senior_developers.former.size > 0 %}
-
-### Alumni
-
-<p>
-{% assign sortedList = site.data.contributors.senior_developers.former | sort: 'lastname' %}
+{% assign sortedList = site.data.contributors.senior_developers | sort: 'lastname' %}
 {% for person in sortedList %}
 {% assign penultimate = forloop.length | minus: 1 %}
   {% if forloop.index == penultimate %}
@@ -169,7 +131,7 @@ We would like to acknowledge and thank the following individuals and organizatio
 
 {% if site.data.contributors.contributors.size > 0 %}
 
-## All Members
+## All Contributors
 
 <p>
 {% assign sortedList = site.data.contributors.contributors | sort: 'lastname' %}
