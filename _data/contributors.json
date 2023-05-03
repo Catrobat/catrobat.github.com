@@ -222,6 +222,11 @@
   ],
   "senior_developers": [
     {
+      "firstname": "Sebastian",
+      "lastname": "Gollob",
+      "github": "sebastiangollob"
+    },
+    {
       "firstname": "Michael",
       "lastname": "Tiefnig",
       "github": ""
