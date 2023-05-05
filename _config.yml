@@ -1,7 +1,7 @@
 title: Catrobat
 description: A visual programming language and set of creativity tools
-url: https://sebastiangollob.github.io/catrobat.github.com/
-repository: sebastiangollob/catrobat.github.com
+url: https://developer.catrobat.org/
+repository: Catrobat/catrobat.github.com
 theme: just-the-docs
 
 logo: "/assets/images/catrobat_logo_2.png"
@@ -52,16 +52,14 @@ nav_external_links:
 # Footer
 back_to_top: true
 back_to_top_text: "Back to top"
-# footer_content: "Copyright &copy; Catrobat"
 
 last_edit_timestamp: false # leave disabled, we have our own solution
 last_edit_time_format: "%D" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
 gh_edit_link: false # leave disabled, we have our own solution
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/sebastiangollob/catrobat.github.com" # the github URL for your repo
-gh_edit_branch: "update2023" # the branch that your docs is served from
-# gh_edit_source: docs # the source that your files originate from
+gh_edit_repository: "https://github.com/Catrobat/catrobat.github.com" # the github URL for your repo
+gh_edit_branch: "master" # the branch that your docs is served from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
