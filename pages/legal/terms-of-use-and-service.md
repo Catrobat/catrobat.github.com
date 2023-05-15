@@ -1,5 +1,5 @@
 ---
-title: Terms of Use
+title: Terms of Use and Service
 nav_order: 2
 layout: home-with-socials
 parent: Legal
