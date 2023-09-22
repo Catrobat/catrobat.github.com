@@ -1,0 +1,3127 @@
+{
+  "project_head": {
+    "firstname": "Wolfgang",
+    "lastname": "Slany",
+    "github": "wslany"
+  },
+  "project_managers": [
+    {
+      "firstname": "Christian",
+      "lastname": "Schindler",
+      "github": "amix73"
+    },
+    {
+      "firstname": "Matthias",
+      "lastname": "Müller"
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Herold",
+      "github": ""
+    },
+    {
+      "firstname": "Vesna",
+      "lastname": "Krnjic",
+      "github": "VesnaK"
+    },
+    {
+      "firstname": "Stefan",
+      "lastname": "Kutschera",
+      "github": ""
+    },
+    {
+      "firstname": "Patrick",
+      "lastname": "Ratschiller",
+      "github": "ratschillerp"
+    },
+    {
+      "firstname": "Annemarie",
+      "lastname": "Harzl",
+      "github": "AnnemarieH"
+    }
+  ],
+  "product_owners": [
+    {
+      "firstname": "Thorsten",
+      "lastname": "Bandel",
+      "github": "ThorstenBandel"
+    },
+    {
+      "firstname": "Sarina",
+      "lastname": "Gursch",
+      "github": ""
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Herold",
+      "github": ""
+    },
+    {
+      "firstname": "Vesna",
+      "lastname": "Krnjic",
+      "github": "VesnaK"
+    },
+    {
+      "firstname": "Stefan",
+      "lastname": "Kutschera",
+      "github": ""
+    },
+    {
+      "firstname": "Daniel",
+      "lastname": "Metzner",
+      "github": "dmetzner"
+    },
+    {
+      "firstname": "Patrick",
+      "lastname": "Ratschiller",
+      "github": "ratschillerp"
+    },
+    {
+      "firstname": "Wolfgang",
+      "lastname": "Slany",
+      "github": "wslany"
+    },
+    {
+      "firstname": "Bernadette",
+      "lastname": "Spieler",
+      "github": ""
+    },
+    {
+      "firstname": "Annemarie",
+      "lastname": "Harzl",
+      "github": "AnnemarieH"
+    },
+    {
+      "firstname": "Christian",
+      "lastname": "Schindler",
+      "github": "amix73"
+    },
+    {
+      "firstname": "Matthias",
+      "lastname": "Müller"
+    }
+  ],
+  "coordinators": [
+    {
+      "firstname": "Thorsten",
+      "lastname": "Bandel",
+      "github": "ThorstenBandel"
+    },
+    {
+      "firstname": "Emanuel",
+      "lastname": "Moser",
+      "github": ""
+    },
+    {
+      "firstname": "Patrick",
+      "lastname": "Ratschiller",
+      "github": "ratschillerp"
+    },
+    {
+      "firstname": "Stefan",
+      "lastname": "Kutschera",
+      "github": ""
+    },
+    {
+      "firstname": "Csongor",
+      "lastname": "Hegedüs",
+      "github": ""
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Reichel",
+      "github": "reichli"
+    },
+    {
+      "firstname": "Stephan",
+      "lastname": "Schauberger",
+      "github": ""
+    },
+    {
+      "firstname": "Daniel",
+      "lastname": "Metzner",
+      "github": "dmetzner"
+    },
+    {
+      "firstname": "Maria",
+      "lastname": "Seiser",
+      "github": "mseiser"
+    },
+    {
+      "firstname": "Julia",
+      "lastname": "Herold",
+      "github": "juliajulie95"
+    },
+    {
+      "firstname": "Alexander",
+      "lastname": "Hiebl",
+      "github": "Hiebl"
+    }
+  ],
+  "designers": [
+    {
+      "firstname": "Anja",
+      "lastname": "Petri",
+      "github": ""
+    },
+    {
+      "firstname": "Mario",
+      "lastname": "Kölli",
+      "github": ""
+    },
+    {
+      "firstname": "Martina",
+      "lastname": "Edelhofer",
+      "github": ""
+    },
+    {
+      "firstname": "Maria",
+      "lastname": "Schrack",
+      "github": ""
+    },
+    {
+      "firstname": "Melanie",
+      "lastname": "Kleindienst",
+      "github": ""
+    },
+    {
+      "firstname": "Lisa",
+      "lastname": "Kehrer",
+      "github": ""
+    },
+    {
+      "firstname": "Davor",
+      "lastname": "Kirbis",
+      "github": ""
+    },
+    {
+      "firstname": "Darjan",
+      "lastname": "Salaj",
+      "github": ""
+    },
+    {
+      "firstname": "Amra",
+      "lastname": "Dzombic",
+      "github": ""
+    },
+    {
+      "firstname": "Katharina",
+      "lastname": "Stadlmayr",
+      "github": ""
+    },
+    {
+      "firstname": "Sebastian",
+      "lastname": "Gabl",
+      "github": ""
+    },
+    {
+      "firstname": "Johanna",
+      "lastname": "Stefanzl",
+      "github": ""
+    }
+  ],
+  "senior_developers": [
+    {
+      "firstname": "Sebastian",
+      "lastname": "Gollob",
+      "github": "sebastiangollob"
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Tiefnig",
+      "github": ""
+    },
+    {
+      "firstname": "Markus",
+      "lastname": "Gombocz",
+      "github": ""
+    },
+    {
+      "firstname": "Patrick",
+      "lastname": "Ratschiller",
+      "github": "ratschillerp"
+    },
+    {
+      "firstname": "Emanuel",
+      "lastname": "Moser",
+      "github": ""
+    },
+    {
+      "firstname": "Daniel",
+      "lastname": "Metzner",
+      "github": "dmetzner"
+    },
+    {
+      "firstname": "Jakob",
+      "lastname": "Tropper",
+      "github": "JayTropper"
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Reichel",
+      "github": "reichli"
+    },
+    {
+      "firstname": "Robert",
+      "lastname": "Leiner",
+      "github": "Rawbat"
+    },
+    {
+      "firstname": "David",
+      "lastname": "Andrawes",
+      "github": "dandrawes"
+    },
+    {
+      "firstname": "Dominik",
+      "lastname": "Scheiber",
+      "github": "DinosaurierRex"
+    },
+    {
+      "firstname": "Maria",
+      "lastname": "Seiser",
+      "github": "mseiser"
+    },
+    {
+      "firstname": "Oskar",
+      "lastname": "Walcher",
+      "github": "Walcho1125"
+    },
+    {
+      "firstname": "Benjamin",
+      "lastname": "Gaal",
+      "github": "bengaal"
+    }
+  ],
+  "translators": [
+    {
+      "language": "Turkish",
+      "people": [
+        {
+          "firstname": "Sercan",
+          "lastname": "Akpolat"
+        },
+        {
+          "firstname": "Hulya",
+          "lastname": "Kara"
+        }
+      ]
+    },
+    {
+      "language": "French",
+      "people": [
+        {
+          "firstname": "Sercan",
+          "lastname": "Akpolat"
+        },
+        {
+          "firstname": "Jean",
+          "lastname": "Charpentier"
+        },
+        {
+          "firstname": "Pascal",
+          "lastname": "Sengler"
+        }
+      ]
+    },
+    {
+      "language": "Malay",
+      "people": [
+        {
+          "firstname": "Ainul Husna",
+          "lastname": "Abdul Muin"
+        },
+        {
+          "firstname": "Jia Lin",
+          "lastname": "Chong"
+        },
+        {
+          "firstname": "Denise",
+          "lastname": "Hoo"
+        },
+        {
+          "firstname": "Fatin",
+          "lastname": "Ghazi"
+        },
+        {
+          "firstname": "Deena",
+          "lastname": "Mugien"
+        },
+        {
+          "firstname": "Walter",
+          "lastname": "Tang"
+        }
+      ]
+    },
+    {
+      "language": "Chinese (Simplified Han)",
+      "people": [
+        {
+          "firstname": "Jia Lin",
+          "lastname": "Chong"
+        }
+      ]
+    },
+    {
+      "language": "Chinese (Traditional Han)",
+      "people": [
+        {
+          "firstname": "Denise",
+          "lastname": "Hoo"
+        },
+        {
+          "firstname": "Kuang Hui",
+          "lastname": "Tseng"
+        }
+      ]
+    },
+    {
+      "language": "Romanian",
+      "people": [
+        {
+          "firstname": "Alex",
+          "lastname": "Nicoara"
+        },
+        {
+          "firstname": "Alexei",
+          "lastname": "Nicoara"
+        }
+      ]
+    },
+    {
+      "language": "Russian",
+      "people": [
+        {
+          "firstname": "Alex",
+          "lastname": "Nicoara"
+        },
+        {
+          "firstname": "Alexei",
+          "lastname": "Nicoara"
+        },
+        {
+          "firstname": "Tatiyana",
+          "lastname": "Domanova"
+        }
+      ]
+    },
+    {
+      "language": "Japanese",
+      "people": [
+        {
+          "firstname": "Kyoko",
+          "lastname": "Slany"
+        }
+      ]
+    },
+    {
+      "language": "Korean",
+      "people": [
+        {
+          "firstname": "Jintae",
+          "lastname": "Lee"
+        },
+        {
+          "firstname": "Shinyoung",
+          "lastname": "Kim"
+        },
+        {
+          "firstname": "Geuk Joong",
+          "lastname": "Bang"
+        }
+      ]
+    },
+    {
+      "language": "Arabic",
+      "people": [
+        {
+          "firstname": "Farhan",
+          "lastname": "Obisat"
+        },
+        {
+          "firstname": "Aiman",
+          "lastname": "Awwad"
+        }
+      ]
+    },
+    {
+      "language": "Italian",
+      "people": [
+        {
+          "firstname": "Ivan",
+          "lastname": "Venuti"
+        }
+      ]
+    },
+    {
+      "language": "British English",
+      "people": [
+        {
+          "firstname": "Gary",
+          "lastname": "Green"
+        }
+      ]
+    },
+    {
+      "language": "Australian English",
+      "people": [
+        {
+          "firstname": "Benjamin",
+          "lastname": "Grant"
+        }
+      ]
+    },
+    {
+      "language": "Dutch",
+      "people": [
+        {
+          "firstname": "Wijnand",
+          "lastname": "Baretta"
+        },
+        {
+          "firstname": "Sjoerd Dirk",
+          "lastname": "Meijer"
+        },
+        {
+          "firstname": "Sander",
+          "lastname": "Latour"
+        }
+      ]
+    },
+    {
+      "language": "Spanish",
+      "people": [
+        {
+          "firstname": "Xenia",
+          "lastname": "Beltran"
+        },
+        {
+          "firstname": "Yolanda",
+          "lastname": "Ursa"
+        },
+        {
+          "firstname": "Jordi",
+          "lastname": "LLi-Beltrán"
+        }
+      ]
+    },
+    {
+      "language": "Hungarian",
+      "people": [
+        {
+          "firstname": "Márta",
+          "lastname": "Turcsányi-Szabó"
+        },
+        {
+          "firstname": "Hajnalka",
+          "lastname": "Torma"
+        },
+        {
+          "firstname": "Andrej",
+          "lastname": "Müller"
+        }
+      ]
+    },
+    {
+      "language": "Polish",
+      "people": [
+        {
+          "firstname": "Witold",
+          "lastname": "Kranas"
+        },
+        {
+          "firstname": "B",
+          "lastname": "Maciek"
+        },
+        {
+          "firstname": "K",
+          "lastname": "Lalinea"
+        },
+        {
+          "firstname": "Piotr",
+          "lastname": "Schmidtke"
+        }
+      ]
+    },
+    {
+      "language": "Portuguese",
+      "people": [
+        {
+          "firstname": "João Filipe",
+          "lastname": "Matos"
+        }
+      ]
+    },
+    {
+      "language": "Slovenian",
+      "people": [
+        {
+          "firstname": "Andrej",
+          "lastname": "Müller"
+        }
+      ]
+    },
+    {
+      "language": "Thai",
+      "people": [
+        {
+          "firstname": "Voraya",
+          "lastname": "Satitpatanaphan"
+        },
+        {
+          "firstname": "Pabhasiri",
+          "lastname": "Mahatharadol"
+        },
+        {
+          "firstname": "Arnan Roger",
+          "lastname": "Sipitakiat"
+        }
+      ]
+    },
+    {
+      "language": "Gujarati",
+      "people": [
+        {
+          "firstname": "Kalpesh",
+          "lastname": "Surati"
+        }
+      ]
+    },
+    {
+      "language": "Persian",
+      "people": [
+        {
+          "firstname": "Sareh",
+          "lastname": "Choupani"
+        }
+      ]
+    },
+    {
+      "language": "Swedish",
+      "people": [
+        {
+          "firstname": "Anton",
+          "lastname": "Stjernst"
+        }
+      ]
+    },
+    {
+      "language": "Croatian",
+      "people": [
+        {
+          "firstname": "Mirhet",
+          "lastname": "Saracevic"
+        },
+        {
+          "firstname": "Jasmin",
+          "lastname": "Salihovic"
+        }
+      ]
+    },
+    {
+      "language": "Serbian",
+      "people": [
+        {
+          "firstname": "Mirhet",
+          "lastname": "Saracevic"
+        },
+        {
+          "firstname": "Jasmin",
+          "lastname": "Salihovic"
+        }
+      ]
+    },
+    {
+      "language": "Vietnamese",
+      "people": [
+        {
+          "firstname": "Phuong Thao",
+          "lastname": "Nguyen"
+        }
+      ]
+    },
+    {
+      "language": "Urdu",
+      "people": [
+        {
+          "firstname": "Jamil",
+          "lastname": "Khan"
+        }
+      ]
+    }
+  ],
+  "createAtSchoolNOLBMembers": [
+    {
+      "university": {
+        "name": "TU Graz",
+        "country": "Austria"
+      },
+      "people": [
+        {
+          "firstname": "Wolfgang",
+          "lastname": "Slany",
+          "github": "wslany"
+        },
+        {
+          "firstname": "Bernadette",
+          "lastname": "Spieler"
+        },
+        {
+          "firstname": "Anja",
+          "lastname": "Petri"
+        },
+        {
+          "firstname": "Christian",
+          "lastname": "Schindler",
+          "github": "amix73"
+        },
+        {
+          "firstname": "Matthias",
+          "lastname": "Müller"
+        },
+        {
+          "firstname": "Elena",
+          "lastname": "Mashkina"
+        },
+        {
+          "firstname": "Johanna",
+          "lastname": "Stefanzl"
+        },
+        {
+          "firstname": "Peter",
+          "lastname": "Kapfer"
+        },
+        {
+          "firstname": "Stefan",
+          "lastname": "Jaindl",
+          "github": "sjaindl"
+        },
+        {
+          "firstname": "Manuel",
+          "lastname": "Haid",
+          "github": "Manu91"
+        },
+        {
+          "firstname": "Florian",
+          "lastname": "Weißensteiner",
+          "github": "FlorianWeissensteiner"
+        },
+        {
+          "firstname": "Eric",
+          "lastname": "Gergeley"
+        },
+        {
+          "firstname": "Andrej",
+          "lastname": "Knaus"
+        },
+        {
+          "firstname": "Sebastian",
+          "lastname": "Gabl"
+        },
+        {
+          "firstname": "Thomas",
+          "lastname": "Mauerhofer"
+        }
+      ]
+    },
+    {
+      "university": {
+        "name": "Inmark Spain",
+        "country": "Spain"
+      },
+      "people": [
+        {
+          "firstname": "María Eugenia",
+          "lastname": "Beltrán"
+        },
+        {
+          "firstname": "Yolanda",
+          "lastname": "Ursa"
+        },
+        {
+          "firstname": "Sabina",
+          "lastname": "Guaylupo"
+        },
+        {
+          "firstname": "Xianshu",
+          "lastname": "Zeng"
+        }
+      ]
+    },
+    {
+      "university": {
+        "name": "UPM Spain",
+        "country": "Spain"
+      },
+      "people": [
+        {
+          "firstname": "Eugenio",
+          "lastname": "Gaeta"
+        },
+        {
+          "firstname": "Gloria Cea",
+          "lastname": "Sánchez"
+        },
+        {
+          "firstname": "Emir A.",
+          "lastname": "Bosques Rodriguez"
+        }
+      ]
+    },
+    {
+      "university": {
+        "name": "NTU",
+        "country": "Singapore"
+      },
+      "people": [
+        {
+          "firstname": "Andrew",
+          "lastname": "Burton"
+        },
+        {
+          "firstname": "David",
+          "lastname": "Bown"
+        },
+        {
+          "firstname": "Helen",
+          "lastname": "Boulton"
+        },
+        {
+          "firstname": "Nicholas",
+          "lastname": "Shopland"
+        }
+      ]
+    },
+    {
+      "university": {
+        "name": "ZED Spain",
+        "country": "Spain"
+      },
+      "people": [
+        {
+          "firstname": "Teofilo",
+          "lastname": "Redondo"
+        },
+        {
+          "firstname": "Paula",
+          "lastname": "Collazos"
+        },
+        {
+          "firstname": "Fernando",
+          "lastname": "Pérez"
+        }
+      ]
+    },
+    {
+      "university": {
+        "name": "Hochschule der Medien Stuttgart",
+        "country": "Germany"
+      },
+      "people": [
+        {
+          "firstname": "Patrick",
+          "lastname": "Münster"
+        },
+        {
+          "firstname": "Christophe",
+          "lastname": "Strobbe"
+        },
+        {
+          "firstname": "Andreas",
+          "lastname": "Stiegler"
+        }
+      ]
+    },
+    {
+      "university": {
+        "name": "Game City",
+        "country": ""
+      },
+      "people": [
+        {
+          "firstname": "Jonathan",
+          "lastname": "Smith"
+        },
+        {
+          "firstname": "Dom",
+          "lastname": "Martinovs"
+        },
+        {
+          "firstname": "Rachel",
+          "lastname": "Barret"
+        }
+      ]
+    }
+  ],
+  "contributors": [
+    {
+      "firstname": "Annemarie",
+      "lastname": "Harzl",
+      "github": "AnnemarieH"
+    },
+    {
+      "firstname": "Alexander",
+      "lastname": "Kalchauer",
+      "github": "Woodruf1986"
+    },
+    {
+      "firstname": "Othmar",
+      "lastname": "Ruprecht",
+      "github": "oruprecht"
+    },
+    {
+      "firstname": "Peter",
+      "lastname": "Treitler",
+      "github": "ptreitler"
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Holzmann",
+      "github": ""
+    },
+    {
+      "firstname": "Tom",
+      "lastname": "Spiss",
+      "github": ""
+    },
+    {
+      "firstname": "Stefan",
+      "lastname": "Hohenwarter",
+      "github": ""
+    },
+    {
+      "firstname": "Nikolaus",
+      "lastname": "Koller",
+      "github": ""
+    },
+    {
+      "firstname": "Tobias",
+      "lastname": "Gritschacher",
+      "github": ""
+    },
+    {
+      "firstname": "Oliver",
+      "lastname": "Prentner",
+      "github": ""
+    },
+    {
+      "firstname": "Sercan",
+      "lastname": "Akpolat",
+      "github": "sercanakpolat"
+    },
+    {
+      "firstname": "Alexander",
+      "lastname": "Gütler",
+      "github": ""
+    },
+    {
+      "firstname": "Peter",
+      "lastname": "Schmidl",
+      "github": ""
+    },
+    {
+      "firstname": "Maximilian",
+      "lastname": "Fellner",
+      "github": "mfellner"
+    },
+    {
+      "firstname": "Ferdinand",
+      "lastname": "Knapitsch",
+      "github": ""
+    },
+    {
+      "firstname": "Daniel",
+      "lastname": "Markart",
+      "github": "markini"
+    },
+    {
+      "firstname": "David",
+      "lastname": "Reisenberger",
+      "github": "threesn"
+    },
+    {
+      "firstname": "Daniel",
+      "lastname": "Burtscher",
+      "github": "knut0025"
+    },
+    {
+      "firstname": "Jörg",
+      "lastname": "Hofer",
+      "github": "hoferj"
+    },
+    {
+      "firstname": "Roman",
+      "lastname": "Mauhart",
+      "github": "roms981"
+    },
+    {
+      "firstname": "Stefan",
+      "lastname": "Mayer",
+      "github": "stefanmayer13"
+    },
+    {
+      "firstname": "Ainul Husna",
+      "lastname": "Abdul Muin",
+      "github": ""
+    },
+    {
+      "firstname": "Jia Lin",
+      "lastname": "Chong",
+      "github": ""
+    },
+    {
+      "firstname": "Denise",
+      "lastname": "Hoo",
+      "github": "denisehoo"
+    },
+    {
+      "firstname": "Manuel",
+      "lastname": "Zoderer",
+      "github": "mane87"
+    },
+    {
+      "firstname": "Martin",
+      "lastname": "Oswald",
+      "github": ""
+    },
+    {
+      "firstname": "Dietmar",
+      "lastname": "Maurer",
+      "github": ""
+    },
+    {
+      "firstname": "Christian",
+      "lastname": "Lesjak",
+      "github": ""
+    },
+    {
+      "firstname": "Christoph",
+      "lastname": "Woergoetter",
+      "github": ""
+    },
+    {
+      "firstname": "Safdar",
+      "lastname": "Zaman",
+      "github": ""
+    },
+    {
+      "firstname": "Johannes",
+      "lastname": "Iber",
+      "github": "jib218"
+    },
+    {
+      "firstname": "Hans Peter",
+      "lastname": "Gugl",
+      "github": "LorrenzoVonMatterhorn"
+    },
+    {
+      "firstname": "Florian",
+      "lastname": "Hubner",
+      "github": ""
+    },
+    {
+      "firstname": "Christoph",
+      "lastname": "Kahr",
+      "github": ""
+    },
+    {
+      "firstname": "David",
+      "lastname": "Kikelj",
+      "github": ""
+    },
+    {
+      "firstname": "Jakob",
+      "lastname": "Strauss",
+      "github": "oktolon"
+    },
+    {
+      "firstname": "Pulkit",
+      "lastname": "Chouhan",
+      "github": ""
+    },
+    {
+      "firstname": "Smiai",
+      "lastname": "Oussama",
+      "github": "oussama-smiai"
+    },
+    {
+      "firstname": "Boris",
+      "lastname": "Kanjer",
+      "github": ""
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Rosmarin",
+      "github": "trosmarin"
+    },
+    {
+      "firstname": "Stephan",
+      "lastname": "Fellhofer",
+      "github": "felly"
+    },
+    {
+      "firstname": "Alex",
+      "lastname": "Nicoara",
+      "github": ""
+    },
+    {
+      "firstname": "Bernhard",
+      "lastname": "Trapp",
+      "github": "trappatoni"
+    },
+    {
+      "firstname": "Hans-Jürgen",
+      "lastname": "Schröttner",
+      "github": ""
+    },
+    {
+      "firstname": "Raphael",
+      "lastname": "Sommer",
+      "github": "raphaels"
+    },
+    {
+      "firstname": "Gerald",
+      "lastname": "Wagner",
+      "github": "wagnergerald"
+    },
+    {
+      "firstname": "Fatin",
+      "lastname": "Ghazi",
+      "github": ""
+    },
+    {
+      "firstname": "Deena",
+      "lastname": "Mugien",
+      "github": ""
+    },
+    {
+      "firstname": "Walter",
+      "lastname": "Tang",
+      "github": ""
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Loidolt",
+      "github": ""
+    },
+    {
+      "firstname": "Christian",
+      "lastname": "Hartinger",
+      "github": ""
+    },
+    {
+      "firstname": "Angelika",
+      "lastname": "More",
+      "github": ""
+    },
+    {
+      "firstname": "Peter",
+      "lastname": "Tielsch",
+      "github": "ptielsch"
+    },
+    {
+      "firstname": "Gerald",
+      "lastname": "Musser",
+      "github": ""
+    },
+    {
+      "firstname": "Roland",
+      "lastname": "Dutzler",
+      "github": ""
+    },
+    {
+      "firstname": "Philipp",
+      "lastname": "Taferner",
+      "github": ""
+    },
+    {
+      "firstname": "Otto",
+      "lastname": "Touzil",
+      "github": ""
+    },
+    {
+      "firstname": "Max",
+      "lastname": "Löffler",
+      "github": ""
+    },
+    {
+      "firstname": "Florian",
+      "lastname": "Sumann",
+      "github": ""
+    },
+    {
+      "firstname": "Andreas",
+      "lastname": "Maureder",
+      "github": ""
+    },
+    {
+      "firstname": "Manfred",
+      "lastname": "Knapp",
+      "github": ""
+    },
+    {
+      "firstname": "Tobias",
+      "lastname": "Stumpfl",
+      "github": ""
+    },
+    {
+      "firstname": "Markus",
+      "lastname": "Hobl",
+      "github": "mhobl"
+    },
+    {
+      "firstname": "Andrea",
+      "lastname": "Höfler",
+      "github": ""
+    },
+    {
+      "firstname": "Valentin",
+      "lastname": "Rock",
+      "github": ""
+    },
+    {
+      "firstname": "Herbert Christian",
+      "lastname": "Lierzer",
+      "github": ""
+    },
+    {
+      "firstname": "Mario",
+      "lastname": "Kolli",
+      "github": ""
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Kaufmann",
+      "github": "kaufi"
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Pletz",
+      "github": ""
+    },
+    {
+      "firstname": "Jeton",
+      "lastname": "Arifi",
+      "github": ""
+    },
+    {
+      "firstname": "Matthias",
+      "lastname": "Traub",
+      "github": ""
+    },
+    {
+      "firstname": "Patrick",
+      "lastname": "Koch",
+      "github": "patkoch"
+    },
+    {
+      "firstname": "Robert",
+      "lastname": "Painsi",
+      "github": "robertpainsi"
+    },
+    {
+      "firstname": "Daniel",
+      "lastname": "Fritzsch",
+      "github": ""
+    },
+    {
+      "firstname": "Dominik",
+      "lastname": "Schleicher",
+      "github": ""
+    },
+    {
+      "firstname": "Ilija",
+      "lastname": "Simic",
+      "github": "isimic"
+    },
+    {
+      "firstname": "Majda",
+      "lastname": "Osmic",
+      "github": "majda-osmic"
+    },
+    {
+      "firstname": "Marco",
+      "lastname": "Steger",
+      "github": ""
+    },
+    {
+      "firstname": "Maximilian",
+      "lastname": "Sachs",
+      "github": ""
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Münzer",
+      "github": ""
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Rieder",
+      "github": ""
+    },
+    {
+      "firstname": "Peter",
+      "lastname": "Kapfer",
+      "github": ""
+    },
+    {
+      "firstname": "Hannes",
+      "lastname": "Hasenauer",
+      "github": ""
+    },
+    {
+      "firstname": "Gerhild",
+      "lastname": "Grinschgl",
+      "github": ""
+    },
+    {
+      "firstname": "Andreas",
+      "lastname": "Frühwirt",
+      "github": ""
+    },
+    {
+      "firstname": "Christof",
+      "lastname": "Stromberger",
+      "github": ""
+    },
+    {
+      "firstname": "Markus",
+      "lastname": "Schmid",
+      "github": ""
+    },
+    {
+      "firstname": "Mattias",
+      "lastname": "Rauter",
+      "github": ""
+    },
+    {
+      "firstname": "Stefan",
+      "lastname": "Simon",
+      "github": "SimonStefan"
+    },
+    {
+      "firstname": "Stefan",
+      "lastname": "Oberacher",
+      "github": ""
+    },
+    {
+      "firstname": "Vesna",
+      "lastname": "Krnjic",
+      "github": "VesnaK"
+    },
+    {
+      "firstname": "Simge",
+      "lastname": "Sezgin",
+      "github": ""
+    },
+    {
+      "firstname": "Artur",
+      "lastname": "Termenji",
+      "github": "atermenji"
+    },
+    {
+      "firstname": "Samitha Priyanath",
+      "lastname": "Jayathilaka",
+      "github": "samjay"
+    },
+    {
+      "firstname": "Florian",
+      "lastname": "Schitter",
+      "github": ""
+    },
+    {
+      "firstname": "Markus",
+      "lastname": "Höfer",
+      "github": ""
+    },
+    {
+      "firstname": "Petra",
+      "lastname": "Pupovac",
+      "github": ""
+    },
+    {
+      "firstname": "Ingrid",
+      "lastname": "Reip",
+      "github": ""
+    },
+    {
+      "firstname": "Patman",
+      "lastname": "Ghazi",
+      "github": ""
+    },
+    {
+      "firstname": "Suemeyra",
+      "lastname": "Mutlu",
+      "github": ""
+    },
+    {
+      "firstname": "Bernhard",
+      "lastname": "Ruttinger",
+      "github": ""
+    },
+    {
+      "firstname": "Julia",
+      "lastname": "Schönhart",
+      "github": ""
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Huber",
+      "github": ""
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Rabko",
+      "github": ""
+    },
+    {
+      "firstname": "Daniela",
+      "lastname": "Zierler",
+      "github": ""
+    },
+    {
+      "firstname": "Lukas",
+      "lastname": "Krisper",
+      "github": ""
+    },
+    {
+      "firstname": "Eberhard",
+      "lastname": "Ferner",
+      "github": ""
+    },
+    {
+      "firstname": "Gerhard",
+      "lastname": "Neuhold",
+      "github": ""
+    },
+    {
+      "firstname": "Rudolf Andreas",
+      "lastname": "Stumptner",
+      "github": ""
+    },
+    {
+      "firstname": "Severin",
+      "lastname": "Holzer-Graf",
+      "github": ""
+    },
+    {
+      "firstname": "Philipp",
+      "lastname": "Koncar",
+      "github": ""
+    },
+    {
+      "firstname": "Sandra",
+      "lastname": "Fuchs",
+      "github": ""
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Kugi",
+      "github": ""
+    },
+    {
+      "firstname": "Arno",
+      "lastname": "Stauder",
+      "github": ""
+    },
+    {
+      "firstname": "Tomislav",
+      "lastname": "Ausperger",
+      "github": ""
+    },
+    {
+      "firstname": "Heimo Ernst",
+      "lastname": "Bischofter",
+      "github": ""
+    },
+    {
+      "firstname": "Tobias",
+      "lastname": "Oblak",
+      "github": ""
+    },
+    {
+      "firstname": "Gerald",
+      "lastname": "Gsellmann",
+      "github": ""
+    },
+    {
+      "firstname": "Norbert",
+      "lastname": "Spot",
+      "github": ""
+    },
+    {
+      "firstname": "Sachi Alana",
+      "lastname": "Williamson",
+      "github": ""
+    },
+    {
+      "firstname": "Saif Aldeen",
+      "lastname": "Alsaifi",
+      "github": ""
+    },
+    {
+      "firstname": "Angelika",
+      "lastname": "Droisner",
+      "github": ""
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Gruber",
+      "github": ""
+    },
+    {
+      "firstname": "Hakan",
+      "lastname": "Özkan",
+      "github": ""
+    },
+    {
+      "firstname": "Fabian",
+      "lastname": "Tschiatschek",
+      "github": ""
+    },
+    {
+      "firstname": "Lukas",
+      "lastname": "Resch",
+      "github": ""
+    },
+    {
+      "firstname": "Andreas",
+      "lastname": "Abraham",
+      "github": ""
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Peitler",
+      "github": ""
+    },
+    {
+      "firstname": "Bianca",
+      "lastname": "Teufl",
+      "github": ""
+    },
+    {
+      "firstname": "Daniel Franz",
+      "lastname": "Neuhold",
+      "github": ""
+    },
+    {
+      "firstname": "Domenik",
+      "lastname": "Melcher",
+      "github": ""
+    },
+    {
+      "firstname": "Elisabeth",
+      "lastname": "Heschl",
+      "github": "ElliHeschl"
+    },
+    {
+      "firstname": "Matthias Sebastian",
+      "lastname": "Schlesinger",
+      "github": ""
+    },
+    {
+      "firstname": "Rene",
+      "lastname": "Obendrauf",
+      "github": ""
+    },
+    {
+      "firstname": "Rudolf Josef",
+      "lastname": "Wagner",
+      "github": ""
+    },
+    {
+      "firstname": "Armin",
+      "lastname": "Hutzler",
+      "github": ""
+    },
+    {
+      "firstname": "Valentin",
+      "lastname": "Kassarnig",
+      "github": ""
+    },
+    {
+      "firstname": "Johannes",
+      "lastname": "Singer",
+      "github": ""
+    },
+    {
+      "firstname": "Stefan",
+      "lastname": "Pointner",
+      "github": ""
+    },
+    {
+      "firstname": "Andreas",
+      "lastname": "Voraberger",
+      "github": ""
+    },
+    {
+      "firstname": "Alexander",
+      "lastname": "Oberegger",
+      "github": ""
+    },
+    {
+      "firstname": "Florian",
+      "lastname": "Winkelbauer",
+      "github": "fwinkelbauer"
+    },
+    {
+      "firstname": "Karl",
+      "lastname": "Koch",
+      "github": ""
+    },
+    {
+      "firstname": "Lukas",
+      "lastname": "Prokop",
+      "github": ""
+    },
+    {
+      "firstname": "Philipp",
+      "lastname": "Weissensteiner",
+      "github": ""
+    },
+    {
+      "firstname": "David",
+      "lastname": "Kolb",
+      "github": ""
+    },
+    {
+      "firstname": "Martin",
+      "lastname": "Burtscher",
+      "github": "martinbu"
+    },
+    {
+      "firstname": "Dominik",
+      "lastname": "Mößlang",
+      "github": ""
+    },
+    {
+      "firstname": "Philipp",
+      "lastname": "Kremers",
+      "github": ""
+    },
+    {
+      "firstname": "Dominik",
+      "lastname": "Widnig",
+      "github": ""
+    },
+    {
+      "firstname": "Alexander",
+      "lastname": "Oberbucher",
+      "github": ""
+    },
+    {
+      "firstname": "Christoph",
+      "lastname": "Pilz",
+      "github": ""
+    },
+    {
+      "firstname": "David",
+      "lastname": "Strohmaier",
+      "github": ""
+    },
+    {
+      "firstname": "Ewald",
+      "lastname": "Moitzi",
+      "github": ""
+    },
+    {
+      "firstname": "Gottfried",
+      "lastname": "Selenko",
+      "github": ""
+    },
+    {
+      "firstname": "Markus",
+      "lastname": "Hobisch",
+      "github": "MarkusHobisch"
+    },
+    {
+      "firstname": "Matthias",
+      "lastname": "Eichhaber",
+      "github": ""
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Koweindl",
+      "github": ""
+    },
+    {
+      "firstname": "Samir",
+      "lastname": "Ramadani",
+      "github": ""
+    },
+    {
+      "firstname": "Stefan",
+      "lastname": "Padureanu",
+      "github": ""
+    },
+    {
+      "firstname": "Hedwig",
+      "lastname": "Höller",
+      "github": ""
+    },
+    {
+      "firstname": "Eva-Maria",
+      "lastname": "Trummer",
+      "github": ""
+    },
+    {
+      "firstname": "Stefan",
+      "lastname": "Galler",
+      "github": ""
+    },
+    {
+      "firstname": "Simone",
+      "lastname": "Lemmerer",
+      "github": ""
+    },
+    {
+      "firstname": "Christopher",
+      "lastname": "Jelinek",
+      "github": ""
+    },
+    {
+      "firstname": "Abdelbasset",
+      "lastname": "Amara",
+      "github": ""
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Prem",
+      "github": ""
+    },
+    {
+      "firstname": "Paul",
+      "lastname": "Melbinger",
+      "github": ""
+    },
+    {
+      "firstname": "Maria",
+      "lastname": "Aumann",
+      "github": ""
+    },
+    {
+      "firstname": "Rayna",
+      "lastname": "Nikolova",
+      "github": ""
+    },
+    {
+      "firstname": "Hans Dieter",
+      "lastname": "Knaus",
+      "github": ""
+    },
+    {
+      "firstname": "Franz",
+      "lastname": "Schreiner",
+      "github": "obusher"
+    },
+    {
+      "firstname": "Peter",
+      "lastname": "Pranter",
+      "github": ""
+    },
+    {
+      "firstname": "Jakob",
+      "lastname": "Unterkofler",
+      "github": "junter7"
+    },
+    {
+      "firstname": "Stefan",
+      "lastname": "Jaindl",
+      "github": "sjaindl"
+    },
+    {
+      "firstname": "Bernhard",
+      "lastname": "Spitzer",
+      "github": "bernhardsp"
+    },
+    {
+      "firstname": "Dominik",
+      "lastname": "Ziegler",
+      "github": ""
+    },
+    {
+      "firstname": "Daniel",
+      "lastname": "Pail",
+      "github": ""
+    },
+    {
+      "firstname": "Christine",
+      "lastname": "Pichler",
+      "github": ""
+    },
+    {
+      "firstname": "Manuel",
+      "lastname": "Wallner",
+      "github": "ManuelWallner"
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Fuchs",
+      "github": "tfuchs"
+    },
+    {
+      "firstname": "Marco",
+      "lastname": "Meiser",
+      "github": "m4ceo"
+    },
+    {
+      "firstname": "Andreas",
+      "lastname": "Müller",
+      "github": "andrmueller"
+    },
+    {
+      "firstname": "Viktoria",
+      "lastname": "Schlaipfer",
+      "github": ""
+    },
+    {
+      "firstname": "Armend",
+      "lastname": "Zeqiraj",
+      "github": ""
+    },
+    {
+      "firstname": "Stefan",
+      "lastname": "Neureiter",
+      "github": ""
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Kriechbaumer",
+      "github": ""
+    },
+    {
+      "firstname": "Andreas",
+      "lastname": "Hofbauer",
+      "github": ""
+    },
+    {
+      "firstname": "Philipp",
+      "lastname": "Neidhöfer",
+      "github": ""
+    },
+    {
+      "firstname": "Richard",
+      "lastname": "Schumi",
+      "github": ""
+    },
+    {
+      "firstname": "Max",
+      "lastname": "Reinthaler",
+      "github": ""
+    },
+    {
+      "firstname": "Max",
+      "lastname": "Schafzahl",
+      "github": ""
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Stradner",
+      "github": ""
+    },
+    {
+      "firstname": "Artur",
+      "lastname": "Knaus",
+      "github": ""
+    },
+    {
+      "firstname": "Manuel",
+      "lastname": "Jelinek",
+      "github": ""
+    },
+    {
+      "firstname": "Martin",
+      "lastname": "Erb",
+      "github": ""
+    },
+    {
+      "firstname": "Armin",
+      "lastname": "Wieser",
+      "github": ""
+    },
+    {
+      "firstname": "Marko",
+      "lastname": "Burazer",
+      "github": ""
+    },
+    {
+      "firstname": "Markus",
+      "lastname": "Hartmair",
+      "github": ""
+    },
+    {
+      "firstname": "Christopher",
+      "lastname": "Immervoll",
+      "github": ""
+    },
+    {
+      "firstname": "Christian M.",
+      "lastname": "Hofer",
+      "github": "chrisss404"
+    },
+    {
+      "firstname": "Elena",
+      "lastname": "Mashkina",
+      "github": ""
+    },
+    {
+      "firstname": "Roxane",
+      "lastname": "Koitz",
+      "github": "RoxaneKoitz"
+    },
+    {
+      "firstname": "Christian",
+      "lastname": "Burghard",
+      "github": ""
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Laubreiter",
+      "github": ""
+    },
+    {
+      "firstname": "Namik",
+      "lastname": "Delilovic",
+      "github": ""
+    },
+    {
+      "firstname": "Jasmin",
+      "lastname": "Salihovic",
+      "github": ""
+    },
+    {
+      "firstname": "Gregor",
+      "lastname": "Sitter",
+      "github": ""
+    },
+    {
+      "firstname": "Mirhet",
+      "lastname": "Saracevic",
+      "github": ""
+    },
+    {
+      "firstname": "Tatiyana",
+      "lastname": "Domanova",
+      "github": ""
+    },
+    {
+      "firstname": "Roland",
+      "lastname": "Urbano",
+      "github": "X4mp"
+    },
+    {
+      "firstname": "Patrick",
+      "lastname": "Trummer",
+      "github": "trummerp"
+    },
+    {
+      "firstname": "Ajdin",
+      "lastname": "Vihric",
+      "github": "avihric"
+    },
+    {
+      "firstname": "Rudolf",
+      "lastname": "Weißenbacher",
+      "github": ""
+    },
+    {
+      "firstname": "Johannes",
+      "lastname": "Lüftenegger",
+      "github": ""
+    },
+    {
+      "firstname": "Andreas",
+      "lastname": "Gladik",
+      "github": "glaanc03"
+    },
+    {
+      "firstname": "Marc",
+      "lastname": "Slavec",
+      "github": ""
+    },
+    {
+      "firstname": "Ralph",
+      "lastname": "Samer",
+      "github": "rsamer"
+    },
+    {
+      "firstname": "Bernhard",
+      "lastname": "Winter",
+      "github": ""
+    },
+    {
+      "firstname": "Daniel",
+      "lastname": "Ladenhauf",
+      "github": ""
+    },
+    {
+      "firstname": "Theresa",
+      "lastname": "Egger",
+      "github": ""
+    },
+    {
+      "firstname": "Sebastian",
+      "lastname": "Krell",
+      "github": ""
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Anderhuber",
+      "github": ""
+    },
+    {
+      "firstname": "Manuel",
+      "lastname": "Polzhofer",
+      "github": "xmxanuel"
+    },
+    {
+      "firstname": "Adrian",
+      "lastname": "Schnedlitz",
+      "github": "AdrianSch"
+    },
+    {
+      "firstname": "Andrej",
+      "lastname": "Müller",
+      "github": ""
+    },
+    {
+      "firstname": "Tobias",
+      "lastname": "Ibounig",
+      "github": "tobijdc"
+    },
+    {
+      "firstname": "Johannes",
+      "lastname": "Kühnel",
+      "github": ""
+    },
+    {
+      "firstname": "Bernd",
+      "lastname": "Baumann",
+      "github": ""
+    },
+    {
+      "firstname": "Gerald",
+      "lastname": "Lohnauer",
+      "github": ""
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Kohl",
+      "github": "KohlThomas"
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Mauerhofer",
+      "github": ""
+    },
+    {
+      "firstname": "Daniel",
+      "lastname": "Ellmeier",
+      "github": "d-ell"
+    },
+    {
+      "firstname": "Lukas",
+      "lastname": "Radacher",
+      "github": ""
+    },
+    {
+      "firstname": "David",
+      "lastname": "Prott",
+      "github": ""
+    },
+    {
+      "firstname": "Stephan",
+      "lastname": "Frühwirt",
+      "github": ""
+    },
+    {
+      "firstname": "Christian",
+      "lastname": "Benkovic",
+      "github": ""
+    },
+    {
+      "firstname": "Alexander",
+      "lastname": "Wieland",
+      "github": ""
+    },
+    {
+      "firstname": "Fabian",
+      "lastname": "Hartl",
+      "github": ""
+    },
+    {
+      "firstname": "Patrik",
+      "lastname": "Maier",
+      "github": ""
+    },
+    {
+      "firstname": "Claudio",
+      "lastname": "Kirchmair",
+      "github": ""
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Herold",
+      "github": ""
+    },
+    {
+      "firstname": "Jürgen",
+      "lastname": "Wurzinger",
+      "github": ""
+    },
+    {
+      "firstname": "Lukas",
+      "lastname": "Mayr",
+      "github": "LukasMayr"
+    },
+    {
+      "firstname": "Nikolaus",
+      "lastname": "Tiesenhausen",
+      "github": ""
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Fötschl",
+      "github": ""
+    },
+    {
+      "firstname": "Christian",
+      "lastname": "Reisinger",
+      "github": ""
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Schranz",
+      "github": "thmq"
+    },
+    {
+      "firstname": "Phillip",
+      "lastname": "Goriup",
+      "github": "Gorphi"
+    },
+    {
+      "firstname": "Markus",
+      "lastname": "Nager",
+      "github": ""
+    },
+    {
+      "firstname": "Philipp",
+      "lastname": "Pfleger",
+      "github": ""
+    },
+    {
+      "firstname": "Andrew",
+      "lastname": "Deutschmann",
+      "github": "anddman"
+    },
+    {
+      "firstname": "Matthias",
+      "lastname": "Müller",
+      "github": ""
+    },
+    {
+      "firstname": "Wolfgang",
+      "lastname": "Wintersteller",
+      "github": ""
+    },
+    {
+      "firstname": "Patrick",
+      "lastname": "Radkohl",
+      "github": ""
+    },
+    {
+      "firstname": "Werner",
+      "lastname": "Arnus",
+      "github": ""
+    },
+    {
+      "firstname": "Gerulf",
+      "lastname": "Binder",
+      "github": ""
+    },
+    {
+      "firstname": "Martin",
+      "lastname": "Prinz",
+      "github": ""
+    },
+    {
+      "firstname": "Marc",
+      "lastname": "Schober",
+      "github": ""
+    },
+    {
+      "firstname": "Darjan",
+      "lastname": "Salaj",
+      "github": ""
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Lienhart",
+      "github": ""
+    },
+    {
+      "firstname": "Laura",
+      "lastname": "Bebek",
+      "github": "LauraBebek"
+    },
+    {
+      "firstname": "Illya",
+      "lastname": "Boyko",
+      "github": "iboyko"
+    },
+    {
+      "firstname": "Aiman",
+      "lastname": "Awwad",
+      "github": ""
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Grebien",
+      "github": ""
+    },
+    {
+      "firstname": "Anna",
+      "lastname": "Lickl",
+      "github": ""
+    },
+    {
+      "firstname": "Mario",
+      "lastname": "Lins",
+      "github": "linsm"
+    },
+    {
+      "firstname": "David",
+      "lastname": "Marogy",
+      "github": ""
+    },
+    {
+      "firstname": "Manuel",
+      "lastname": "Haid",
+      "github": "Manu91"
+    },
+    {
+      "firstname": "Christof",
+      "lastname": "Rabensteiner",
+      "github": ""
+    },
+    {
+      "firstname": "Bernadette",
+      "lastname": "Spieler",
+      "github": ""
+    },
+    {
+      "firstname": "Patrick",
+      "lastname": "Radl",
+      "github": ""
+    },
+    {
+      "firstname": "André",
+      "lastname": "Tropper",
+      "github": "alt-13"
+    },
+    {
+      "firstname": "Benjamin",
+      "lastname": "Bristow",
+      "github": ""
+    },
+    {
+      "firstname": "Christian",
+      "lastname": "Schindler",
+      "github": "amix73"
+    },
+    {
+      "firstname": "Pascal",
+      "lastname": "Steiner",
+      "github": ""
+    },
+    {
+      "firstname": "Bianca",
+      "lastname": "Jakobitsch",
+      "github": ""
+    },
+    {
+      "firstname": "Samuel",
+      "lastname": "Sprung",
+      "github": ""
+    },
+    {
+      "firstname": "Josef",
+      "lastname": "Filzmaier",
+      "github": "joseffilzmaier"
+    },
+    {
+      "firstname": "Christian",
+      "lastname": "Jung",
+      "github": "MightyMendor"
+    },
+    {
+      "firstname": "Johannes",
+      "lastname": "Zenz",
+      "github": ""
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Pittner",
+      "github": ""
+    },
+    {
+      "firstname": "Philipp",
+      "lastname": "Eisner",
+      "github": ""
+    },
+    {
+      "firstname": "Sebastian",
+      "lastname": "Schrimpf",
+      "github": ""
+    },
+    {
+      "firstname": "Zulfiqar",
+      "lastname": "Ali",
+      "github": ""
+    },
+    {
+      "firstname": "Richard",
+      "lastname": "Aigner",
+      "github": ""
+    },
+    {
+      "firstname": "Georg",
+      "lastname": "Schober",
+      "github": ""
+    },
+    {
+      "firstname": "Stefan",
+      "lastname": "Bürscher",
+      "github": "StefanBuerscher"
+    },
+    {
+      "firstname": "Kirshan Kumar",
+      "lastname": "Luhana",
+      "github": ""
+    },
+    {
+      "firstname": "Robert",
+      "lastname": "Riedl",
+      "github": "rriedl"
+    },
+    {
+      "firstname": "Amel",
+      "lastname": "Hamidovic",
+      "github": ""
+    },
+    {
+      "firstname": "Adam",
+      "lastname": "Ujvari",
+      "github": ""
+    },
+    {
+      "firstname": "David",
+      "lastname": "Wittenbrink",
+      "github": ""
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Hirsch",
+      "github": "84n4n4"
+    },
+    {
+      "firstname": "Lukas",
+      "lastname": "Fritz",
+      "github": "frit96"
+    },
+    {
+      "firstname": "Marco",
+      "lastname": "Wallner",
+      "github": ""
+    },
+    {
+      "firstname": "Florian",
+      "lastname": "Weißensteiner",
+      "github": "FlorianWeissensteiner"
+    },
+    {
+      "firstname": "Lukas",
+      "lastname": "Loibnegger",
+      "github": "loibi93"
+    },
+    {
+      "firstname": "Amra",
+      "lastname": "Dzombic",
+      "github": ""
+    },
+    {
+      "firstname": "Wolfgang",
+      "lastname": "Karl",
+      "github": ""
+    },
+    {
+      "firstname": "Paul",
+      "lastname": "Schreiner",
+      "github": ""
+    },
+    {
+      "firstname": "Andrej",
+      "lastname": "Knaus",
+      "github": ""
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Lang",
+      "github": ""
+    },
+    {
+      "firstname": "Oliver",
+      "lastname": "Zott",
+      "github": "ozott"
+    },
+    {
+      "firstname": "Mario",
+      "lastname": "Pagger",
+      "github": ""
+    },
+    {
+      "firstname": "Markus",
+      "lastname": "Reiter-Haas",
+      "github": ""
+    },
+    {
+      "firstname": "Patrick",
+      "lastname": "Klampfl",
+      "github": "p4p4"
+    },
+    {
+      "firstname": "Denis",
+      "lastname": "Munter",
+      "github": ""
+    },
+    {
+      "firstname": "Fabian",
+      "lastname": "Kofler",
+      "github": "Bioxar"
+    },
+    {
+      "firstname": "Sebastian",
+      "lastname": "Gabl",
+      "github": ""
+    },
+    {
+      "firstname": "Tobias",
+      "lastname": "Striemitzer",
+      "github": "Eisfux2"
+    },
+    {
+      "firstname": "Jochen",
+      "lastname": "Flachhuber",
+      "github": "jochenflachhuber"
+    },
+    {
+      "firstname": "Harald",
+      "lastname": "Schaffernak",
+      "github": ""
+    },
+    {
+      "firstname": "Joachim",
+      "lastname": "Lesser",
+      "github": "JoachimLesser"
+    },
+    {
+      "firstname": "David",
+      "lastname": "Niederkofler",
+      "github": ""
+    },
+    {
+      "firstname": "Martin",
+      "lastname": "Kerschbaumer",
+      "github": ""
+    },
+    {
+      "firstname": "Alexander",
+      "lastname": "Kargl",
+      "github": "akargl"
+    },
+    {
+      "firstname": "Eric",
+      "lastname": "Gergely",
+      "github": ""
+    },
+    {
+      "firstname": "Dominik",
+      "lastname": "Lindenbauer",
+      "github": ""
+    },
+    {
+      "firstname": "Patrik",
+      "lastname": "Hutter",
+      "github": ""
+    },
+    {
+      "firstname": "Gregor",
+      "lastname": "Liebisch",
+      "github": ""
+    },
+    {
+      "firstname": "David",
+      "lastname": "Kienreich",
+      "github": "dkienreich"
+    },
+    {
+      "firstname": "Christoph",
+      "lastname": "Pozvek",
+      "github": "cpozvek"
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Leh",
+      "github": ""
+    },
+    {
+      "firstname": "Manuel",
+      "lastname": "Schweiger",
+      "github": ""
+    },
+    {
+      "firstname": "Reinhold",
+      "lastname": "Seiss",
+      "github": ""
+    },
+    {
+      "firstname": "Stefan",
+      "lastname": "Reichnauer",
+      "github": ""
+    },
+    {
+      "firstname": "Julia",
+      "lastname": "Viehberger",
+      "github": ""
+    },
+    {
+      "firstname": "Ines",
+      "lastname": "Vorraber",
+      "github": ""
+    },
+    {
+      "firstname": "Lukas",
+      "lastname": "Pichler",
+      "github": ""
+    },
+    {
+      "firstname": "Christian",
+      "lastname": "Leopold",
+      "github": ""
+    },
+    {
+      "firstname": "Benjamin",
+      "lastname": "Wullschleger",
+      "github": ""
+    },
+    {
+      "firstname": "Clemens",
+      "lastname": "Stary",
+      "github": ""
+    },
+    {
+      "firstname": "Dino",
+      "lastname": "Keskic",
+      "github": ""
+    },
+    {
+      "firstname": "Florian",
+      "lastname": "Schneider",
+      "github": ""
+    },
+    {
+      "firstname": "Jakov",
+      "lastname": "Matic",
+      "github": ""
+    },
+    {
+      "firstname": "Christian",
+      "lastname": "Huber",
+      "github": "cfkh"
+    },
+    {
+      "firstname": "Peter",
+      "lastname": "Waldert",
+      "github": ""
+    },
+    {
+      "firstname": "Jiaqi",
+      "lastname": "Ning",
+      "github": ""
+    },
+    {
+      "firstname": "Anja",
+      "lastname": "Reibenbacher",
+      "github": ""
+    },
+    {
+      "firstname": "Matthias",
+      "lastname": "Fuchs",
+      "github": "mfuchs"
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Koinig",
+      "github": ""
+    },
+    {
+      "firstname": "Josef",
+      "lastname": "Kraxner",
+      "github": ""
+    },
+    {
+      "firstname": "Johanna",
+      "lastname": "Stefanzl",
+      "github": ""
+    },
+    {
+      "firstname": "Patrizia",
+      "lastname": "Kamp",
+      "github": ""
+    },
+    {
+      "firstname": "Kevin",
+      "lastname": "Haslinger",
+      "github": ""
+    },
+    {
+      "firstname": "Nishant",
+      "lastname": "Thapliyal",
+      "github": "nishantt95"
+    },
+    {
+      "firstname": "Pushkar",
+      "lastname": "Sharma",
+      "github": ""
+    },
+    {
+      "firstname": "Abduqodiri",
+      "lastname": "Qurbonzoda",
+      "github": ""
+    },
+    {
+      "firstname": "Nikolaus",
+      "lastname": "Steininger",
+      "github": ""
+    },
+    {
+      "firstname": "Christopher",
+      "lastname": "Lamprecht",
+      "github": ""
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Musenbrock",
+      "github": "mmusenbr"
+    },
+    {
+      "firstname": "Emanuel",
+      "lastname": "Konrad",
+      "github": ""
+    },
+    {
+      "firstname": "Dominik",
+      "lastname": "Augustin",
+      "github": ""
+    },
+    {
+      "firstname": "Martin",
+      "lastname": "Pobaschnig",
+      "github": ""
+    },
+    {
+      "firstname": "Felicitas",
+      "lastname": "Fabricius",
+      "github": ""
+    },
+    {
+      "firstname": "Stefan",
+      "lastname": "Painhapp",
+      "github": ""
+    },
+    {
+      "firstname": "Dorian",
+      "lastname": "Lux",
+      "github": "AntiDog"
+    },
+    {
+      "firstname": "Philipp",
+      "lastname": "Fleischhacker",
+      "github": "Hyderow"
+    },
+    {
+      "firstname": "Mattias",
+      "lastname": "Fankhauser",
+      "github": ""
+    },
+    {
+      "firstname": "Rainer",
+      "lastname": "Lankmayr",
+      "github": "rainer-lankmayr"
+    },
+    {
+      "firstname": "Sandro",
+      "lastname": "Eitzinger",
+      "github": ""
+    },
+    {
+      "firstname": "Christoph",
+      "lastname": "Breski",
+      "github": ""
+    },
+    {
+      "firstname": "David",
+      "lastname": "Löwens",
+      "github": ""
+    },
+    {
+      "firstname": "Eduard",
+      "lastname": "Elsner",
+      "github": "elsner91"
+    },
+    {
+      "firstname": "David",
+      "lastname": "Andrawes",
+      "github": "dandrawes"
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Tiefnig",
+      "github": ""
+    },
+    {
+      "firstname": "Dea",
+      "lastname": "Jasini",
+      "github": ""
+    },
+    {
+      "firstname": "Artjom",
+      "lastname": "Arustamov",
+      "github": "artjom404"
+    },
+    {
+      "firstname": "Qun Xin",
+      "lastname": "Lin",
+      "github": "qlin93"
+    },
+    {
+      "firstname": "Fabio",
+      "lastname": "Gandolfi",
+      "github": ""
+    },
+    {
+      "firstname": "Peter",
+      "lastname": "Bürscher",
+      "github": "petbuer"
+    },
+    {
+      "firstname": "Stefanie",
+      "lastname": "Plasch",
+      "github": ""
+    },
+    {
+      "firstname": "Lorenz",
+      "lastname": "Dirry",
+      "github": "ldirry"
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Gombocz",
+      "github": ""
+    },
+    {
+      "firstname": "Stefan",
+      "lastname": "Rinner",
+      "github": ""
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Reichel",
+      "github": "reichli"
+    },
+    {
+      "firstname": "Patrick",
+      "lastname": "Andrawes",
+      "github": ""
+    },
+    {
+      "firstname": "Khushal",
+      "lastname": "Uttam",
+      "github": "khushal1707"
+    },
+    {
+      "firstname": "Dev",
+      "lastname": "Sebastian",
+      "github": "devsebastian"
+    },
+    {
+      "firstname": "Markus",
+      "lastname": "Gombocz",
+      "github": ""
+    },
+    {
+      "firstname": "Patrick",
+      "lastname": "Ratschiller",
+      "github": "ratschillerp"
+    },
+    {
+      "firstname": "Benjamin",
+      "lastname": "Gaal",
+      "github": "bengaal"
+    },
+    {
+      "firstname": "Christian",
+      "lastname": "Sommerauer",
+      "github": "csum1"
+    },
+    {
+      "firstname": "Sebastian",
+      "lastname": "Peischl",
+      "github": "seopei"
+    },
+    {
+      "firstname": "Dardan",
+      "lastname": "Dermaku",
+      "github": ""
+    },
+    {
+      "firstname": "David",
+      "lastname": "Moling",
+      "github": ""
+    },
+    {
+      "firstname": "Florian",
+      "lastname": "Laßnig",
+      "github": "friendo97"
+    },
+    {
+      "firstname": "Bakir",
+      "lastname": "Sabljica",
+      "github": ""
+    },
+    {
+      "firstname": "Julian",
+      "lastname": "Jautz",
+      "github": ""
+    },
+    {
+      "firstname": "Markus",
+      "lastname": "Pozvek",
+      "github": "mpozvek"
+    },
+    {
+      "firstname": "Sebastian",
+      "lastname": "Weninger",
+      "github": "bigsmallpp"
+    },
+    {
+      "firstname": "Csongor",
+      "lastname": "Hegedüs",
+      "github": ""
+    },
+    {
+      "firstname": "Sebastian",
+      "lastname": "Gollob",
+      "github": "sebastiangollob"
+    },
+    {
+      "firstname": "Anei",
+      "lastname": "Makovec",
+      "github": ""
+    },
+    {
+      "firstname": "Edon",
+      "lastname": "Muçaj",
+      "github": "edonmucaj"
+    },
+    {
+      "firstname": "Julia",
+      "lastname": "Herold",
+      "github": "juliajulie95"
+    },
+    {
+      "firstname": "Katharina",
+      "lastname": "Schedl",
+      "github": "rinaschedl"
+    },
+    {
+      "firstname": "Maria",
+      "lastname": "Seiser",
+      "github": "mseiser"
+    },
+    {
+      "firstname": "Jan-Philipp",
+      "lastname": "Schantl",
+      "github": "jANI0x"
+    },
+    {
+      "name": "Dominik",
+      "lastname": "Scheiber",
+      "github": "DinosaurierRex"
+    },
+    {
+      "firstname": "Oskar",
+      "lastname": "Walcher",
+      "github": "Walcho1125"
+    },
+    {
+      "firstname": "Johannes",
+      "lastname": "Mayerhofer",
+      "github": "JohannesMayerhofer"
+    },
+    {
+      "firstname": "Robert",
+      "lastname": "Leiner",
+      "github": "Rawbat"
+    },
+    {
+      "firstname": "Ilma",
+      "lastname": "Lušija",
+      "github": "l-ilma"
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Flucher",
+      "github": "MichaelFlucher"
+    },
+    {
+      "firstname": "Bernhard",
+      "lastname": "Prattes",
+      "github": "bprattes"
+    },
+    {
+      "firstname": "Thorsten",
+      "lastname": "Bandel",
+      "github": "ThorstenBandel"
+    },
+    {
+      "firstname": "Adna",
+      "lastname": "Ribo",
+      "github": "adnaribo"
+    },
+    {
+      "firstname": "Christian",
+      "lastname": "Moser",
+      "github": "ChriMoser"
+    },
+    {
+      "firstname": "Dorian",
+      "lastname": "Percic",
+      "github": "dorianpercic"
+    },
+    {
+      "firstname": "Daniel",
+      "lastname": "Metzner",
+      "github": "dmetzner"
+    },
+    {
+      "firstname": "Jakob",
+      "lastname": "Tropper",
+      "github": "JayTropper"
+    },
+    {
+      "firstname": "Martin",
+      "lastname": "Stöglehner",
+      "github": "mstoeg"
+    },
+    {
+      "firstname": "Clemens",
+      "lastname": "Hofmann",
+      "github": "hofcle78"
+    },
+    {
+      "firstname": "Patrick",
+      "lastname": "Gaisberger",
+      "github": "gPathpp"
+    },
+    {
+      "firstname": "Verena",
+      "lastname": "Buder",
+      "github": "Veve8010"
+    },
+    {
+      "firstname": "David",
+      "lastname": "Egger",
+      "github": "blindguardian50"
+    },
+    {
+      "firstname": "Fabian",
+      "lastname": "Koell",
+      "github": "Koell"
+    },
+    {
+      "firstname": "Maximilian",
+      "lastname": "Flicker",
+      "github": "maxf24"
+    },
+    {
+      "firstname": "Dominik",
+      "lastname": "Dermutz",
+      "github": "dermooods"
+    },
+    {
+      "firstname": "Christoph",
+      "lastname": "Siegl",
+      "github": "christophsiegl"
+    },
+    {
+      "firstname": "Alexander",
+      "lastname": "Kropiunig",
+      "github": "Kropiunig"
+    },
+    {
+      "firstname": "Johannes",
+      "lastname": "Trattner",
+      "github": "jtrattner"
+    },
+    {
+      "firstname": "Alexander",
+      "lastname": "Beinhundner",
+      "github": "BeinhAlex"
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Schwengler",
+      "github": "ThomasSchwengler"
+    },
+    {
+      "firstname": "Tobias",
+      "lastname": "Stangl",
+      "github": "StanglTobias"
+    },
+    {
+      "firstname": "Lucas",
+      "lastname": "Weitzendorf",
+      "github": "lweitzendorf"
+    },
+    {
+      "firstname": "Stefan",
+      "lastname": "Reichenauer",
+      "github": "stefanreichenauer"
+    },
+    {
+      "firstname": "Michelle",
+      "lastname": "Perkonigg",
+      "github": "shellp"
+    },
+    {
+      "firstname": "Andreas",
+      "lastname": "Finsterbusch",
+      "github": "AndreasFinsterbusch"
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Pirrer",
+      "github": "mpirrer"
+    },
+    {
+      "firstname": "Christian",
+      "lastname": "Schmidt",
+      "github": "SchmidtChristian"
+    },
+    {
+      "firstname": "Susanne",
+      "lastname": "Wulz",
+      "github": "swlz"
+    },
+    {
+      "firstname": "Raphael",
+      "lastname": "Schluesselbauer",
+      "github": "rschluesselbauer"
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Fürnschuß",
+      "github": "mfuerni"
+    },
+    {
+      "firstname": "Patrick",
+      "lastname": "Steyer",
+      "github": "Tot333"
+    },
+    {
+      "name": "Manuel",
+      "lastname": "Schoeller",
+      "github": "manuels87"
+    },
+    {
+      "firstname": "Christoph",
+      "lastname": "Heidenreich",
+      "github": "cheidenreich"
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Schiller",
+      "github": "M-Schiller"
+    },
+    {
+      "firstname": "Johannes",
+      "lastname": "Obermueller",
+      "github": "jobermue"
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Fischl",
+      "github": "michael-fischl"
+    },
+    {
+      "firstname": "Oliver",
+      "lastname": "Papst",
+      "github": "OliverPapst"
+    },
+    {
+      "firstname": "Felix",
+      "lastname": "Kirchengast",
+      "github": "fkirc"
+    },
+    {
+      "firstname": "Patrick",
+      "lastname": "Hipp",
+      "github": "Shudouken"
+    },
+    {
+      "firstname": "Jakob",
+      "lastname": "Schweighofer",
+      "github": "Fasusu"
+    },
+    {
+      "firstname": "Anton",
+      "lastname": "Rieder",
+      "github": "aried3r"
+    },
+    {
+      "firstname": "Moritz",
+      "lastname": "Wiesinger",
+      "github": "mowies"
+    },
+    {
+      "firstname": "Andreas",
+      "lastname": "Schmidhofer",
+      "github": "aschmidhofer"
+    },
+    {
+      "firstname": "Stefan",
+      "lastname": "Tischler",
+      "github": "StefanTischler"
+    },
+    {
+      "firstname": "Sebastian",
+      "lastname": "Heidinger",
+      "github": "sebheid"
+    },
+    {
+      "firstname": "Niklas",
+      "lastname": "Wenzel",
+      "github": "nikwen"
+    },
+    {
+      "firstname": "Sjoerd Dirk",
+      "lastname": "Meijer",
+      "github": "sdmeijer"
+    },
+    {
+      "firstname": "Roman",
+      "lastname": "Tsukanov",
+      "github": "gentlecat"
+    }
+  ]
+}
