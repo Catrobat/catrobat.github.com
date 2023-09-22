@@ -4,7 +4,7 @@ url: https://developer.catrobat.org/
 repository: Catrobat/catrobat.github.com
 theme: just-the-docs
 
-logo: "/assets/images/catrobat_logo_2.png"
+logo: "/assets/images/catrobat_logo.svg"
 favicon_ico: "/assets/images/favicon.ico"
 
 permalink: pretty
