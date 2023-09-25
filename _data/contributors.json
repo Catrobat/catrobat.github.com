@@ -156,6 +156,11 @@
       "firstname": "Alexander",
       "lastname": "Hiebl",
       "github": "Hiebl"
+    },
+    {
+      "firstname": "Sebastian",
+      "lastname": "Gollob",
+      "github": "sebastiangollob"
     }
   ],
   "designers": [
@@ -3122,6 +3127,46 @@
       "firstname": "Roman",
       "lastname": "Tsukanov",
       "github": "gentlecat"
+    },
+    {
+      "firstname": "Konstantin",
+      "lastname": "Fellner",
+      "github": "foenabua"
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Végh",
+      "github": "Toml499"
+    },
+    {
+      "firstname": "Mario",
+      "lastname": "Mauberger",
+      "github": "mariomauberger"
+    },
+    {
+      "firstname": "Samuel",
+      "lastname": "Grausgruber",
+      "github": "samurai-g"
+    },
+    {
+      "firstname": "Christian",
+      "lastname": "Schmid",
+      "github": "methosat"
+    },
+    {
+      "firstname": "Alexander Manuel",
+      "lastname": "Rösel",
+      "github": "KarlDerMaisbauer"
+    },
+    {
+      "firstname": "Max",
+      "lastname": "Oberaigner",
+      "github": "moberer"
+    },
+    {
+      "firstname": "Simon",
+      "lastname": "Schuster",
+      "github": "simon-schuster"
     }
   ]
 }

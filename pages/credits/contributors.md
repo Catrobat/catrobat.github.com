@@ -3,6 +3,7 @@ title: Contributors
 nav_order: 1
 layout: home-with-socials
 parent: Credits
+permalink: /contributors/
 ---
 
 ## The Catrobat development team
