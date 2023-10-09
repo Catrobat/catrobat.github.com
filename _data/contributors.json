@@ -3167,6 +3167,11 @@
       "firstname": "Simon",
       "lastname": "Schuster",
       "github": "simon-schuster"
-    }
+    },
+    {
+    "firstname": "Hannes",
+    "lastname": "Weilharter",
+    "github": "hannesweilharter"
+    } 
   ]
 }
