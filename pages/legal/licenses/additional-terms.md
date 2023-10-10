@@ -4,6 +4,8 @@ layout: home-with-socials
 parent: Licenses
 grand_parent: Legal
 nav_order: 999
+redirect_from:
+  - /license_additional_term.html
 ---
 
 # Additional Term Exception under section 7 of the GNU Affero General Public License, version 3, for the parts of the Catrobat system necessary for running a Catrobat Program

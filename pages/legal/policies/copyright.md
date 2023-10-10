@@ -3,6 +3,8 @@ layout: home-with-socials
 title: Copyright
 parent: Policies
 grand_parent: Legal
+redirect_from:
+  - /copyright_policy.html
 ---
 
 ## Copyright Policy

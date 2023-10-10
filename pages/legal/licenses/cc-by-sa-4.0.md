@@ -4,6 +4,8 @@ layout: home-with-socials
 parent: Licenses
 grand_parent: Legal
 nav_order: 100
+redirect_from:
+  - /ccbysa_v4.html
 ---
 
 ## Creative Commons Attribution-ShareAlike 4.0 International
