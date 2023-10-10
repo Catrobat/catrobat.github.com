@@ -3,6 +3,8 @@ title: Special Thanks
 layout: home-with-socials
 nav_order: 2
 parent: Credits
+redirect_from:
+  - /special_thanks.html
 ---
 
 ## The Catrobat team would like to give special thanks to:
@@ -77,9 +79,3 @@ All of you, thank you very much for helping to make
 Catrobat great!!!
 
 In case we forgot to mention you here, please forgive us and immediately contact us so that we can add you. Thank you!
-
-Discord
-YouTube
-Google group
-Facebook
-Twitter
