@@ -3,6 +3,8 @@ title: Special Thanks
 layout: home-with-socials
 nav_order: 2
 parent: Credits
+redirect_from:
+  - /special_thanks.html
 ---
 
 ## The Catrobat team would like to give special thanks to:
