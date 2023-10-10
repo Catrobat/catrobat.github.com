@@ -79,9 +79,3 @@ All of you, thank you very much for helping to make
 Catrobat great!!!
 
 In case we forgot to mention you here, please forgive us and immediately contact us so that we can add you. Thank you!
-
-Discord
-YouTube
-Google group
-Facebook
-Twitter
