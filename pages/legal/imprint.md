@@ -6,6 +6,7 @@ parent: Legal
 redirect_from:
   - /imprint.html
   - /imprint
+  - /imprint/
 ---
 
 ## Imprint

@@ -7,6 +7,7 @@ permalink: /contributors/
 redirect_from:
   - /credits.html
   - /credits
+  - /credits/
 ---
 
 ## The Catrobat development team

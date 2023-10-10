@@ -6,6 +6,7 @@ parent: Credits
 redirect_from:
   - /special_thanks.html
   - /special_thanks
+  - /special_thanks/
 ---
 
 ## The Catrobat team would like to give special thanks to:

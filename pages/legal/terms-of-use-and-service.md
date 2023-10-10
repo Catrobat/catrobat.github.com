@@ -6,6 +6,7 @@ parent: Legal
 redirect_from:
   - /terms_of_use_and_service.html
   - /terms_of_use_and_service
+  - /terms_of_use_and_service/
 ---
 
 
