@@ -6,6 +6,7 @@ grand_parent: Legal
 nav_order: 100
 redirect_from:
   - /ccbysa_v4.html
+  - /ccbysa_v4
 ---
 
 ## Creative Commons Attribution-ShareAlike 4.0 International

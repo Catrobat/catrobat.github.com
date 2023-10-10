@@ -6,6 +6,7 @@ grand_parent: Legal
 nav_order: 101
 redirect_from:
   - /agpl_v3.html
+  - /agpl_v3
 ---
 
 Copyright © 2007 Free Software Foundation, Inc. <https://fsf.org/>

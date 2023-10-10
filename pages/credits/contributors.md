@@ -6,6 +6,7 @@ parent: Credits
 permalink: /contributors/
 redirect_from:
   - /credits.html
+  - /credits
 ---
 
 ## The Catrobat development team
