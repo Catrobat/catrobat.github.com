@@ -5,6 +5,8 @@ parent: Policies
 grand_parent: Legal
 redirect_from:
   - /copyright_policy.html
+  - /copyright_policy
+  - /copyright_policy/
 ---
 
 ## Copyright Policy

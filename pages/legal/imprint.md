@@ -5,6 +5,8 @@ layout: home-with-socials
 parent: Legal
 redirect_from:
   - /imprint.html
+  - /imprint
+  - /imprint/
 ---
 
 ## Imprint
