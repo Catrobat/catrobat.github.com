@@ -4,6 +4,10 @@ layout: home-with-socials
 parent: Licenses
 grand_parent: Legal
 nav_order: 2
+redirect_from:
+  - /licenses_of_uploaded_catrobat_programs.html
+  - /licenses_of_uploaded_catrobat_programs
+  - /licenses_of_uploaded_catrobat_programs/
 ---
 
 ## Licenses of uploaded Catrobat programs

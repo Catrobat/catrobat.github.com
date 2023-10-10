@@ -4,6 +4,10 @@ nav_order: 1
 layout: home-with-socials
 parent: Credits
 permalink: /contributors/
+redirect_from:
+  - /credits.html
+  - /credits
+  - /credits/
 ---
 
 ## The Catrobat development team

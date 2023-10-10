@@ -4,6 +4,10 @@ layout: home-with-socials
 parent: Licenses
 grand_parent: Legal
 nav_order: 1
+redirect_from:
+  - /licenses.html
+  - /licenses
+  - /licenses/
 ---
 
 ## Licenses of the Catrobat System

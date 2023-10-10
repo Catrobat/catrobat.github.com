@@ -48,6 +48,9 @@ nav_external_links:
     url: https://github.com/Catrobat
   - title: Project statistics
     url: https://www.openhub.net/p/catrobat
+  - title: Hour Of Code
+    url: https://developer.catrobat.org/pages/hour-of-code
+
 
 # Footer
 back_to_top: true
@@ -84,6 +87,7 @@ callouts:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 kramdown:
   syntax_highlighter_opts:

@@ -3,6 +3,10 @@ layout: home-with-socials
 title: Privacy
 parent: Policies
 grand_parent: Legal
+redirect_from:
+  - /privacy_policy.html
+  - /privacy_policy
+  - /privacy_policy/
 ---
 
 
