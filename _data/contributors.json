@@ -295,6 +295,11 @@
       "firstname": "Benjamin",
       "lastname": "Gaal",
       "github": "bengaal"
+    },
+    {
+      "firstname": "Marko",
+      "lastname": "Zeba",
+      "github": "ma-zea"
     }
   ],
   "translators": [
@@ -3177,6 +3182,11 @@
       "firstname": "Corinna",
       "lastname": "Kindlhofer",
       "github": "coki1405"
+    },
+    {
+      "firstname": "Marko",
+      "lastname": "Zeba",
+      "github": "ma-zea"
     }
   ]
 }
