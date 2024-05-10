@@ -135,7 +135,7 @@
     {
       "firstname": "Stephan",
       "lastname": "Schauberger",
-      "github": ""
+      "github": "schaubes"
     },
     {
       "firstname": "Daniel",
@@ -295,6 +295,11 @@
       "firstname": "Benjamin",
       "lastname": "Gaal",
       "github": "bengaal"
+    },
+    {
+      "firstname": "Marko",
+      "lastname": "Zeba",
+      "github": "ma-zea"
     }
   ],
   "translators": [
@@ -3182,6 +3187,16 @@
       "firstname": "Dominik",
       "lastname": "Bek",
       "github": "dajminks"
+    },
+    {
+      "firstname": "Marko",
+      "lastname": "Zeba",
+      "github": "ma-zea"
+    },
+    {
+      "firstname": "Tine",
+      "lastname": "Podlunšek",
+      "github": "P0dlunsek"
     }
   ]
 }
